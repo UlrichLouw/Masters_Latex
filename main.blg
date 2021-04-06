@@ -1,0 +1,20 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'main.blg'
+[43] biber:322> INFO - === Tue Apr  6, 2021, 16:08:41
+[51] Biber.pm:415> INFO - Reading 'main.bcf'
+[90] Biber.pm:940> INFO - Using all citekeys in bib section 0
+[98] Biber.pm:4256> INFO - Processing section 0
+[98] Utils.pm:75> INFO - Globbing data source 'bibliography.bib'
+[98] Utils.pm:91> INFO - Globbed data source 'bibliography.bib' to bibliography.bib
+[104] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[105] bibtex.pm:1653> INFO - LaTeX decoding ...
+[127] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliography.bib'
+[128] Utils.pm:293> WARN - Duplicate entry key: 'emmott2013systematic' in file 'bibliography.bib', skipping ...
+[129] Utils.pm:293> WARN - Duplicate entry key: 'do2008multivariate' in file 'bibliography.bib', skipping ...
+[258] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[259] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[259] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[259] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[276] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[285] bbl.pm:755> INFO - Output to main.bbl
+[286] Biber.pm:128> INFO - WARNINGS: 2
