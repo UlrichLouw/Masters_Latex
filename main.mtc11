@@ -2,17 +2,46 @@
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1.1}Typical Faults}{\reset@font\mtcSSfont 1}{subsection.2.1.1}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1.2}ADCS}{\reset@font\mtcSSfont 1}{subsection.2.1.2}}
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Typical Faults}{\reset@font\mtcSSSfont 1}{subsubsection*.12}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Anomaly Detection On Satellites}{\reset@font\mtcSfont 2}{section.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.1}FDR of gyroscope's drift}{\reset@font\mtcSSfont 2}{subsection.2.2.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Anomaly detection methods}{\reset@font\mtcSfont 2}{section.2.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.1}Statistical Methods}{\reset@font\mtcSSfont 2}{subsection.2.3.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Pearson Correlation}{\reset@font\mtcSSSfont 2}{subsubsection*.13}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Kernel Canonical Correlation Analysis}{\reset@font\mtcSSSfont 2}{subsubsection*.14}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Variance}{\reset@font\mtcSSSfont 2}{subsubsection*.15}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Kalman-Filter}{\reset@font\mtcSSSfont 3}{subsubsection*.16}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Multivariate Guassian Distribution}{\reset@font\mtcSSSfont 3}{subsubsection*.17}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Kullback-Leibler Divergence}{\reset@font\mtcSSSfont 4}{subsubsection*.19}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.2}Supervised Learning}{\reset@font\mtcSSfont 4}{subsection.2.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.3}Unsupervised Learning}{\reset@font\mtcSSfont 4}{subsection.2.3.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.4}Reinforcement Learning}{\reset@font\mtcSSfont 5}{subsection.2.3.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Summary}{\reset@font\mtcSfont 5}{section.2.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Anomaly Detection on Satellites}{\reset@font\mtcSfont 1}{section.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.1}Agent-based algorithm for fault detection and recovery of gyroscope's drift in small satellite missions}{\reset@font\mtcSSfont 1}{subsection.2.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.2}Fault isolation of reaction wheels onboard three-axis controlled in-orbit satellite using ensemble machine learning}{\reset@font\mtcSSfont 1}{subsection.2.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.3}Fault tolerant control for satellites with four reaction wheels}{\reset@font\mtcSSfont 2}{subsection.2.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.4}Innovative Fault Detection, Isolation and Recovery Strategies On-Board Spacecraft: State of the Art and Research Challenges}{\reset@font\mtcSSfont 2}{subsection.2.2.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.5}Machine learning methods for spacecraft telemetry mining}{\reset@font\mtcSSfont 2}{subsection.2.2.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.6}Machine learning techniques for satellite fault diagnosis}{\reset@font\mtcSSfont 2}{subsection.2.2.6}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Statistical Methods}{\reset@font\mtcSfont 2}{section.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.1}Pearson Correlation}{\reset@font\mtcSSfont 2}{subsection.2.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.2}Variance}{\reset@font\mtcSSfont 2}{subsection.2.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.3}Kalman-Filter}{\reset@font\mtcSSfont 3}{subsection.2.3.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.4}Multivariate Guassian Distribution}{\reset@font\mtcSSfont 3}{subsection.2.3.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.5}Kullback-Leibler Divergence}{\reset@font\mtcSSfont 4}{subsection.2.3.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.6}Canonical Correlation Analysis}{\reset@font\mtcSSfont 4}{subsection.2.3.6}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode K-means-based}{\reset@font\mtcSSSfont 5}{subsubsection*.15}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Guassian Mixture Model}{\reset@font\mtcSSSfont 5}{subsubsection*.16}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Just-In-Time-Learning}{\reset@font\mtcSSSfont 5}{subsubsection*.17}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Feature Extraction}{\reset@font\mtcSfont 5}{section.2.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.1}Prony's Method}{\reset@font\mtcSSfont 5}{subsection.2.4.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.2}Convolutional Networks}{\reset@font\mtcSSfont 5}{subsection.2.4.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.3}Principal Component Analysis}{\reset@font\mtcSSfont 5}{subsection.2.4.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.4}Partial Least Square}{\reset@font\mtcSSfont 5}{subsection.2.4.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.5}Independent Component Analysis}{\reset@font\mtcSSfont 5}{subsection.2.4.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.6}Locally Linear Embedding}{\reset@font\mtcSSfont 5}{subsection.2.4.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.7}Linear Discriminant Analysis}{\reset@font\mtcSSfont 5}{subsection.2.4.7}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.8}Autoencoder}{\reset@font\mtcSSfont 5}{subsection.2.4.8}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.9}t-Distributed Stochastic Neighbor Embedding}{\reset@font\mtcSSfont 5}{subsection.2.4.9}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}Supervised Learning}{\reset@font\mtcSfont 5}{section.2.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.1}Long Short Term Memory}{\reset@font\mtcSSfont 5}{subsection.2.5.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.2}Support Vector Machines}{\reset@font\mtcSSfont 5}{subsection.2.5.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.3}Naive Bayes}{\reset@font\mtcSSfont 6}{subsection.2.5.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.4}K-nearest neighbours}{\reset@font\mtcSSfont 6}{subsection.2.5.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.5}Artificial Neural Networks}{\reset@font\mtcSSfont 6}{subsection.2.5.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.6}Unsupervised Learning}{\reset@font\mtcSfont 6}{section.2.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.6.1}Random Forests}{\reset@font\mtcSSfont 6}{subsection.2.6.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.6.2}Isolation Forests}{\reset@font\mtcSSfont 6}{subsection.2.6.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.6.3}Local Outlier Factor}{\reset@font\mtcSSfont 6}{subsection.2.6.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.6.4}K-means Clustering}{\reset@font\mtcSSfont 6}{subsection.2.6.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.6.5}Kernel Adaptive Density-based}{\reset@font\mtcSSfont 6}{subsection.2.6.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.6.6}Loda}{\reset@font\mtcSSfont 6}{subsection.2.6.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.6.7}Robust-kernel Density Estimation}{\reset@font\mtcSSfont 7}{subsection.2.6.7}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.7}Reinforcement Learning}{\reset@font\mtcSfont 7}{section.2.7}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.8}Summary}{\reset@font\mtcSfont 7}{section.2.8}}

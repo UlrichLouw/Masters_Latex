@@ -995,7 +995,7 @@ Thesis presented in fulfilment of the requirements for the degree of \\
 {\large \bf Master of Commerce} \\ in the Faculty of Economic and Management Sciences at Stellenbosch University%
 }{}%
 \ifthenelse{\equal{\printtype}{meng}}{%
-{\large \bf Master of Engineering (Industrial Engineering)} \\ \hspace{2.5mm} in the Faculty of Engineering at Stellenbosch University%
+{\large \bf Master of Engineering (Electronic Engineering)} \\ \hspace{2.5mm} in the Faculty of Engineering at Stellenbosch University%
 }{}%
 }
 \skripsieformula{

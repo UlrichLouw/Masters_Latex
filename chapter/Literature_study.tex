@@ -19,16 +19,29 @@ For the simulation of the satellite and the induced faults to train and test var
 A set of typical faults for the ADCS is shown in Table~\ref{ADCS faults}.
 
 
-\section{Anomaly Detection On Satellites}
+\section{Anomaly Detection on Satellites}
 Various methodologies have been tested on different component of satellites. Therefore a summary of these research articles are provided in this section.
 
-\subsection{FDR of gyroscope's drift}
+\subsection{Agent-based algorithm for fault detection and recovery of gyroscope's drift in small satellite missions}
 \cite{carvajal2017agent}
 
-\section{Anomaly detection methods}
+\subsection{Fault isolation of reaction wheels onboard three-axis controlled in-orbit satellite using ensemble machine learning}
+\cite{rahimi2020fault}
 
-\subsection{Statistical Methods}
-\subsubsection{Pearson Correlation}
+\subsection{Fault tolerant control for satellites with four reaction wheels}
+\cite{jin2008fault}
+
+\subsection{Innovative Fault Detection, Isolation and Recovery Strategies On-Board Spacecraft: State of the Art and Research Challenges}
+\cite{wander2013innovative}
+
+\subsection{Machine learning methods for spacecraft telemetry mining}
+\cite{ibrahim2018machine}
+
+\subsection{Machine learning techniques for satellite fault diagnosis}
+\cite{ibrahim2020machine}
+
+\section{Statistical Methods}
+\subsection{Pearson Correlation}
 Vectors of certain sensors are highly correlated. For instance the vector of the earth sensor is highly correlated since the magnitude of the vector remains more or less constant. To detect anomalies the correlation of vectors can be measured and with a specified threshold the correlation can be indicated as a anomaly or nor.
 
 The squared Pearson correlation coefficient (SPCC) for vectors depicted as
@@ -48,26 +61,21 @@ The correlation coefficient is proven to be constraint as
 \end{equation}
 where $\rho = 1$ is perfect linear correlation. 
 
-\subsubsection{Kernel Canonical Correlation Analysis}
-Due to the orbital nature of satellites there exist a correlation between various sensors. For instance the sun sensor, magnetometer and earth sensor are correlated based on the desired orientation and orbit of the satellite. This correlation might not be of linear nature, but with non-linear correlation methods such as kernel canonical correlation the correlation can be measured.
-
-\cite{fukumizu2007statistical}
-
-\subsubsection{Variance}
+\subsection{Variance}
 Within a sequential data sample of the satellite, the variance of the variables should be within a given threshold if the satellite is in a stable condition. The variance of the data sample is defined as 
 \begin{equation}
-S^2 = \frac{\sum(x_i + \bar{x})^2}{n-1}
+	S^2 = \frac{\sum(x_i + \bar{x})^2}{n-1}
 \end{equation}
 where $x$ defines the variable within the dataset.
 
-\subsubsection{Kalman-Filter}
+\subsection{Kalman-Filter}
 The Kalman-filter application would require the state-space matrices to be provided in the log file.
 
-\subsubsection{Multivariate Guassian Distribution}
+\subsection{Multivariate Guassian Distribution}
 The assumption that the error of our data is generated with a Guassian distribution with a specific mean, $\mu$, and variance, $\sigma^2$, provides the opportunity for using multi-variate Gaussian distribution to determine the probability of a data-sample within a dataset. 
 \begin{equation}
-\label{mean}
-\mu_j = \frac{1}{m} \sum_{i=1}^{m}x_j^{(i)}
+	\label{mean}
+	\mu_j = \frac{1}{m} \sum_{i=1}^{m}x_j^{(i)}
 \end{equation}
 
 \begin{equation}
@@ -92,7 +100,7 @@ For multi-variate Guassian distribution \cite{do2008multivariate}.
 p(x) = \frac{1}{(2\pi)^{\frac{n}{2}}{\lvert \sum \rvert}^\frac{1}{2}} exp(-\frac{1}{2}(x-\mu)^T{\sum}^{-1}(x-\mu))
 \end{equation}
 
-The Anomalies will be classified based on probabilities smaller than a given threshold.
+The Anomalies will be classified based on probabilities smaller than a given threshold $p(x) < \epsilon$.
 
 \begin{algorithm}
 \SetKwInOut{Input}{Input}
@@ -122,17 +130,17 @@ Calculate $p(x)$ with Eq~\ref{guassian distribution} \\
 \label{alg}
 \end{algorithm}
 
-\subsubsection{Kullback-Leibler Divergence}
+\subsection{Kullback-Leibler Divergence}
 The Kullback-Leibler divergence quantifies the difference between two probability density functions, denoted as $p(x)$ and $q(x)$ \cite{hershey2007approximating}. Satellites are systems that are predictable within a time-series. The divergence between two sequential data buffers from the satellite will have a very similar probability distribution. Therefore calculating the difference between two datasets can be used to detect an anomaly based on a given threshold.
 
-The difference between the Guassian distributions from datasets, $a$ and $b$, in Figure~\ref{Guassian plot} cannot simply be calculated as the difference in the mean or the difference in the variance. To overcome this, the divergence between the two distributions can be calculated. Intuitively a point $x$ with a high probability in the dataset $a$ should have a high probability in the dataset $b$ if the two datasets have a small divergence. 
+The difference between the probability distributions from datasets, $a$ and $b$, in Figure~\ref{Guassian plot} cannot simply be calculated as the difference in the mean or the difference in the variance. To overcome this, the divergence between the two distributions can be calculated. Intuitively a point $x$ with a high probability in the dataset $a$ should have a high probability in the dataset $b$ if the two datasets have a small divergence. 
 
 \pgfmathdeclarefunction{gauss}{3}{%
 	\pgfmathparse{1/(#3*sqrt(2*pi))*exp(-((#1-#2)^2)/(2*#3^2))}%
 }
 \begin{figure}[!h]
 \centering
-\textbf{Difference between Guassian Distributions}
+\textbf{Difference Between Probability Distributions}
 \begin{tikzpicture}
 	\begin{axis}[
 		no markers, 
@@ -180,32 +188,79 @@ The divergence can be expressed as
 KL(P\lvert\lvert Q) = \int p(x) \log \left( \frac{q(x)}{p(x)} \right)dx.
 \end{equation}
 
-\subsection{Supervised Learning}
-Supervised Learning consists of models that are trained on labelled data. This is not a problem with simulation, but with the real data, it is a problem and to provide tests on the real data to label it must be proficient. If unsupervised learning and statistical methods are not sufficient in their accuracy, a method for labelling the real data must be provided.
+\subsection{Canonical Correlation Analysis}
+Due to the orbital nature of satellites there exist a correlation between various sensors. For instance the sun sensor, magnetometer and earth sensor are correlated based on the desired orientation and orbit of the satellite. This correlation might not be of linear nature, but with non-linear correlation methods such as kernel canonical correlation the correlation can be measured.
 
+However, canonical correlation provides the measure of correlation between a multi-dimensional variable with another multi-dimensional variable. Although this seems profitable for satellite fault detection, it will only be applicable for each the comparison between individual sensors. This will indicate the non-linear correlation of the sun sensor with regards to the magnetometer. The problem however, according to \textcite{chen2017fault} is to, determine the appropriate threshold for which to classify a fault. \textcite{chen2017fault} proposed a method for determining the appropriate threshold on page 5, algorithm 1.
+\cite{fukumizu2007statistical}
+\cite{zhu2017quality}
+
+Python - Pyrcca package
+
+\subsubsection{K-means-based}
+\subsubsection{Guassian Mixture Model}
+\subsubsection{Just-In-Time-Learning}
+\cite{chen2020just}
+
+\section{Feature Extraction}
+To 
+https://towardsdatascience.com/feature-extraction-techniques-d619b56e31be
+\subsection{Prony's Method}
+\subsection{Convolutional Networks}
+\subsection{Principal Component Analysis}
+\cite{choi2005fault}
+\cite{ding2010application}
+\subsection{Partial Least Square}
+\subsection{Independent Component Analysis}
+\subsection{Locally Linear Embedding}
+\subsection{Linear Discriminant Analysis}
+\subsection{Autoencoder}
+\subsection{t-Distributed Stochastic Neighbor Embedding}
+
+\section{Supervised Learning}
+Supervised learning consists of models that are trained on labelled data. This is not a problem with simulation, but with the real data, it is a problem and to provide tests on the real data to label it must be proficient. If unsupervised learning and statistical methods are not sufficient in their accuracy, a method for labelling the real data must be provided.
+
+\subsection{Long Short Term Memory}
 Time-series data: LSTM or DLSTM
 
+\subsection{Support Vector Machines}
 Support Vector Machines
+
+\subsection{Naive Bayes}
 Naive Bayes
+
+\subsection{K-nearest neighbours}
 K-nearest neighbours
 
+\subsection{Artificial Neural Networks}
 Artificial Neural Networks
 
-\subsection{Unsupervised Learning}
-Isolation Forests: Are based on the principle of randomly dividing a dataset. The data points that are closer to the root of the division is anomalies. Isolation forest are small in memory and are fast in computing anomalies.
+\section{Unsupervised Learning}
+Density-based, distance, Clustering
 
-Feature extraction: Prony's method. Convolutional networks can also be used for feature extraction.
+\subsection{Random Forests}
 
+\subsection{Isolation Forests}
+Isolation Forests: Are based on the pIndependentrinciple of randomly dividing a dataset. The data points that are closer to the root of the division is anomalies. Isolation forest are small in memory and are fast in computing anomalies.
+
+\subsection{Local Outlier Factor}
 LOF: Local outlier factor is a method of determining how much an outlier a specific data point is relative to a neighbourhood of other data points.
 
+\subsection{K-means Clustering}
 K-clustering: Clustering multiple points with similar features.
 
+\subsection{Kernel Adaptive Density-based}
 Kernel adaptive density-based: Is an algorithm that uses the density factor of a data point relative to other data points to determine whether the data point is an outlier or not.
 
+\subsection{Loda}
 Loda: Is a fast and efficient anomaly detection algorithm that used histograms to evaluate data points to determine whether a data point is an outlier. Loda is an on-line method and not a batch method.
 
-\subsection{Reinforcement Learning}
+\subsection{Robust-kernel Density Estimation}
+Robust-kernel density estimation
+
+\section{Reinforcement Learning}
 Active Anomaly detection with meta-policy (Meta-AAD) is a deep reinforcement learning approcah that is based on the actor-critic model. The agent must query data points within the given dataset (where the queried point is the data top 1 data point). The query is given to a human 
+
 
 \section{Summary}
 

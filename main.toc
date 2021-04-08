@@ -6,17 +6,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {starchapter}{Acknowledgements}{vii}{chapter*.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {starchapter}{Glossary}{xi}{chapter*.6}%
+\contentsline {starchapter}{Glossary}{xiii}{chapter*.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {starchapter}{List of Reserved Symbols}{xiii}{chapter*.7}%
+\contentsline {starchapter}{List of Reserved Symbols}{xv}{chapter*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {starchapter}{List of Acronyms}{xv}{chapter*.8}%
+\contentsline {starchapter}{List of Acronyms}{xvii}{chapter*.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{xvii}{chapter*.9}%
+\contentsline {chapter}{List of Figures}{xix}{chapter*.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Tables}{xix}{chapter*.10}%
+\contentsline {chapter}{List of Tables}{xxi}{chapter*.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Algorithms}{xxi}{chapter*.11}%
+\contentsline {chapter}{List of Algorithms}{xxiii}{chapter*.11}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
@@ -32,7 +32,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.6}Project/thesis/dissertation organisation}{4}{section.1.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Literature Study}{1}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Literature Study}{5}{chapter.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Satellites}{1}{section.2.1}%
 \defcounter {refsection}{0}\relax 
@@ -42,46 +42,104 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Typical Faults}{1}{subsubsection*.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Anomaly Detection On Satellites}{2}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Anomaly Detection on Satellites}{1}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}FDR of gyroscope's drift}{2}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}Agent-based algorithm for fault detection and recovery of gyroscope's drift in small satellite missions}{1}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Anomaly detection methods}{2}{section.2.3}%
+\contentsline {subsection}{\numberline {2.2.2}Fault isolation of reaction wheels onboard three-axis controlled in-orbit satellite using ensemble machine learning}{2}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Statistical Methods}{2}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.2.3}Fault tolerant control for satellites with four reaction wheels}{2}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Pearson Correlation}{2}{subsubsection*.13}%
+\contentsline {subsection}{\numberline {2.2.4}Innovative Fault Detection, Isolation and Recovery Strategies On-Board Spacecraft: State of the Art and Research Challenges}{2}{subsection.2.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Kernel Canonical Correlation Analysis}{2}{subsubsection*.14}%
+\contentsline {subsection}{\numberline {2.2.5}Machine learning methods for spacecraft telemetry mining}{2}{subsection.2.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Variance}{2}{subsubsection*.15}%
+\contentsline {subsection}{\numberline {2.2.6}Machine learning techniques for satellite fault diagnosis}{2}{subsection.2.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Kalman-Filter}{3}{subsubsection*.16}%
+\contentsline {section}{\numberline {2.3}Statistical Methods}{2}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Multivariate Guassian Distribution}{3}{subsubsection*.17}%
+\contentsline {subsection}{\numberline {2.3.1}Pearson Correlation}{2}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Kullback-Leibler Divergence}{4}{subsubsection*.19}%
+\contentsline {subsection}{\numberline {2.3.2}Variance}{3}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Supervised Learning}{4}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Kalman-Filter}{3}{subsection.2.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Unsupervised Learning}{4}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Multivariate Guassian Distribution}{3}{subsection.2.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.4}Reinforcement Learning}{5}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Kullback-Leibler Divergence}{3}{subsection.2.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Summary}{5}{section.2.4}%
+\contentsline {subsection}{\numberline {2.3.6}Canonical Correlation Analysis}{4}{subsection.2.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Conclusion}{7}{chapter.3}%
+\contentsline {subsubsection}{K-means-based}{5}{subsubsection*.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Project/thesis/dissertation summary}{7}{section.3.1}%
+\contentsline {subsubsection}{Guassian Mixture Model}{5}{subsubsection*.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Appraisal of project/thesis/dissertation contributions}{8}{section.3.2}%
+\contentsline {subsubsection}{Just-In-Time-Learning}{5}{subsubsection*.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Suggestions for future work}{8}{section.3.3}%
+\contentsline {section}{\numberline {2.4}Feature Extraction}{5}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}What the student has learnt during this project}{8}{section.3.4}%
+\contentsline {subsection}{\numberline {2.4.1}Prony's Method}{5}{subsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{9}{chapter*.21}%
+\contentsline {subsection}{\numberline {2.4.2}Convolutional Networks}{5}{subsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Project Timeline}{11}{appendix.A}%
+\contentsline {subsection}{\numberline {2.4.3}Principal Component Analysis}{5}{subsection.2.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Data}{13}{appendix.B}%
+\contentsline {subsection}{\numberline {2.4.4}Partial Least Square}{5}{subsection.2.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.5}Independent Component Analysis}{5}{subsection.2.4.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.6}Locally Linear Embedding}{5}{subsection.2.4.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.7}Linear Discriminant Analysis}{5}{subsection.2.4.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.8}Autoencoder}{5}{subsection.2.4.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.9}t-Distributed Stochastic Neighbor Embedding}{5}{subsection.2.4.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Supervised Learning}{5}{section.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.1}Long Short Term Memory}{5}{subsection.2.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.2}Support Vector Machines}{6}{subsection.2.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.3}Naive Bayes}{6}{subsection.2.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.4}K-nearest neighbours}{6}{subsection.2.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.5}Artificial Neural Networks}{6}{subsection.2.5.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}Unsupervised Learning}{6}{section.2.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.1}Random Forests}{6}{subsection.2.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.2}Isolation Forests}{6}{subsection.2.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.3}Local Outlier Factor}{6}{subsection.2.6.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.4}K-means Clustering}{6}{subsection.2.6.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.5}Kernel Adaptive Density-based}{6}{subsection.2.6.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.6}Loda}{7}{subsection.2.6.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.7}Robust-kernel Density Estimation}{7}{subsection.2.6.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.7}Reinforcement Learning}{7}{section.2.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.8}Summary}{7}{section.2.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Conclusion}{9}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Project/thesis/dissertation summary}{9}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Appraisal of project/thesis/dissertation contributions}{10}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Suggestions for future work}{10}{section.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}What the student has learnt during this project}{10}{section.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{11}{chapter*.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Project Timeline}{13}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Data}{15}{appendix.B}%
