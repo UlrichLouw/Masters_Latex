@@ -18,19 +18,33 @@
 \BOOKMARK [1][-]{section.2.1}{Satellites}{chapter.2}% 18
 \BOOKMARK [2][-]{subsection.2.1.1}{Typical Faults}{section.2.1}% 19
 \BOOKMARK [2][-]{subsection.2.1.2}{ADCS}{section.2.1}% 20
-\BOOKMARK [1][-]{section.2.2}{Anomaly Detection On Satellites}{chapter.2}% 21
-\BOOKMARK [2][-]{subsection.2.2.1}{FDR of gyroscope's drift}{section.2.2}% 22
-\BOOKMARK [1][-]{section.2.3}{Anomaly detection methods}{chapter.2}% 23
-\BOOKMARK [2][-]{subsection.2.3.1}{Statistical Methods}{section.2.3}% 24
-\BOOKMARK [2][-]{subsection.2.3.2}{Supervised Learning}{section.2.3}% 25
-\BOOKMARK [2][-]{subsection.2.3.3}{Unsupervised Learning}{section.2.3}% 26
-\BOOKMARK [2][-]{subsection.2.3.4}{Reinforcement Learning}{section.2.3}% 27
-\BOOKMARK [1][-]{section.2.4}{Summary}{chapter.2}% 28
-\BOOKMARK [0][-]{chapter.3}{Conclusion}{}% 29
-\BOOKMARK [1][-]{section.3.1}{Project/thesis/dissertation summary}{chapter.3}% 30
-\BOOKMARK [1][-]{section.3.2}{Appraisal of project/thesis/dissertation contributions}{chapter.3}% 31
-\BOOKMARK [1][-]{section.3.3}{Suggestions for future work}{chapter.3}% 32
-\BOOKMARK [1][-]{section.3.4}{What the student has learnt during this project}{chapter.3}% 33
-\BOOKMARK [0][-]{chapter*.21}{References}{}% 34
-\BOOKMARK [0][-]{appendix.A}{Project Timeline}{}% 35
-\BOOKMARK [0][-]{appendix.B}{Data}{}% 36
+\BOOKMARK [1][-]{section.2.2}{Anomaly Detection on Satellites}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.1}{Agent-based algorithm for fault detection and recovery of gyroscope's drift in small satellite missions}{section.2.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.2}{Fault isolation of reaction wheels onboard three-axis controlled in-orbit satellite using ensemble machine learning}{section.2.2}% 23
+\BOOKMARK [2][-]{subsection.2.2.3}{Fault tolerant control for satellites with four reaction wheels}{section.2.2}% 24
+\BOOKMARK [2][-]{subsection.2.2.4}{Innovative Fault Detection, Isolation and Recovery Strategies On-Board Spacecraft: State of the Art and Research Challenges}{section.2.2}% 25
+\BOOKMARK [2][-]{subsection.2.2.5}{Machine learning methods for spacecraft telemetry mining}{section.2.2}% 26
+\BOOKMARK [2][-]{subsection.2.2.6}{Machine learning techniques for satellite fault diagnosis}{section.2.2}% 27
+\BOOKMARK [1][-]{section.2.3}{Statistical Methods}{chapter.2}% 28
+\BOOKMARK [2][-]{subsection.2.3.1}{Pearson Correlation}{section.2.3}% 29
+\BOOKMARK [2][-]{subsection.2.3.2}{Principal Component Analysis}{section.2.3}% 30
+\BOOKMARK [2][-]{subsection.2.3.3}{Multivariate analysis}{section.2.3}% 31
+\BOOKMARK [2][-]{subsection.2.3.4}{Partial Least Square}{section.2.3}% 32
+\BOOKMARK [2][-]{subsection.2.3.5}{Independent Component Analysis}{section.2.3}% 33
+\BOOKMARK [2][-]{subsection.2.3.6}{Kernel Canonical Correlation Analysis}{section.2.3}% 34
+\BOOKMARK [2][-]{subsection.2.3.7}{Variance}{section.2.3}% 35
+\BOOKMARK [2][-]{subsection.2.3.8}{Kalman-Filter}{section.2.3}% 36
+\BOOKMARK [2][-]{subsection.2.3.9}{Multivariate Guassian Distribution}{section.2.3}% 37
+\BOOKMARK [2][-]{subsection.2.3.10}{Kullback-Leibler Divergence}{section.2.3}% 38
+\BOOKMARK [1][-]{section.2.4}{Supervised Learning}{chapter.2}% 39
+\BOOKMARK [1][-]{section.2.5}{Unsupervised Learning}{chapter.2}% 40
+\BOOKMARK [1][-]{section.2.6}{Reinforcement Learning}{chapter.2}% 41
+\BOOKMARK [1][-]{section.2.7}{Summary}{chapter.2}% 42
+\BOOKMARK [0][-]{chapter.3}{Conclusion}{}% 43
+\BOOKMARK [1][-]{section.3.1}{Project/thesis/dissertation summary}{chapter.3}% 44
+\BOOKMARK [1][-]{section.3.2}{Appraisal of project/thesis/dissertation contributions}{chapter.3}% 45
+\BOOKMARK [1][-]{section.3.3}{Suggestions for future work}{chapter.3}% 46
+\BOOKMARK [1][-]{section.3.4}{What the student has learnt during this project}{chapter.3}% 47
+\BOOKMARK [0][-]{chapter*.18}{References}{}% 48
+\BOOKMARK [0][-]{appendix.A}{Project Timeline}{}% 49
+\BOOKMARK [0][-]{appendix.B}{Data}{}% 50

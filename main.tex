@@ -29,13 +29,14 @@
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{pgfplots}
+\usepackage{rotating}
 %=================================================
 % thesis details
 %=================================================
-\thesistitle{The title of your skripsie, thesis or dissertation should be typed here}
+\thesistitle{Satellite Management Agent}
 \student{\vspace{-8mm } by \\ \vspace{4mm} Ulrich Louw}
-\graduation{December}
-\gradyear{2020}
+\graduation{September}
+\gradyear{2022}
 %=================================================
 % if masters or skripsie
 %=================================================
@@ -57,54 +58,54 @@
 
 
 \begin{document}
-\SetKwInOut{Input}{Input}
-\SetKwInOut{Output}{Output}
-
-
-%=================================================
-% front page and decleration page - were set up
-% according to university standards (as specified
-% in yearbook) and may not be edited
-%=================================================
-\frontpage
-\dominitoc[c] % remove if you don't want mini tables of contents for each chapter
-
-
-%=================================================
-% go populate the fields in this file
-%=================================================
-\input{preamble}
-
-
-%=================================================
-% how-to examples:
-%=================================================
-%\input{example/tables}             % remove if NA
-%\input{example/figures}            % remove if NA
-%\input{example/algorithms}         % remove if NA
-
-
-%=================================================
-% include your chapters here
-%=================================================
-\input{chapter/1_intro}
-\input{chapter/Literature_study}
-\input{chapter/last_chapter}
-
-
-%=================================================
-% bibliography
-%=================================================
-\cite{*} % cites all items in your .bib file for the purpose of testing biblatex - REMOVE!
-\printbibliography[heading=bibintoc] % prints a bibliography containing all (and only) cited items
-
-
-%=================================================
-% Appendices
-%=================================================
-\appendix
-\input{chapter/appendixA}
-\input{chapter/appendixB}
-
-
+	\SetKwInOut{Input}{Input}
+	\SetKwInOut{Output}{Output}
+	
+	
+	%=================================================
+	% front page and decleration page - were set up
+	% according to university standards (as specified
+	% in yearbook) and may not be edited
+	%=================================================
+	\frontpage
+	\dominitoc[c] % remove if you don't want mini tables of contents for each chapter
+	
+	
+	%=================================================
+	% go populate the fields in this file
+	%=================================================
+	\input{preamble}
+	
+	
+	%=================================================
+	% how-to examples:
+	%=================================================
+	%\input{example/tables}             % remove if NA
+	%\input{example/figures}            % remove if NA
+	%\input{example/algorithms}         % remove if NA
+	
+	
+	%=================================================
+	% include your chapters here
+	%=================================================
+	\input{chapter/1_intro}
+	\input{chapter/Literature_study}
+	\input{chapter/Simulation}
+	\input{chapter/last_chapter}
+	
+	%=================================================
+	% bibliography
+	%=================================================
+	%\cite{*} % cites all items in your .bib file for the purpose of testing biblatex - REMOVE!
+	\printbibliography[heading=bibintoc]
+	
+	
+	%=================================================
+	% Appendices
+	%=================================================
+	\appendix
+	\input{chapter/appendixA}
+	\input{chapter/appendixB}
+	
+	
 \end{document}

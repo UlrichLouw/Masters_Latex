@@ -175,6 +175,159 @@
       \field{pages}{181\bibrangedash 188}
       \range{pages}{8}
     \endentry
+    \entry{chen2017fault}{article}{}
+      \name{author}{5}{}{%
+        {{hash=9544f4984c8834ebe650f4b93f09cbcc}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Zhiwen},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=dc077edaf3bedfde2ca9ba091eef6c20}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Steven\bibnamedelima X},
+           giveni={S\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+        {{hash=3c993d2977a4935df3d2628a7944fcba}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1fc38772df762d4362b619a37b7e19b4}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Chunhua},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3aa2e70618c744a91004ea16446ca442}{%
+           family={Gui},
+           familyi={G\bibinitperiod},
+           given={Weihua},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{8437b46ba6810c711bfa475944bb2642}
+      \strng{fullhash}{8437b46ba6810c711bfa475944bb2642}
+      \strng{bibnamehash}{8437b46ba6810c711bfa475944bb2642}
+      \strng{authorbibnamehash}{8437b46ba6810c711bfa475944bb2642}
+      \strng{authornamehash}{8437b46ba6810c711bfa475944bb2642}
+      \strng{authorfullhash}{8437b46ba6810c711bfa475944bb2642}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Industrial Electronics}
+      \field{number}{2}
+      \field{title}{Fault detection for non-Gaussian processes using generalized canonical correlation analysis and randomized algorithms}
+      \field{volume}{65}
+      \field{year}{2017}
+      \field{pages}{1559\bibrangedash 1567}
+      \range{pages}{9}
+    \endentry
+    \entry{chen2020just}{article}{}
+      \name{author}{7}{}{%
+        {{hash=9544f4984c8834ebe650f4b93f09cbcc}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Zhiwen},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=9d9ac6815e27331ba6620def723e357f}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Chang},
+           giveni={C\bibinitperiod}}}%
+        {{hash=338fda83e0724fc882c39145b494e91c}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3c993d2977a4935df3d2628a7944fcba}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1fc38772df762d4362b619a37b7e19b4}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Chunhua},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3aa2e70618c744a91004ea16446ca442}{%
+           family={Gui},
+           familyi={G\bibinitperiod},
+           given={Weihua},
+           giveni={W\bibinitperiod}}}%
+        {{hash=ffe6a725c20d6e135784a295c06f2c82}{%
+           family={Shardt},
+           familyi={S\bibinitperiod},
+           given={Yuri},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{5838f4ea06007a263be38c568d5a8ff7}
+      \strng{fullhash}{5838f4ea06007a263be38c568d5a8ff7}
+      \strng{bibnamehash}{5838f4ea06007a263be38c568d5a8ff7}
+      \strng{authorbibnamehash}{5838f4ea06007a263be38c568d5a8ff7}
+      \strng{authornamehash}{5838f4ea06007a263be38c568d5a8ff7}
+      \strng{authorfullhash}{5838f4ea06007a263be38c568d5a8ff7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Industrial Electronics}
+      \field{title}{A Just-In-Time-Learning Aided Canonical Correlation Analysis Method for Multimode Process Monitoring and Fault Detection}
+      \field{year}{2020}
+    \endentry
+    \entry{choi2005fault}{article}{}
+      \name{author}{5}{}{%
+        {{hash=b18bd5e99257727b2f29680362321db8}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Sang\bibnamedelima Wook},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=3a3303f274a2f4505ae78e1659323bf9}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Changkyu},
+           giveni={C\bibinitperiod}}}%
+        {{hash=517aaf1f542aba92e649b914e735e251}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jong-Min},
+           giveni={J\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=d52a7ea4e28079f8c7c953dd58b81030}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Jin\bibnamedelima Hyun},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=60c01d941c43264090d0c63f99735148}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={In-Beum},
+           giveni={I\bibinithyphendelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{b0c6d25c1519beb1361e3af9af99a0f7}
+      \strng{fullhash}{b0c6d25c1519beb1361e3af9af99a0f7}
+      \strng{bibnamehash}{b0c6d25c1519beb1361e3af9af99a0f7}
+      \strng{authorbibnamehash}{b0c6d25c1519beb1361e3af9af99a0f7}
+      \strng{authornamehash}{b0c6d25c1519beb1361e3af9af99a0f7}
+      \strng{authorfullhash}{b0c6d25c1519beb1361e3af9af99a0f7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemometrics and intelligent laboratory systems}
+      \field{number}{1}
+      \field{title}{Fault detection and identification of nonlinear processes based on kernel PCA}
+      \field{volume}{75}
+      \field{year}{2005}
+      \field{pages}{55\bibrangedash 67}
+      \range{pages}{13}
+    \endentry
     \entry{dahleni2019machine}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=134ed7b27786c531014d6f117203a3d0}{%
@@ -203,6 +356,60 @@
       \field{year}{2019}
       \field{pages}{0986}
       \range{pages}{1}
+    \endentry
+    \entry{ding2010application}{article}{}
+      \name{author}{6}{}{%
+        {{hash=338fda83e0724fc882c39145b494e91c}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=28b6504d56c03d7d44c0ecca06ae0869}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ping},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7ba75bb9341682f8b0cc48d2e55ae75b}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Eve},
+           giveni={E\bibinitperiod}}}%
+        {{hash=5b8fda0e890520120058b36120acd78e}{%
+           family={Naik},
+           familyi={N\bibinitperiod},
+           given={Amol},
+           giveni={A\bibinitperiod}}}%
+        {{hash=814241430c343bef9a9c03f080dce56d}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Pengcheng},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3aa2e70618c744a91004ea16446ca442}{%
+           family={Gui},
+           familyi={G\bibinitperiod},
+           given={Weihua},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {TUP}%
+      }
+      \strng{namehash}{4308fcf8d3ef5da8b3e19923ef2b9635}
+      \strng{fullhash}{4308fcf8d3ef5da8b3e19923ef2b9635}
+      \strng{bibnamehash}{4308fcf8d3ef5da8b3e19923ef2b9635}
+      \strng{authorbibnamehash}{4308fcf8d3ef5da8b3e19923ef2b9635}
+      \strng{authornamehash}{4308fcf8d3ef5da8b3e19923ef2b9635}
+      \strng{authorfullhash}{4308fcf8d3ef5da8b3e19923ef2b9635}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Tsinghua Science and Technology}
+      \field{number}{2}
+      \field{title}{On the application of PCA technique to fault diagnosis}
+      \field{volume}{15}
+      \field{year}{2010}
+      \field{pages}{138\bibrangedash 144}
+      \range{pages}{7}
     \endentry
     \entry{do2008multivariate}{article}{}
       \name{author}{1}{}{%
@@ -1006,6 +1213,43 @@
       \field{year}{2018}
       \field{pages}{50\bibrangedash 63}
       \range{pages}{14}
+    \endentry
+    \entry{zhu2017quality}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=0f869c46a87b5756bd48a5f148304438}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Qinqin},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=e8c0010ab32e4255b70bd8d9fefdf5cd}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=955774b6cbb1b6630808e0013931e996}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={S\bibnamedelima Joe},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{38d8962977946ace5a03db846d3ee645}
+      \strng{fullhash}{38d8962977946ace5a03db846d3ee645}
+      \strng{bibnamehash}{38d8962977946ace5a03db846d3ee645}
+      \strng{authorbibnamehash}{38d8962977946ace5a03db846d3ee645}
+      \strng{authornamehash}{38d8962977946ace5a03db846d3ee645}
+      \strng{authorfullhash}{38d8962977946ace5a03db846d3ee645}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 American Control Conference (ACC)}
+      \field{title}{Quality-relevant fault detection of nonlinear processes based on kernel concurrent canonical correlation analysis}
+      \field{year}{2017}
+      \field{pages}{5404\bibrangedash 5409}
+      \range{pages}{6}
     \endentry
   \enddatalist
 \endrefsection

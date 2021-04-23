@@ -1,0 +1,132 @@
+\chapter{Simulation}
+% put these two lines after every \chapter{} command
+\vspace{-2em}
+\minitoc
+\section{Satellites}
+The focus of this thesis is on small satellites and more specifically cubesats. For the simulation of the ADCS of the satellite \cite{auret2012design, JansevanVuuren2015, Jordaan2016} were referenced during the development of the satellite. The simulation was developed in Python to simulate the dynamics and kinematics during a satellite orbit.
+
+The faults for the subsystems are also developed within the simulation and will be discussed within this chapter.
+
+\section{ADCS}
+
+\section{Typical Faults}
+For the simulation of the satellite and the induced faults to train and test various anomaly detection methodologies a database of typical faults is required. \textcite{tafazoli2009study} made a study of the percentage of failure per subsystem. 
+
+\subsection{ADCS}
+
+\subsubsection{Faults}
+The occurrence of a fault depends on the reliability of that equipment. \textcite{Guo2014} studied the reliability of small satellites and calculated the parameters for the Weibull distribution based on real data. A set of typical faults for the ADCS is shown in Table~\ref{ADCS fault table}. 
+
+\newpage
+\begin{sidewaystable}[]
+	\label{ADCS faults}
+	\begin{tabular}{|l|c|l|l|l|l|}
+		\hline
+		\multicolumn{6}{|c|}{\textbf{Internal Faults}} \\ \hline
+		\textbf{Fault classes} &
+		\multicolumn{1}{l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Failure rate \\ per hour\end{tabular}}} &
+		\textbf{Fault causes} &
+		\textbf{References} &
+		\textbf{Possible effect} &
+		\textbf{Possible permutations} \\ \hline
+		\multirow{4}{*}{Reaction wheels} &
+		\multicolumn{1}{l|}{\multirow{4}{*}{2.5E-7 \cite{Spilhaus1987}}} &
+		\begin{tabular}[c]{@{}l@{}}Reaction wheel electronics \\ fail\end{tabular} &
+		\cite{allen2012satellite} \cite{Jacklin2019} &
+		\begin{tabular}[c]{@{}l@{}}Does not respond \\ to control inputs\end{tabular} &
+		\begin{tabular}[c]{@{}l@{}}Momentum remains the same \\ or decreases slightly due to \\ friction\end{tabular} \\ \cline{3-6} 
+		&
+		\multicolumn{1}{l|}{} &
+		Overheated reaction wheel &
+		\cite{Wintoft} &
+		Decrease in speed &
+		1\% of initial speed per second \\ \cline{3-6} 
+		&
+		\multicolumn{1}{l|}{} &
+		\begin{tabular}[c]{@{}l@{}}Catastrophic failure (cause \\ unknown)\end{tabular} &
+		\cite{Choi2011} &
+		Stops rotating &
+		0 \\ \cline{3-6} 
+		&
+		\multicolumn{1}{l|}{} &
+		\begin{tabular}[c]{@{}l@{}}Increase in rotation speed \\ (Unknown cause)\end{tabular} &
+		\begin{tabular}[c]{@{}l@{}}Gerhard Janse \\ van Vuuren\end{tabular} &
+		\begin{tabular}[c]{@{}l@{}}Wheel speed \\ increases\end{tabular} &
+		\begin{tabular}[c]{@{}l@{}}Between 90-100\% of maximum \\ wheel speed\end{tabular} \\ \hline
+		Magnetorquers &
+		\multicolumn{1}{l|}{8.15E-9 \cite{Spilhaus1987}} &
+		Polarities are inverted &
+		\cite{Crowell2011} &
+		Incorrect rotation &
+		\\ \hline
+		\multirow{2}{*}{Magnetometers} &
+		\multicolumn{1}{l|}{\multirow{2}{*}{8.15E-9 \cite{Spilhaus1987}}} &
+		Unknown &
+		\begin{tabular}[c]{@{}l@{}}Gerhard Janse \\ van Vuuren\end{tabular} &
+		Stops reacting &
+		\begin{tabular}[c]{@{}l@{}}Provides no feedback or the \\ output remains constant\end{tabular} \\ \cline{3-6} 
+		&
+		\multicolumn{1}{l|}{} &
+		\begin{tabular}[c]{@{}l@{}}Magnetometers and magne-\\ torquers interfered with \\ each other\end{tabular} &
+		\cite{Jacklin2019} &
+		\begin{tabular}[c]{@{}l@{}}Noise on magneto-\\ meters and noise \\ on control of mag-\\ netorquers\end{tabular} &
+		\begin{tabular}[c]{@{}l@{}}Between x3 and x5 times the \\ normal noise magnitude \\ Guassian distribution\end{tabular} \\ \hline
+		Earth Sensor &
+		- &
+		Unknown &
+		\cite{Robertson2019} &
+		\begin{tabular}[c]{@{}l@{}}Noisy Earth Sensor \\ effected pointing \\ accuracy\end{tabular} &
+		\begin{tabular}[c]{@{}l@{}}Between x5 and x10 times the \\ normal sensor noise based on \\ Guassian distribution\end{tabular} \\ \hline
+		\multirow{2}{*}{Sun sensor} &
+		\multirow{2}{*}{-} &
+		\begin{tabular}[c]{@{}l@{}}Cross-wired during instal-\\ lation\end{tabular} &
+		\cite{Crowell2011} &
+		\begin{tabular}[c]{@{}l@{}}Erroneous \\ measurements\end{tabular} &
+		Uniform random values \\ \cline{3-6} 
+		&
+		&
+		Unknown &
+		\cite{Jacklin2019} &
+		Sun sensor fails &
+		output is 0 \\ \hline
+		Star tracker &
+		- &
+		\begin{tabular}[c]{@{}l@{}}Shutter on star tracker is \\ closed\end{tabular} &
+		\cite{Crowell2011} &
+		Star tracker fails &
+		output is 0 \\ \hline
+		Overall control &
+		- &
+		\begin{tabular}[c]{@{}l@{}}Incorrect control law or \\ variation \\ thereof\end{tabular} &
+		\begin{tabular}[c]{@{}l@{}}Gerhard Janse \\ van Vuuren\end{tabular} &
+		\begin{tabular}[c]{@{}l@{}}Angular velocity \\ suddenly increases \\ or decreases or \\ oscillation results\end{tabular} &
+		\begin{tabular}[c]{@{}l@{}}Increase to 75 - 100\% \\ Decrease to 0 - 25\%\\ Oscillates\end{tabular} \\ \hline
+		\multirow{3}{*}{\begin{tabular}[c]{@{}l@{}}Common data \\ transmission errors\end{tabular}} &
+		\multirow{3}{*}{-} &
+		Sign flip &
+		\cite{Crowell2011} &
+		Processor-based &
+		\begin{tabular}[c]{@{}l@{}}Processor outputs and/or \\ inputs experience a sign flip\end{tabular} \\ \cline{3-6} 
+		&
+		&
+		Bit flip &
+		N/A &
+		&
+		\begin{tabular}[c]{@{}l@{}}Processor outputs and/or \\ inputs experience a bit flip flip\end{tabular} \\ \cline{3-6} 
+		&
+		&
+		Insertion of zeros &
+		\cite{Jacklin2019} &
+		&
+		\begin{tabular}[c]{@{}l@{}}Processor outputs and/or inputs \\ experience an insertion of a zero\end{tabular} \\ \hline
+		\begin{tabular}[c]{@{}l@{}}Possible sensors \\ errors\end{tabular} &
+		- &
+		Unknown &
+		N/A &
+		High sensor noise &
+		\begin{tabular}[c]{@{}l@{}}Between x5 and x10 times the \\ normal sensor noise based on \\ Guassian distribution\end{tabular} \\ \hline
+	\end{tabular}
+	\label{ADCS fault table}
+\end{sidewaystable}
+
+\newpage

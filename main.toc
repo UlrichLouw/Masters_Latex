@@ -34,41 +34,63 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Literature Study}{1}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Satellites}{1}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Satellites}{2}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Typical Faults}{1}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.1}Typical Faults}{2}{subsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}ADCS}{1}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.2}ADCS}{2}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Typical Faults}{1}{subsubsection*.12}%
+\contentsline {subsubsection}{Typical Faults}{2}{subsubsection*.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Anomaly Detection On Satellites}{2}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Anomaly Detection on Satellites}{2}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}FDR of gyroscope's drift}{2}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}Agent-based algorithm for fault detection and recovery of gyroscope's drift in small satellite missions}{2}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Anomaly detection methods}{2}{section.2.3}%
+\contentsline {subsection}{\numberline {2.2.2}Fault isolation of reaction wheels onboard three-axis controlled in-orbit satellite using ensemble machine learning}{2}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Statistical Methods}{2}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.2.3}Fault tolerant control for satellites with four reaction wheels}{2}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Pearson Correlation}{2}{subsubsection*.13}%
+\contentsline {subsection}{\numberline {2.2.4}Innovative Fault Detection, Isolation and Recovery Strategies On-Board Spacecraft: State of the Art and Research Challenges}{2}{subsection.2.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Kernel Canonical Correlation Analysis}{2}{subsubsection*.14}%
+\contentsline {subsection}{\numberline {2.2.5}Machine learning methods for spacecraft telemetry mining}{2}{subsection.2.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Variance}{2}{subsubsection*.15}%
+\contentsline {subsection}{\numberline {2.2.6}Machine learning techniques for satellite fault diagnosis}{2}{subsection.2.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Kalman-Filter}{3}{subsubsection*.16}%
+\contentsline {section}{\numberline {2.3}Statistical Methods}{3}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Multivariate Guassian Distribution}{3}{subsubsection*.17}%
+\contentsline {subsection}{\numberline {2.3.1}Pearson Correlation}{3}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Kullback-Leibler Divergence}{4}{subsubsection*.19}%
+\contentsline {subsection}{\numberline {2.3.2}Principal Component Analysis}{3}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Supervised Learning}{4}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Multivariate analysis}{3}{subsection.2.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Unsupervised Learning}{4}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Partial Least Square}{3}{subsection.2.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.4}Reinforcement Learning}{5}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Independent Component Analysis}{3}{subsection.2.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Summary}{5}{section.2.4}%
+\contentsline {subsection}{\numberline {2.3.6}Kernel Canonical Correlation Analysis}{3}{subsection.2.3.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{K-means-based}{3}{subsubsection*.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Guassian Mixture Model}{3}{subsubsection*.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Just-In-Time-Learning}{3}{subsubsection*.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.7}Variance}{4}{subsection.2.3.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.8}Kalman-Filter}{4}{subsection.2.3.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.9}Multivariate Guassian Distribution}{4}{subsection.2.3.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.10}Kullback-Leibler Divergence}{4}{subsection.2.3.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Supervised Learning}{5}{section.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Unsupervised Learning}{6}{section.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}Reinforcement Learning}{6}{section.2.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.7}Summary}{6}{section.2.7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Conclusion}{7}{chapter.3}%
 \defcounter {refsection}{0}\relax 
@@ -80,7 +102,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}What the student has learnt during this project}{8}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{9}{chapter*.21}%
+\contentsline {chapter}{References}{9}{chapter*.18}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Project Timeline}{11}{appendix.A}%
 \defcounter {refsection}{0}\relax 
