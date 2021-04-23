@@ -2187,12 +2187,74 @@
     <bcf:citekey order="5">wander2013innovative</bcf:citekey>
     <bcf:citekey order="6">ibrahim2018machine</bcf:citekey>
     <bcf:citekey order="7">ibrahim2020machine</bcf:citekey>
-    <bcf:citekey order="8">carvajal2017agent</bcf:citekey>
-    <bcf:citekey order="9">rahimi2020fault</bcf:citekey>
-    <bcf:citekey order="10">jin2008fault</bcf:citekey>
-    <bcf:citekey order="11">wander2013innovative</bcf:citekey>
-    <bcf:citekey order="12">ibrahim2018machine</bcf:citekey>
-    <bcf:citekey order="13">ibrahim2020machine</bcf:citekey>
-    <bcf:citekey order="14">benesty2009pearson</bcf:citekey>
-    <bcf:citekey order="15">do2008multivariate</bcf:citekey>
-    <bcf:citekey order="16">hershey2007approximating</bcf:citekey>
+    <bcf:citekey order="8">benesty2009pearson</bcf:citekey>
+    <bcf:citekey order="9">do2008multivariate</bcf:citekey>
+    <bcf:citekey order="10">hershey2007approximating</bcf:citekey>
+    <bcf:citekey order="11">chen2017fault</bcf:citekey>
+    <bcf:citekey order="12">chen2017fault</bcf:citekey>
+    <bcf:citekey order="13">fukumizu2007statistical</bcf:citekey>
+    <bcf:citekey order="14">zhu2017quality</bcf:citekey>
+    <bcf:citekey order="15">chen2020just</bcf:citekey>
+    <bcf:citekey order="16">choi2005fault</bcf:citekey>
+    <bcf:citekey order="17">ding2010application</bcf:citekey>
+    <bcf:citekey order="18">auret2012design</bcf:citekey>
+    <bcf:citekey order="18">JansevanVuuren2015</bcf:citekey>
+    <bcf:citekey order="18">Jordaan2016</bcf:citekey>
+    <bcf:citekey order="19">tafazoli2009study</bcf:citekey>
+    <bcf:citekey order="20">Guo2014</bcf:citekey>
+    <bcf:citekey order="21">Spilhaus1987</bcf:citekey>
+    <bcf:citekey order="22">allen2012satellite</bcf:citekey>
+    <bcf:citekey order="23">Jacklin2019</bcf:citekey>
+    <bcf:citekey order="24">Wintoft</bcf:citekey>
+    <bcf:citekey order="25">Choi2011</bcf:citekey>
+    <bcf:citekey order="26">Spilhaus1987</bcf:citekey>
+    <bcf:citekey order="27">Crowell2011</bcf:citekey>
+    <bcf:citekey order="28">Spilhaus1987</bcf:citekey>
+    <bcf:citekey order="29">Jacklin2019</bcf:citekey>
+    <bcf:citekey order="30">Robertson2019</bcf:citekey>
+    <bcf:citekey order="31">Crowell2011</bcf:citekey>
+    <bcf:citekey order="32">Jacklin2019</bcf:citekey>
+    <bcf:citekey order="33">Crowell2011</bcf:citekey>
+    <bcf:citekey order="34">Crowell2011</bcf:citekey>
+    <bcf:citekey order="35">Jacklin2019</bcf:citekey>
+  </bcf:section>
+  <!-- SORTING TEMPLATES -->
+  <bcf:sortingtemplate name="nty">
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sortingtemplate>
+  <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="nty/global//global/global"
+                type="entry"
+                sortingtemplatename="nty"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+</bcf:controlfile>

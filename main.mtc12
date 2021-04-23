@@ -1,24 +1,4 @@
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.2}Convolutional Networks}{\reset@font\mtcSSfont 5}{subsection.2.4.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.3}Principal Component Analysis}{\reset@font\mtcSSfont 5}{subsection.2.4.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.4}Partial Least Square}{\reset@font\mtcSSfont 5}{subsection.2.4.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.5}Independent Component Analysis}{\reset@font\mtcSSfont 5}{subsection.2.4.5}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.6}Locally Linear Embedding}{\reset@font\mtcSSfont 5}{subsection.2.4.6}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.7}Linear Discriminant Analysis}{\reset@font\mtcSSfont 5}{subsection.2.4.7}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.8}Autoencoder}{\reset@font\mtcSSfont 5}{subsection.2.4.8}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.9}t-Distributed Stochastic Neighbor Embedding}{\reset@font\mtcSSfont 5}{subsection.2.4.9}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}Supervised Learning}{\reset@font\mtcSfont 5}{section.2.5}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.1}Long Short Term Memory}{\reset@font\mtcSSfont 5}{subsection.2.5.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.2}Support Vector Machines}{\reset@font\mtcSSfont 6}{subsection.2.5.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.3}Naive Bayes}{\reset@font\mtcSSfont 6}{subsection.2.5.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.4}K-nearest neighbours}{\reset@font\mtcSSfont 6}{subsection.2.5.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.5}Artificial Neural Networks}{\reset@font\mtcSSfont 6}{subsection.2.5.5}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.6}Unsupervised Learning}{\reset@font\mtcSfont 6}{section.2.6}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.6.1}Random Forests}{\reset@font\mtcSSfont 6}{subsection.2.6.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.6.2}Isolation Forests}{\reset@font\mtcSSfont 6}{subsection.2.6.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.6.3}Local Outlier Factor}{\reset@font\mtcSSfont 6}{subsection.2.6.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.6.4}K-means Clustering}{\reset@font\mtcSSfont 6}{subsection.2.6.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.6.5}Kernel Adaptive Density-based}{\reset@font\mtcSSfont 6}{subsection.2.6.5}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.6.6}Loda}{\reset@font\mtcSSfont 7}{subsection.2.6.6}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.6.7}Robust-kernel Density Estimation}{\reset@font\mtcSSfont 7}{subsection.2.6.7}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.7}Reinforcement Learning}{\reset@font\mtcSfont 7}{section.2.7}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.8}Summary}{\reset@font\mtcSfont 7}{section.2.8}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.1}Satellites}{\reset@font\mtcSfont 13}{section.3.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.2}ADCS}{\reset@font\mtcSfont 13}{section.3.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.3}Typical Faults}{\reset@font\mtcSfont 13}{section.3.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Faults}{\reset@font\mtcSSSfont 13}{subsubsection*.17}}

@@ -19,42 +19,58 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{baskaya2017fault}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=47565f60eb93713ad9c5e974ef0c0191}{%
-           family={Baskaya},
-           familyi={B\bibinitperiod},
-           given={Elgiz},
-           giveni={E\bibinitperiod}}}%
-        {{hash=87f7d882132f4fd5b960ce919e1f6c87}{%
-           family={Bronz},
-           familyi={B\bibinitperiod},
-           given={Murat},
-           giveni={M\bibinitperiod}}}%
-        {{hash=724f19394ff905be4ed7b245765f1656}{%
-           family={Delahaye},
+    \entry{allen2012satellite}{article}{}
+      \name{author}{2}{}{%
+        {{hash=eae2ef7b486998e3d2f6da8c1a3642e4}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Joe},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3340745e911b69c849e3899023cc7f38}{%
+           family={Denig},
            familyi={D\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
+           given={William\bibnamedelima F},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
       }
-      \list{organization}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{03f2ed72014f4bf554ce64bbfdf6d590}
-      \strng{fullhash}{03f2ed72014f4bf554ce64bbfdf6d590}
-      \strng{bibnamehash}{03f2ed72014f4bf554ce64bbfdf6d590}
-      \strng{authorbibnamehash}{03f2ed72014f4bf554ce64bbfdf6d590}
-      \strng{authornamehash}{03f2ed72014f4bf554ce64bbfdf6d590}
-      \strng{authorfullhash}{03f2ed72014f4bf554ce64bbfdf6d590}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \strng{namehash}{8e7bf5c67f43d75dc597fc045640397f}
+      \strng{fullhash}{8e7bf5c67f43d75dc597fc045640397f}
+      \strng{bibnamehash}{8e7bf5c67f43d75dc597fc045640397f}
+      \strng{authorbibnamehash}{8e7bf5c67f43d75dc597fc045640397f}
+      \strng{authornamehash}{8e7bf5c67f43d75dc597fc045640397f}
+      \strng{authorfullhash}{8e7bf5c67f43d75dc597fc045640397f}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2017 IEEE/AIAA 36th Digital Avionics Systems Conference (DASC)}
-      \field{title}{Fault detection \& diagnosis for small UAVs via machine learning}
-      \field{year}{2017}
-      \field{pages}{1\bibrangedash 6}
-      \range{pages}{6}
+      \field{journaltitle}{As of December}
+      \field{title}{Satellite Anomalies, database, National Oceanic and Atmospheric Administration, National Geophysical Data Center, 1993}
+      \field{volume}{6}
+      \field{year}{2012}
+    \endentry
+    \entry{auret2012design}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=5b7eee7652c7c600f9bf83f861801a42}{%
+           family={Auret},
+           familyi={A\bibinitperiod},
+           given={Jacoba},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Stellenbosch: Stellenbosch University}%
+      }
+      \strng{namehash}{5b7eee7652c7c600f9bf83f861801a42}
+      \strng{fullhash}{5b7eee7652c7c600f9bf83f861801a42}
+      \strng{bibnamehash}{5b7eee7652c7c600f9bf83f861801a42}
+      \strng{authorbibnamehash}{5b7eee7652c7c600f9bf83f861801a42}
+      \strng{authornamehash}{5b7eee7652c7c600f9bf83f861801a42}
+      \strng{authorfullhash}{5b7eee7652c7c600f9bf83f861801a42}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Design of an aerodynamic attitude control system for a CubeSat}
+      \field{type}{phdthesis}
+      \field{year}{2012}
     \endentry
     \entry{benesty2009pearson}{incollection}{}
       \name{author}{4}{}{%
@@ -97,45 +113,6 @@
       \field{year}{2009}
       \field{pages}{1\bibrangedash 4}
       \range{pages}{4}
-    \endentry
-    \entry{breunig2000lof}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=346772f472393316fd22dd8a300d2e7d}{%
-           family={Breunig},
-           familyi={B\bibinitperiod},
-           given={Markus\bibnamedelima M},
-           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=9559fe65ed2c0877cf14a66fe1f8e9b3}{%
-           family={Kriegel},
-           familyi={K\bibinitperiod},
-           given={Hans-Peter},
-           giveni={H\bibinithyphendelim P\bibinitperiod}}}%
-        {{hash=3538ec05ca1325677835daf67c1c45bf}{%
-           family={Ng},
-           familyi={N\bibinitperiod},
-           given={Raymond\bibnamedelima T},
-           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=802157026f850823b2027c2100cb359a}{%
-           family={Sander},
-           familyi={S\bibinitperiod},
-           given={J{ö}rg},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{d65966f90d24e1cda0c67af1ce30b712}
-      \strng{fullhash}{d65966f90d24e1cda0c67af1ce30b712}
-      \strng{bibnamehash}{d65966f90d24e1cda0c67af1ce30b712}
-      \strng{authorbibnamehash}{d65966f90d24e1cda0c67af1ce30b712}
-      \strng{authornamehash}{d65966f90d24e1cda0c67af1ce30b712}
-      \strng{authorfullhash}{d65966f90d24e1cda0c67af1ce30b712}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 2000 ACM SIGMOD international conference on Management of data}
-      \field{title}{LOF: identifying density-based local outliers}
-      \field{year}{2000}
-      \field{pages}{93\bibrangedash 104}
-      \range{pages}{12}
     \endentry
     \entry{carvajal2017agent}{article}{}
       \name{author}{3}{}{%
@@ -279,6 +256,86 @@
       \field{title}{A Just-In-Time-Learning Aided Canonical Correlation Analysis Method for Multimode Process Monitoring and Fault Detection}
       \field{year}{2020}
     \endentry
+    \entry{Choi2011}{article}{}
+      \name{author}{10}{}{%
+        {{hash=45777383f59a766fd041ea9c8c323069}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Ho\bibnamedelima Sung},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=adb32e833bd4215f9d28779664f80e14}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jaejin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d427312ea673e9f779058cc25286403e}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Kyung\bibnamedelima Suk},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=1f2eaf27724a12884306541b1f00f150}{%
+           family={Kwak},
+           familyi={K\bibinitperiod},
+           given={Young\bibnamedelima Sil},
+           giveni={Y\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=4713d30cf8d9ec25266c9836d0d5be86}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Ii\bibnamedelima Hyun},
+           giveni={I\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=5fc99eab410022b1d3ce83f0197fc519}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Young\bibnamedelima Deuk},
+           giveni={Y\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=8ccf0c1385552859db5c4518bb309f69}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Yeon\bibnamedelima Han},
+           giveni={Y\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=258943a3f628febd7c97fd22325a63a8}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Daniel\bibnamedelima N.},
+           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=a51de052ab886f75727a7832d7b3f751}{%
+           family={Reeves},
+           familyi={R\bibinitperiod},
+           given={Geoffrey\bibnamedelima D.},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=5cad52d4a2ab9aceb21d10b9188fd029}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Dong\bibnamedelima Kyu},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{b1105a70085060feda422faa88261618}
+      \strng{fullhash}{b1105a70085060feda422faa88261618}
+      \strng{bibnamehash}{b1105a70085060feda422faa88261618}
+      \strng{authorbibnamehash}{b1105a70085060feda422faa88261618}
+      \strng{authornamehash}{b1105a70085060feda422faa88261618}
+      \strng{authorfullhash}{b1105a70085060feda422faa88261618}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{While numerous anomalies and failures of spacecraft have been reported since the beginning of the space age, space weather effects on modern spacecraft systems have been emphasized more and more with the increase of their complexity and capability. However, the relationship between space weather and commercial satellite anomalies has not been studied extensively. In this paper, we investigate the geostationary Earth orbit (GEO) satellite anomalies archived by Satellite News Digest during 19972009 in order to search for possible influences of space weather on the anomaly occurrences. We analyze spacecraft anomalies for the Kp index, local time, and season and then compare them with the tendencies of charged particles observed by Los Alamos National Laboratory (LANL) satellites. We obtain the following results: (1) there are good relationships between geomagnetic activity (as measured by the Kp index) and anomaly occurrences of the GEO satellites; (2) the satellite anomalies occurred mainly in the midnight to morning sector; and (3) the anomalies are found more frequently in spring and fall than summer and winter. While we cannot fully explain how space weather is involved in producing such anomalies, our analysis of LANL data shows that low-energy ( < 100 keV) electrons have similar behaviors with spacecraft anomalies and implies the spacecraft charging might dominantly contribute to the GEO spacecraft anomalies reported in Satellite News Digest. Copyright © 2011 by the American Geophysical Union.}
+      \field{issn}{15427390}
+      \field{journaltitle}{Space Weather}
+      \field{number}{5}
+      \field{title}{{Analysis of GEO spacecraft anomalies: Space weather relationships}}
+      \field{volume}{9}
+      \field{year}{2011}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1029/2010SW000597
+      \endverb
+      \verb{file}
+      \verb :home/ulrich/Documents/Masters thesis/Journal articles/Satellites/Failures and anomalies/Analysis of GEO spacecraft anomalies$\backslash$: Space weather relationships.pdf:pdf
+      \endverb
+      \keyw{http://dx.doi.org/10.1029/2010SW000597,doi:10.102}
+    \endentry
     \entry{choi2005fault}{article}{}
       \name{author}{5}{}{%
         {{hash=b18bd5e99257727b2f29680362321db8}{%
@@ -328,34 +385,39 @@
       \field{pages}{55\bibrangedash 67}
       \range{pages}{13}
     \endentry
-    \entry{dahleni2019machine}{inproceedings}{}
+    \entry{Crowell2011}{article}{}
       \name{author}{2}{}{%
-        {{hash=134ed7b27786c531014d6f117203a3d0}{%
-           family={Dahleni\bibnamedelima Kraemer},
-           familyi={D\bibinitperiod\bibinitdelim K\bibinitperiod},
-           given={Aline},
-           giveni={A\bibinitperiod}}}%
-        {{hash=869cbdfa818d343600f0633cd39ad0d0}{%
-           family={Villani},
-           familyi={V\bibinitperiod},
-           given={Emilia},
-           giveni={E\bibinitperiod}}}%
+        {{hash=1181b9ef244553a02207b7efa0617477}{%
+           family={Crowell},
+           familyi={C\bibinitperiod},
+           given={Corey\bibnamedelima Whitcomb},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=ca51fb4125cc18f1c603534b19cda638}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Prof\bibnamedelimb David\bibnamedelima W},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
       }
-      \strng{namehash}{907748b22bf83b0e5075181cd7df97a3}
-      \strng{fullhash}{907748b22bf83b0e5075181cd7df97a3}
-      \strng{bibnamehash}{907748b22bf83b0e5075181cd7df97a3}
-      \strng{authorbibnamehash}{907748b22bf83b0e5075181cd7df97a3}
-      \strng{authornamehash}{907748b22bf83b0e5075181cd7df97a3}
-      \strng{authorfullhash}{907748b22bf83b0e5075181cd7df97a3}
-      \field{sortinit}{D}
-      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \strng{namehash}{576bb596158ca3cc8cc480328da453b6}
+      \strng{fullhash}{576bb596158ca3cc8cc480328da453b6}
+      \strng{bibnamehash}{576bb596158ca3cc8cc480328da453b6}
+      \strng{authorbibnamehash}{576bb596158ca3cc8cc480328da453b6}
+      \strng{authornamehash}{576bb596158ca3cc8cc480328da453b6}
+      \strng{authorfullhash}{576bb596158ca3cc8cc480328da453b6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{AIAA Scitech 2019 Forum}
-      \field{title}{Machine learning FDI approach to aircraft failures using SIVOR simulator}
-      \field{year}{2019}
-      \field{pages}{0986}
+      \field{abstract}{Attitude Determination and Control Systems (ADCS) are critical to the operation of satel- lites that require attitude knowledge and/or attitude control to achieve mission success. Furthermore, ADCS systems only operate as designed in the reduced friction, micro-gravity environment of space. Simulating these characteristics of space in a laboratory environment in order to test individual ADCS components and integrated ADCS systems is an important but challenging step in verifying and validating a satellite's ADCS design. The purpose of this thesis is to design and develop an ADCS testbed capable of sim- ulating the reduced fiction, micro-gravity environment of space within the Massachusetts Institute of Technology's Space Systems Laboratory. The ADCS testbed is based on a table- top style, three degree of freedom, rotational air bearing, which uses four reaction wheels for attitude control and a series of sensors for attitude determination. The testbed includes all the equipment necessary to allow for closed loop testing of individual ADCS components and integrated ADCS systems in the simulated inertial environment of space. In addition to the physical ADCS testbed, a MATLAB Simulink based model of the ADCS testbed is developed to predict the performance of hardware components and software algorithms before the components and algorithms are integrated into the ADCS testbed. The final objective of this thesis is to validate the operation of the ADCS testbed and simulation to prepare the tool for use by satellite design teams.}
+      \field{isbn}{7000102004}
+      \field{number}{June}
+      \field{title}{{Development and Analysis of a Small Satellite Attitude Determination and Control System Testbed}}
+      \field{year}{2011}
+      \field{pages}{269}
       \range{pages}{1}
+      \verb{file}
+      \verb :home/ulrich/Documents/Masters thesis/Journal articles/Satellites/Failures and anomalies/Analysis of ADCS.pdf:pdf
+      \endverb
     \endentry
     \entry{ding2010application}{article}{}
       \name{author}{6}{}{%
@@ -434,71 +496,6 @@
       \field{volume}{229}
       \field{year}{2008}
     \endentry
-    \entry{emmott2013systematic}{inproceedings}{}
-      \name{author}{5}{}{%
-        {{hash=706650cf39d5c6a5f3da634decac6d8e}{%
-           family={Emmott},
-           familyi={E\bibinitperiod},
-           given={Andrew\bibnamedelima F},
-           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=6654747e80b6775a6e12bfb1de910649}{%
-           family={Das},
-           familyi={D\bibinitperiod},
-           given={Shubhomoy},
-           giveni={S\bibinitperiod}}}%
-        {{hash=cfa7a2069015d27b449f8f3065bd09b7}{%
-           family={Dietterich},
-           familyi={D\bibinitperiod},
-           given={Thomas},
-           giveni={T\bibinitperiod}}}%
-        {{hash=b95adb6034de42a9e024e9e4dab80197}{%
-           family={Fern},
-           familyi={F\bibinitperiod},
-           given={Alan},
-           giveni={A\bibinitperiod}}}%
-        {{hash=47223de8b87342621973e48b5cccb299}{%
-           family={Wong},
-           familyi={W\bibinitperiod},
-           given={Weng-Keen},
-           giveni={W\bibinithyphendelim K\bibinitperiod}}}%
-      }
-      \strng{namehash}{6152857ec7aeb5875803c8fa5097c9c8}
-      \strng{fullhash}{6152857ec7aeb5875803c8fa5097c9c8}
-      \strng{bibnamehash}{6152857ec7aeb5875803c8fa5097c9c8}
-      \strng{authorbibnamehash}{6152857ec7aeb5875803c8fa5097c9c8}
-      \strng{authornamehash}{6152857ec7aeb5875803c8fa5097c9c8}
-      \strng{authorfullhash}{6152857ec7aeb5875803c8fa5097c9c8}
-      \field{sortinit}{E}
-      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the ACM SIGKDD workshop on outlier detection and description}
-      \field{title}{Systematic construction of anomaly detection benchmarks from real data}
-      \field{year}{2013}
-      \field{pages}{16\bibrangedash 21}
-      \range{pages}{6}
-    \endentry
-    \entry{eskin2000anomaly}{article}{}
-      \name{author}{1}{}{%
-        {{hash=8b11f474a5fb2f9b7bd22f43ac93759f}{%
-           family={Eskin},
-           familyi={E\bibinitperiod},
-           given={Eleazar},
-           giveni={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{8b11f474a5fb2f9b7bd22f43ac93759f}
-      \strng{fullhash}{8b11f474a5fb2f9b7bd22f43ac93759f}
-      \strng{bibnamehash}{8b11f474a5fb2f9b7bd22f43ac93759f}
-      \strng{authorbibnamehash}{8b11f474a5fb2f9b7bd22f43ac93759f}
-      \strng{authornamehash}{8b11f474a5fb2f9b7bd22f43ac93759f}
-      \strng{authorfullhash}{8b11f474a5fb2f9b7bd22f43ac93759f}
-      \field{sortinit}{E}
-      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Anomaly detection over noisy data using learned probability distributions}
-      \field{year}{2000}
-    \endentry
     \entry{fukumizu2007statistical}{article}{}
       \name{author}{3}{}{%
         {{hash=e9c11e7f6e771dbb75fdfa98f94e91a0}{%
@@ -532,6 +529,60 @@
       \field{title}{Statistical Consistency of Kernel Canonical Correlation Analysis.}
       \field{volume}{8}
       \field{year}{2007}
+    \endentry
+    \entry{Guo2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5710284be5c14ff62f1c8a3d34ef9e56}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=44163fdef22144523060743f4eda11a9}{%
+           family={Monas},
+           familyi={M\bibinitperiod},
+           given={Liora},
+           giveni={L\bibinitperiod}}}%
+        {{hash=77c26d441b367da6e23610e91f423855}{%
+           family={Gill},
+           familyi={G\bibinitperiod},
+           given={Eberhard},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{20a9d7708ef76eb87f104dddeecfa741}
+      \strng{fullhash}{20a9d7708ef76eb87f104dddeecfa741}
+      \strng{bibnamehash}{20a9d7708ef76eb87f104dddeecfa741}
+      \strng{authorbibnamehash}{20a9d7708ef76eb87f104dddeecfa741}
+      \strng{authornamehash}{20a9d7708ef76eb87f104dddeecfa741}
+      \strng{authorfullhash}{20a9d7708ef76eb87f104dddeecfa741}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper attempts to characterize failure behaviour of small satellites through statistical analysis of actual in-orbit failures. A unique Small Satellite Anomalies Database comprising empirical failure data of 222 small satellites has been developed. A nonparametric analysis of the failure data has been implemented by means of a Kaplan-Meier estimation. An innovative modelling method, i.e. Bayesian theory in combination with Markov Chain Monte Carlo (MCMC) simulations, has been proposed to model the reliability of small satellites. An extensive parametric analysis using the Bayesian/MCMC method has been performed to fit a Weibull distribution to the data. The influence of several characteristics such as the design lifetime, mass, launch year, mission type and the type of satellite developers on the reliability has been analyzed. The results clearly show the infant mortality of small satellites. Compared with the classical maximum-likelihood estimation methods, the proposed Bayesian/MCMC method results in better fitting Weibull models and is especially suitable for reliability modelling where only very limited failures are observed. © 2014 2014 IAA. Published by Elsevier Ltd. All rights reserved.}
+      \field{issn}{00945765}
+      \field{journaltitle}{Acta Astronautica}
+      \field{number}{1}
+      \field{title}{{Statistical analysis and modelling of small satellite reliability}}
+      \field{volume}{98}
+      \field{year}{2014}
+      \field{pages}{97\bibrangedash 110}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.actaastro.2014.01.018
+      \endverb
+      \verb{file}
+      \verb :home/ulrich/Documents/Masters thesis/Journal articles/Satellites/Failures and anomalies/Statistical Analysis and modelling of small satellite reliability.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.actaastro.2014.01.018
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.actaastro.2014.01.018
+      \endverb
+      \keyw{Bayesian methods,In-orbit failure,Markov Chain Monte Carlo,Reliability,Small satellite,Statistical analysis}
     \endentry
     \entry{hershey2007approximating}{inproceedings}{}
       \name{author}{2}{}{%
@@ -656,6 +707,65 @@
       \field{pages}{45\bibrangedash 56}
       \range{pages}{12}
     \endentry
+    \entry{Jacklin2019}{article}{}
+      \name{author}{1}{}{%
+        {{hash=31e8501c8108b5d99de5226d284ddabe}{%
+           family={Jacklin},
+           familyi={J\bibinitperiod},
+           given={Stephen\bibnamedelima A},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{31e8501c8108b5d99de5226d284ddabe}
+      \strng{fullhash}{31e8501c8108b5d99de5226d284ddabe}
+      \strng{bibnamehash}{31e8501c8108b5d99de5226d284ddabe}
+      \strng{authorbibnamehash}{31e8501c8108b5d99de5226d284ddabe}
+      \strng{authornamehash}{31e8501c8108b5d99de5226d284ddabe}
+      \strng{authorfullhash}{31e8501c8108b5d99de5226d284ddabe}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The purpose of this report is to determine the failure rate of small-satellite missions launched between the years 2000 and 2016. This analysis considers the rates of both partial and total mission failure, as well as the failures attributable to failure of the launch vehicle. This study observed that between the years of 2000 to 2016, 41.3{\%} of all small satellites launched failed or partially failed. Of these small satellite missions, 24.2{\%} were total mission failures, another 11{\%} were partial mission failures, and 6.1{\%} were launch vehicle failures. The small satellite failure data reveals an increase in the failure rate as the yearly launch rate has increased. The period 2000 to 2008 averaged 15 launches per year, during which 28.6{\%} of the small satellite missions failed or partially failed. The period from 2009 to 2016 averaged 48 launches per year, during which 42.6{\%} of the small satellite missions failed or partially failed. The launch vehicle failure rate for both periods was the same at around 6.1{\%}. The implication is that for modern small satellite missions, almost one out of every two small satellite missions will result in either a total or a partial mission failure. Counting the partial mission successes as “successful missions” reduces the failure rate, but only to 38.2{\%} for the period 2009 to 2016. Appendix A provides a list of the small satellite missions that failed or partially failed during the years 2000 to 2016. The causes of failures are identified when known. Appendix B provides a list of the successful small satellites launched between 2000 and 2016.}
+      \field{journaltitle}{NASA Ames Research Center}
+      \field{number}{March}
+      \field{title}{{Small-Satellite Mission Failure Rates}}
+      \field{year}{2019}
+      \verb{file}
+      \verb :home/ulrich/Documents/Masters thesis/Journal articles/Satellites/Failures and anomalies/Small-Satellite Mission Failure Rates.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ntrs.nasa.gov/citations/20190002705
+      \endverb
+      \verb{url}
+      \verb https://ntrs.nasa.gov/citations/20190002705
+      \endverb
+    \endentry
+    \entry{JansevanVuuren2015}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3481a3d176239ecde9d14f4fa8bdac8a}{%
+           family={{Janse van Vuuren}},
+           familyi={J\bibinitperiod},
+           given={Gerhard\bibnamedelima Hermann},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{3481a3d176239ecde9d14f4fa8bdac8a}
+      \strng{fullhash}{3481a3d176239ecde9d14f4fa8bdac8a}
+      \strng{bibnamehash}{3481a3d176239ecde9d14f4fa8bdac8a}
+      \strng{authorbibnamehash}{3481a3d176239ecde9d14f4fa8bdac8a}
+      \strng{authornamehash}{3481a3d176239ecde9d14f4fa8bdac8a}
+      \strng{authorfullhash}{3481a3d176239ecde9d14f4fa8bdac8a}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{March}
+      \field{title}{{the Design and Simulation Analysis of an Attitude Determination and Control System for a Small}}
+      \field{year}{2015}
+      \verb{file}
+      \verb :home/ulrich/Documents/Masters thesis/Journal articles/Satellites/jansevanvuuren{\_}attitude{\_}2015.pdf:pdf
+      \endverb
+      \keyw{ADCS,MATLAB,Simulink}
+    \endentry
     \entry{jin2008fault}{article}{}
       \name{author}{3}{}{%
         {{hash=2562888545443fd99a1db9f34e9a0e5a}{%
@@ -695,178 +805,30 @@
       \field{pages}{1250\bibrangedash 1258}
       \range{pages}{9}
     \endentry
-    \entry{kim2012robust}{article}{}
-      \name{author}{2}{}{%
-        {{hash=75cbc30326d829c3b90b602ab263e5a0}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={JooSeuk},
-           giveni={J\bibinitperiod}}}%
-        {{hash=fa24ac7aa89ed7c02170c51f50386b82}{%
-           family={Scott},
-           familyi={S\bibinitperiod},
-           given={Clayton\bibnamedelima D},
-           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {JMLR. org}%
-      }
-      \strng{namehash}{88e57f40ce2f181137cb0c9bb647fb03}
-      \strng{fullhash}{88e57f40ce2f181137cb0c9bb647fb03}
-      \strng{bibnamehash}{88e57f40ce2f181137cb0c9bb647fb03}
-      \strng{authorbibnamehash}{88e57f40ce2f181137cb0c9bb647fb03}
-      \strng{authornamehash}{88e57f40ce2f181137cb0c9bb647fb03}
-      \strng{authorfullhash}{88e57f40ce2f181137cb0c9bb647fb03}
-      \field{sortinit}{K}
-      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Journal of Machine Learning Research}
-      \field{number}{1}
-      \field{title}{Robust kernel density estimation}
-      \field{volume}{13}
-      \field{year}{2012}
-      \field{pages}{2529\bibrangedash 2565}
-      \range{pages}{37}
-    \endentry
-    \entry{liu2008isolation}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=231b376c1eeea575643f44deb86338c4}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Fei\bibnamedelima Tony},
-           giveni={F\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=9bc17f24d02724c02d418a27dfea50bb}{%
-           family={Ting},
-           familyi={T\bibinitperiod},
-           given={Kai\bibnamedelima Ming},
-           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=6b1a37e820a730061851a81dcca2d154}{%
-           family={Zhou},
-           familyi={Z\bibinitperiod},
-           given={Zhi-Hua},
-           giveni={Z\bibinithyphendelim H\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{b38d2601a5a1a63e9c41ca76b68a2df4}
-      \strng{fullhash}{b38d2601a5a1a63e9c41ca76b68a2df4}
-      \strng{bibnamehash}{b38d2601a5a1a63e9c41ca76b68a2df4}
-      \strng{authorbibnamehash}{b38d2601a5a1a63e9c41ca76b68a2df4}
-      \strng{authornamehash}{b38d2601a5a1a63e9c41ca76b68a2df4}
-      \strng{authorfullhash}{b38d2601a5a1a63e9c41ca76b68a2df4}
-      \field{sortinit}{L}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2008 eighth ieee international conference on data mining}
-      \field{title}{Isolation forest}
-      \field{year}{2008}
-      \field{pages}{413\bibrangedash 422}
-      \range{pages}{10}
-    \endentry
-    \entry{maya2019dlstm}{article}{}
-      \name{author}{3}{}{%
-        {{hash=6d71cf66014861b39eb2278c875688e4}{%
-           family={Maya},
-           familyi={M\bibinitperiod},
-           given={Shigeru},
-           giveni={S\bibinitperiod}}}%
-        {{hash=a71046dc62b535a0ed00060da5b1867a}{%
-           family={Ueno},
-           familyi={U\bibinitperiod},
-           given={Ken},
-           giveni={K\bibinitperiod}}}%
-        {{hash=9400023e18eab2b7e3a19b395c89a8d1}{%
-           family={Nishikawa},
-           familyi={N\bibinitperiod},
-           given={Takeichiro},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{5caacd1e4a96966353d99519a4de0cc4}
-      \strng{fullhash}{5caacd1e4a96966353d99519a4de0cc4}
-      \strng{bibnamehash}{5caacd1e4a96966353d99519a4de0cc4}
-      \strng{authorbibnamehash}{5caacd1e4a96966353d99519a4de0cc4}
-      \strng{authornamehash}{5caacd1e4a96966353d99519a4de0cc4}
-      \strng{authorfullhash}{5caacd1e4a96966353d99519a4de0cc4}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Data Science and Analytics}
-      \field{number}{2}
-      \field{title}{dLSTM: a new approach for anomaly detection using deep learning with delayed prediction}
-      \field{volume}{8}
-      \field{year}{2019}
-      \field{pages}{137\bibrangedash 164}
-      \range{pages}{28}
-    \endentry
-    \entry{omran2019efficient}{article}{}
-      \name{author}{2}{}{%
-        {{hash=a9a107ae6be9ebab83e5029e1e36fc2e}{%
-           family={Omran},
-           familyi={O\bibinitperiod},
-           given={Ehab\bibnamedelima A},
-           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=e631efb4c2e49d7e1469dcf2060d036a}{%
-           family={Murtada},
-           familyi={M\bibinitperiod},
-           given={Wael\bibnamedelima A},
-           giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{e57e6d6e5fee4f7cfa5b5123367adc0f}
-      \strng{fullhash}{e57e6d6e5fee4f7cfa5b5123367adc0f}
-      \strng{bibnamehash}{e57e6d6e5fee4f7cfa5b5123367adc0f}
-      \strng{authorbibnamehash}{e57e6d6e5fee4f7cfa5b5123367adc0f}
-      \strng{authornamehash}{e57e6d6e5fee4f7cfa5b5123367adc0f}
-      \strng{authorfullhash}{e57e6d6e5fee4f7cfa5b5123367adc0f}
-      \field{sortinit}{O}
-      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Neural Computing and Applications}
-      \field{number}{7}
-      \field{title}{Efficient anomaly classification for spacecraft reaction wheels}
-      \field{volume}{31}
-      \field{year}{2019}
-      \field{pages}{2741\bibrangedash 2747}
-      \range{pages}{7}
-    \endentry
-    \entry{pevny2016loda}{article}{}
+    \entry{Jordaan2016}{article}{}
       \name{author}{1}{}{%
-        {{hash=2b230e24f35406547952c5bd214f39f2}{%
-           family={Pevn{ỳ}},
-           familyi={P\bibinitperiod},
-           given={Tom{á}{š}},
-           giveni={T\bibinitperiod}}}%
+        {{hash=8ac2acd1b15c191ffbc7284954497244}{%
+           family={Jordaan},
+           familyi={J\bibinitperiod},
+           given={Hendrik\bibnamedelima Willem},
+           giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{2b230e24f35406547952c5bd214f39f2}
-      \strng{fullhash}{2b230e24f35406547952c5bd214f39f2}
-      \strng{bibnamehash}{2b230e24f35406547952c5bd214f39f2}
-      \strng{authorbibnamehash}{2b230e24f35406547952c5bd214f39f2}
-      \strng{authornamehash}{2b230e24f35406547952c5bd214f39f2}
-      \strng{authorfullhash}{2b230e24f35406547952c5bd214f39f2}
-      \field{sortinit}{P}
-      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \strng{namehash}{8ac2acd1b15c191ffbc7284954497244}
+      \strng{fullhash}{8ac2acd1b15c191ffbc7284954497244}
+      \strng{bibnamehash}{8ac2acd1b15c191ffbc7284954497244}
+      \strng{authorbibnamehash}{8ac2acd1b15c191ffbc7284954497244}
+      \strng{authornamehash}{8ac2acd1b15c191ffbc7284954497244}
+      \strng{authorfullhash}{8ac2acd1b15c191ffbc7284954497244}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Machine Learning}
-      \field{number}{2}
-      \field{title}{Loda: Lightweight on-line detector of anomalies}
-      \field{volume}{102}
+      \field{number}{March}
+      \field{title}{{Spinning Solar Sail: The Deployment and Control of a Spinning Solar Sail Satellite}}
       \field{year}{2016}
-      \field{pages}{275\bibrangedash 304}
-      \range{pages}{30}
+      \verb{file}
+      \verb :home/ulrich/Documents/Masters thesis/Journal articles/Satellites/jordaan{\_}spinning{\_}2016.pdf:pdf
+      \endverb
     \endentry
     \entry{rahimi2020fault}{article}{}
       \name{author}{2}{}{%
@@ -900,121 +862,82 @@
       \field{pages}{1\bibrangedash 8}
       \range{pages}{8}
     \endentry
-    \entry{ren2014convolutional}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=6c76780b356669eee1e9b917c771ea4a}{%
-           family={Ren},
+    \entry{Robertson2019}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1309b99c49de6477247f0c5b04f86cc1}{%
+           family={Robertson},
            familyi={R\bibinitperiod},
-           given={Yuanfang},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=471c49dd15af676a5f58e1283eb635ee}{%
-           family={Wu},
-           familyi={W\bibinitperiod},
-           given={Yan},
-           giveni={Y\bibinitperiod}}}%
+           given={Brent},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1e0c4e375ee203ba0bc5b912a783fde2}{%
+           family={Stoneking},
+           familyi={S\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=1309b99c49de6477247f0c5b04f86cc1}{%
+           family={Robertson},
+           familyi={R\bibinitperiod},
+           given={Brent},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1e0c4e375ee203ba0bc5b912a783fde2}{%
+           family={Stoneking},
+           familyi={S\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
       }
-      \list{organization}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{96b1624c22ac5f509e754c37458851ba}
-      \strng{fullhash}{96b1624c22ac5f509e754c37458851ba}
-      \strng{bibnamehash}{96b1624c22ac5f509e754c37458851ba}
-      \strng{authorbibnamehash}{96b1624c22ac5f509e754c37458851ba}
-      \strng{authornamehash}{96b1624c22ac5f509e754c37458851ba}
-      \strng{authorfullhash}{96b1624c22ac5f509e754c37458851ba}
+      \strng{namehash}{a675aadd696655905dc764d531f33c0f}
+      \strng{fullhash}{a675aadd696655905dc764d531f33c0f}
+      \strng{bibnamehash}{a675aadd696655905dc764d531f33c0f}
+      \strng{authorbibnamehash}{a675aadd696655905dc764d531f33c0f}
+      \strng{authornamehash}{a675aadd696655905dc764d531f33c0f}
+      \strng{authorfullhash}{a675aadd696655905dc764d531f33c0f}
       \field{sortinit}{R}
       \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2014 International joint conference on neural networks (IJCNN)}
-      \field{title}{Convolutional deep belief networks for feature extraction of EEG signal}
-      \field{year}{2014}
-      \field{pages}{2850\bibrangedash 2853}
-      \range{pages}{4}
+      \field{title}{{Am Satellite GN {\&} C Anomaly Trends SATELLITE GN {\&} C ANOMALY TRENDS}}
+      \field{year}{2019}
+      \field{pages}{0--14}
+      \range{pages}{-1}
+      \verb{file}
+      \verb :home/ulrich/Documents/Masters thesis/Journal articles/Satellites/Failures and anomalies/SATELLITE ADCS ANOMALY TRENDS.pdf:pdf
+      \endverb
+      \warn{\item Range field 'pages' in entry 'Robertson2019' is malformed, falling back to literal}
     \endentry
-    \entry{scholkopf1999support}{inproceedings}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{5}{}{%
-        {{hash=ca31cc11ec9370460148c3a9c48fce45}{%
-           family={Sch{ö}lkopf},
+    \entry{Spilhaus1987}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0d471aeba31ab4ac9909aecbe5ac2d02}{%
+           family={Spilhaus},
            familyi={S\bibinitperiod},
-           given={Bernhard},
-           giveni={B\bibinitperiod}}}%
-        {{hash=2e35ef7841aac7d181dcf0a232a11d6d}{%
-           family={Williamson},
-           familyi={W\bibinitperiod},
-           given={Robert\bibnamedelima C},
-           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=82d61e31b4f7f82ad59ff887349bdfe3}{%
-           family={Smola},
-           familyi={S\bibinitperiod},
-           given={Alexander\bibnamedelima J},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=8feae4ec394a5f6905c74b1a7abff875}{%
-           family={Shawe-Taylor},
-           familyi={S\bibinithyphendelim T\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod}}}%
-        {{hash=b18cccf0f11300769fc4b01f5fe5f13a}{%
-           family={Platt},
-           familyi={P\bibinitperiod},
-           given={John\bibnamedelima C},
-           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+           given={A.\bibnamedelimi F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
       }
-      \list{organization}{1}{%
-        {Citeseer}%
-      }
-      \strng{namehash}{8f61e0883296ec166fd5eb015dfcc115}
-      \strng{fullhash}{8f61e0883296ec166fd5eb015dfcc115}
-      \strng{bibnamehash}{8f61e0883296ec166fd5eb015dfcc115}
-      \strng{authorbibnamehash}{8f61e0883296ec166fd5eb015dfcc115}
-      \strng{authornamehash}{8f61e0883296ec166fd5eb015dfcc115}
-      \strng{authorfullhash}{8f61e0883296ec166fd5eb015dfcc115}
+      \strng{namehash}{0d471aeba31ab4ac9909aecbe5ac2d02}
+      \strng{fullhash}{0d471aeba31ab4ac9909aecbe5ac2d02}
+      \strng{bibnamehash}{0d471aeba31ab4ac9909aecbe5ac2d02}
+      \strng{authorbibnamehash}{0d471aeba31ab4ac9909aecbe5ac2d02}
+      \strng{authornamehash}{0d471aeba31ab4ac9909aecbe5ac2d02}
+      \strng{authorfullhash}{0d471aeba31ab4ac9909aecbe5ac2d02}
       \field{sortinit}{S}
       \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{NIPS}
-      \field{title}{Support vector method for novelty detection.}
-      \field{volume}{12}
-      \field{year}{1999}
-      \field{pages}{582\bibrangedash 588}
-      \range{pages}{7}
-    \endentry
-    \entry{soule2005combining}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=be0ff4c4399393338f6b8081936a0d3c}{%
-           family={Soule},
-           familyi={S\bibinitperiod},
-           given={Augustin},
-           giveni={A\bibinitperiod}}}%
-        {{hash=43373d821dbc8b5187e7c7144c65ee75}{%
-           family={Salamatian},
-           familyi={S\bibinitperiod},
-           given={Kav{é}},
-           giveni={K\bibinitperiod}}}%
-        {{hash=09db337bb7b4b87902c9226f4dc7b158}{%
-           family={Taft},
-           familyi={T\bibinitperiod},
-           given={Nina},
-           giveni={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{4111cddfe233cd335781eb9bdcc5d6b9}
-      \strng{fullhash}{4111cddfe233cd335781eb9bdcc5d6b9}
-      \strng{bibnamehash}{4111cddfe233cd335781eb9bdcc5d6b9}
-      \strng{authorbibnamehash}{4111cddfe233cd335781eb9bdcc5d6b9}
-      \strng{authornamehash}{4111cddfe233cd335781eb9bdcc5d6b9}
-      \strng{authorfullhash}{4111cddfe233cd335781eb9bdcc5d6b9}
-      \field{sortinit}{S}
-      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 5th ACM SIGCOMM conference on Internet Measurement}
-      \field{title}{Combining filtering and statistical methods for anomaly detection}
-      \field{year}{2005}
-      \field{pages}{31\bibrangedash 31}
+      \field{abstract}{The National Research Council (NRC) Committee on the Space Station has completed its report to the White House and NASA. Congress will hold final hearings this fall on the NASA FY 1987 budget and will decide whether to go ahead now with this major program. The NRC report stresses the need for a national commitment to the Space Station for it to be successful. Now is an appropriate time for the members of AGU to consider the proposed program and to make their views known by writing to Eos. ©1987. American Geophysical Union. All Rights Reserved.}
+      \field{issn}{23249250}
+      \field{journaltitle}{Eos, Transactions American Geophysical Union}
+      \field{number}{39}
+      \field{title}{{Space station?}}
+      \field{volume}{68}
+      \field{year}{1987}
+      \field{pages}{770\bibrangedash 770}
       \range{pages}{1}
+      \verb{doi}
+      \verb 10.1029/EO068i039p00770-04
+      \endverb
+      \verb{file}
+      \verb :home/ulrich/Documents/Masters thesis/Journal articles/Satellites/Failures and anomalies/A Reliability Driven Mission For Space station.pdf:pdf
+      \endverb
+      \keyw{communication satellites,conclusions,cost models,failure rate,fuel,hubble space telescope has,replacement,satellite reliabilie,satellite repair,satellites,shuttle,space station repair,summary,the repair of the,validated}
     \endentry
     \entry{tafazoli2009study}{article}{}
       \name{author}{1}{}{%
@@ -1045,37 +968,6 @@
       \field{pages}{195\bibrangedash 205}
       \range{pages}{11}
     \endentry
-    \entry{tax2001uniform}{article}{}
-      \name{author}{2}{}{%
-        {{hash=662c03d20a7b5a95ed2721fc5d370cb7}{%
-           family={Tax},
-           familyi={T\bibinitperiod},
-           given={David\bibnamedelima MJ},
-           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=8fd47b4fa2f5626fcfdc1720b13328fe}{%
-           family={Duin},
-           familyi={D\bibinitperiod},
-           given={Robert\bibnamedelima PW},
-           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-      }
-      \strng{namehash}{0f3390ad0d39142484fa70c3fbf832d8}
-      \strng{fullhash}{0f3390ad0d39142484fa70c3fbf832d8}
-      \strng{bibnamehash}{0f3390ad0d39142484fa70c3fbf832d8}
-      \strng{authorbibnamehash}{0f3390ad0d39142484fa70c3fbf832d8}
-      \strng{authornamehash}{0f3390ad0d39142484fa70c3fbf832d8}
-      \strng{authorfullhash}{0f3390ad0d39142484fa70c3fbf832d8}
-      \field{sortinit}{T}
-      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of machine learning research}
-      \field{number}{Dec}
-      \field{title}{Uniform object generation for optimizing one-class classifiers}
-      \field{volume}{2}
-      \field{year}{2001}
-      \field{pages}{155\bibrangedash 173}
-      \range{pages}{19}
-    \endentry
     \entry{wander2013innovative}{book}{}
       \name{author}{2}{}{%
         {{hash=0f117a43f91bc65cff19518fe9ba121b}{%
@@ -1105,114 +997,47 @@
       \field{title}{Innovative fault detection, isolation and recovery strategies on-board spacecraft: state of the art and research challenges}
       \field{year}{2013}
     \endentry
-    \entry{wiatowski2017mathematical}{article}{}
-      \name{author}{2}{}{%
-        {{hash=5aaad0542f0759f9725ddfdff80dcc1e}{%
-           family={Wiatowski},
+    \entry{Wintoft}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c22ffd8d1f3baf186ef3366f1bf584de}{%
+           family={Wintoft},
            familyi={W\bibinitperiod},
-           given={Thomas},
-           giveni={T\bibinitperiod}}}%
-        {{hash=ccf5c8477a45f7cdcda5ea166d4bd846}{%
-           family={B{ö}lcskei},
-           familyi={B\bibinitperiod},
-           given={Helmut},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=afd419c8c416bb98aeab57e4df68f7a7}{%
+           family={Lundstedt},
+           familyi={L\bibinitperiod},
+           given={Henrik},
            giveni={H\bibinitperiod}}}%
+        {{hash=6a28744e5565c611d4df2e2df98086ca}{%
+           family={Eliasson},
+           familyi={E\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2747913d7d35aeba7647c636e66363be}{%
+           family={Kalla},
+           familyi={K\bibinitperiod},
+           given={Leif},
+           giveni={L\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{5bef62af798dd0b6f054f5bc2075728d}
-      \strng{fullhash}{5bef62af798dd0b6f054f5bc2075728d}
-      \strng{bibnamehash}{5bef62af798dd0b6f054f5bc2075728d}
-      \strng{authorbibnamehash}{5bef62af798dd0b6f054f5bc2075728d}
-      \strng{authornamehash}{5bef62af798dd0b6f054f5bc2075728d}
-      \strng{authorfullhash}{5bef62af798dd0b6f054f5bc2075728d}
+      \strng{namehash}{acefec94d7ee2d4bc753c023c1c0b94e}
+      \strng{fullhash}{acefec94d7ee2d4bc753c023c1c0b94e}
+      \strng{bibnamehash}{acefec94d7ee2d4bc753c023c1c0b94e}
+      \strng{authorbibnamehash}{acefec94d7ee2d4bc753c023c1c0b94e}
+      \strng{authornamehash}{acefec94d7ee2d4bc753c023c1c0b94e}
+      \strng{authorfullhash}{acefec94d7ee2d4bc753c023c1c0b94e}
       \field{sortinit}{W}
       \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Information Theory}
-      \field{number}{3}
-      \field{title}{A mathematical theory of deep convolutional neural networks for feature extraction}
-      \field{volume}{64}
-      \field{year}{2017}
-      \field{pages}{1845\bibrangedash 1866}
-      \range{pages}{22}
-    \endentry
-    \entry{zha2020meta}{article}{}
-      \name{author}{4}{}{%
-        {{hash=906b59d1cc2e5b314c20ab36e5c76442}{%
-           family={Zha},
-           familyi={Z\bibinitperiod},
-           given={Daochen},
-           giveni={D\bibinitperiod}}}%
-        {{hash=ef6a5e943d33b7faaae1a26edb54e594}{%
-           family={Lai},
-           familyi={L\bibinitperiod},
-           given={Kwei-Herng},
-           giveni={K\bibinithyphendelim H\bibinitperiod}}}%
-        {{hash=d9dc08bc5eaea52bb7da3263bac6a94c}{%
-           family={Wan},
-           familyi={W\bibinitperiod},
-           given={Mingyang},
-           giveni={M\bibinitperiod}}}%
-        {{hash=13be76d254e7c2f65cfc92bc75bb18fd}{%
-           family={Hu},
-           familyi={H\bibinitperiod},
-           given={Xia},
-           giveni={X\bibinitperiod}}}%
-      }
-      \strng{namehash}{887c40f5be9fc2d800ed148ff9796bde}
-      \strng{fullhash}{887c40f5be9fc2d800ed148ff9796bde}
-      \strng{bibnamehash}{887c40f5be9fc2d800ed148ff9796bde}
-      \strng{authorbibnamehash}{887c40f5be9fc2d800ed148ff9796bde}
-      \strng{authornamehash}{887c40f5be9fc2d800ed148ff9796bde}
-      \strng{authorfullhash}{887c40f5be9fc2d800ed148ff9796bde}
-      \field{sortinit}{Z}
-      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint arXiv:2009.07415}
-      \field{title}{Meta-AAD: Active Anomaly Detection with Deep Reinforcement Learning}
-      \field{year}{2020}
-    \endentry
-    \entry{zhang2018adaptive}{article}{}
-      \name{author}{3}{}{%
-        {{hash=c9011df8226fb01a808f122e7c675c36}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Liangwei},
-           giveni={L\bibinitperiod}}}%
-        {{hash=0b8be9667199be795ead5d6b0aa56b61}{%
-           family={Lin},
-           familyi={L\bibinitperiod},
-           given={Jing},
-           giveni={J\bibinitperiod}}}%
-        {{hash=0998b76fede44a50c24cd7131674fb4f}{%
-           family={Karim},
-           familyi={K\bibinitperiod},
-           given={Ramin},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{16950bca0192441d69c67d33c9948dfd}
-      \strng{fullhash}{16950bca0192441d69c67d33c9948dfd}
-      \strng{bibnamehash}{16950bca0192441d69c67d33c9948dfd}
-      \strng{authorbibnamehash}{16950bca0192441d69c67d33c9948dfd}
-      \strng{authornamehash}{16950bca0192441d69c67d33c9948dfd}
-      \strng{authorfullhash}{16950bca0192441d69c67d33c9948dfd}
-      \field{sortinit}{Z}
-      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Knowledge-Based Systems}
-      \field{title}{Adaptive kernel density-based anomaly detection for nonlinear systems}
-      \field{volume}{139}
-      \field{year}{2018}
-      \field{pages}{50\bibrangedash 63}
-      \range{pages}{14}
+      \field{journaltitle}{World}
+      \field{number}{1}
+      \field{title}{{Analysis and prediction of satellite anomalies}}
+      \field{pages}{19\bibrangedash 22}
+      \range{pages}{4}
+      \verb{file}
+      \verb :home/ulrich/Documents/Masters thesis/Journal articles/Satellites/Failures and anomalies/ANALYSIS{\_}AND{\_}PREDICTION{\_}OF{\_}SATELLITE{\_}ANOMALIES.pdf:pdf
+      \endverb
     \endentry
     \entry{zhu2017quality}{inproceedings}{}
       \name{author}{3}{}{%
