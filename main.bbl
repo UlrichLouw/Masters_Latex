@@ -152,6 +152,65 @@
       \field{pages}{181\bibrangedash 188}
       \range{pages}{8}
     \endentry
+    \entry{Chen2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b3ee3233c17cf9034df5ed479de07344}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Hansi},
+           giveni={H\bibinitperiod}}}%
+        {{hash=852980778961967f6d7707fea0c770ec}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Hongzhan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c7d160c9810ab6e43b9c6c0f7675f03b}{%
+           family={Chu},
+           familyi={C\bibinitperiod},
+           given={Xuening},
+           giveni={X\bibinitperiod}}}%
+        {{hash=279dee0bcd664db9f8ec71782a5eca5d}{%
+           family={Xue},
+           familyi={X\bibinitperiod},
+           given={Deyi},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{fc9ee5800ad4f3481e22d4bfa80fa804}
+      \strng{fullhash}{fc9ee5800ad4f3481e22d4bfa80fa804}
+      \strng{bibnamehash}{fc9ee5800ad4f3481e22d4bfa80fa804}
+      \strng{authorbibnamehash}{fc9ee5800ad4f3481e22d4bfa80fa804}
+      \strng{authornamehash}{fc9ee5800ad4f3481e22d4bfa80fa804}
+      \strng{authorfullhash}{fc9ee5800ad4f3481e22d4bfa80fa804}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Performance analysis of the existing mechanical products is critical to identifying design defects and improving product reliability. With the advances of information technologies, product operating data collected through continuous condition monitoring (CM) serve as main sources for analysis of performance and detection of anomaly. Most of the existing anomaly detection methods, however, are not effective when CM data are very high dimensional, leading to poor quality of assessment results. Besides, the effects of multiple operating conditions on anomaly detection are seldom considered in these existing methods. To solve these problems, an integrated approach for anomaly detection and critical behavioral attributes identification based on CM data is developed in this research. Gaussian mixed model GMM) is employed to develop a method for clustering of operating conditions. Isolation forest (iForest) method is used to detect anomaly instances, and further to identify the critical attributes related to product performance degradation. The effectiveness of the developed approach is demonstrated by an application with collected operating data of a wind turbine.}
+      \field{issn}{14740346}
+      \field{journaltitle}{Advanced Engineering Informatics}
+      \field{number}{July}
+      \field{title}{{Anomaly detection and critical attributes identification for products with multiple operating conditions based on isolation forest}}
+      \field{volume}{46}
+      \field{year}{2020}
+      \field{pages}{101139}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.aei.2020.101139
+      \endverb
+      \verb{file}
+      \verb :home/ulrich/Documents/Masters thesis/Journal articles/FDIR/Unsupervised Learning/Isolation Forests/Isolation_Forest_EGG.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.aei.2020.101139
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.aei.2020.101139
+      \endverb
+      \keyw{Condition monitoring data,Critical attributes identification,Isolation forest,Operating condition}
+    \endentry
     \entry{chen2017fault}{article}{}
       \name{author}{5}{}{%
         {{hash=9544f4984c8834ebe650f4b93f09cbcc}{%
@@ -584,6 +643,55 @@
       \endverb
       \keyw{Bayesian methods,In-orbit failure,Markov Chain Monte Carlo,Reliability,Small satellite,Statistical analysis}
     \endentry
+    \entry{Hariri2021}{article}{}
+      \name{author}{3}{}{%
+        {{hash=eb040baf74ac7af9f58367d026a729bd}{%
+           family={Hariri},
+           familyi={H\bibinitperiod},
+           given={Sahand},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9d779bbd9a1d21c31294ef3e6dade53d}{%
+           family={Kind},
+           familyi={K\bibinitperiod},
+           given={Matias\bibnamedelima Carrasco},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=d95c60a2e2434b3dcfd47b8af26bd4a8}{%
+           family={Brunner},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac12b86cd4ce9c154416da4c443c761a}
+      \strng{fullhash}{ac12b86cd4ce9c154416da4c443c761a}
+      \strng{bibnamehash}{ac12b86cd4ce9c154416da4c443c761a}
+      \strng{authorbibnamehash}{ac12b86cd4ce9c154416da4c443c761a}
+      \strng{authornamehash}{ac12b86cd4ce9c154416da4c443c761a}
+      \strng{authorfullhash}{ac12b86cd4ce9c154416da4c443c761a}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present an extension to the model-free anomaly detection algorithm, Isolation Forest. This extension, named Extended Isolation Forest (EIF), resolves issues with assignment of anomaly score to given data points. We motivate the problem using heat maps for anomaly scores. These maps suffer from artifacts generated by the criteria for branching operation of the binary tree. We explain this problem in detail and demonstrate the mechanism by which it occurs visually. We then propose two different approaches for improving the situation. First we propose transforming the data randomly before creation of each tree, which results in averaging out the bias. Second, which is the preferred way, is to allow the slicing of the data to use hyperplanes with random slopes. This approach results in remedying the artifact seen in the anomaly score heat maps. We show that the robustness of the algorithm is much improved using this method by looking at the variance of scores of data points distributed along constant level sets. We report AUROC and AUPRC for our synthetic datasets, along with real-world benchmark datasets. We find no appreciable difference in the rate of convergence nor in computation time between the standard Isolation Forest and EIF.}
+      \field{eprinttype}{arXiv}
+      \field{issn}{15582191}
+      \field{journaltitle}{IEEE Transactions on Knowledge and Data Engineering}
+      \field{number}{4}
+      \field{title}{{Extended Isolation Forest}}
+      \field{volume}{33}
+      \field{year}{2021}
+      \field{pages}{1479\bibrangedash 1489}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/TKDE.2019.2947676
+      \endverb
+      \verb{eprint}
+      \verb 1811.02141
+      \endverb
+      \verb{file}
+      \verb :home/ulrich/Documents/Masters thesis/Journal articles/FDIR/Unsupervised Learning/Isolation Forests/Extended Isolation Forest.pdf:pdf
+      \endverb
+      \keyw{Anomaly detection,isolation forest}
+    \endentry
     \entry{hershey2007approximating}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=fae6a619b280cd44e2a8324d929ff4cc}{%
@@ -967,6 +1075,48 @@
       \field{year}{2009}
       \field{pages}{195\bibrangedash 205}
       \range{pages}{11}
+    \endentry
+    \entry{TonyLiu2008}{article}{}
+      \name{author}{3}{}{%
+        {{hash=568fc649bf68585469671e6c88b97180}{%
+           family={{Tony Liu}},
+           familyi={T\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod}}}%
+        {{hash=37c3297428b9878d0ca4d076cbc1f0a2}{%
+           family={{Ming Ting}},
+           familyi={M\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6b1a37e820a730061851a81dcca2d154}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Zhi-Hua},
+           giveni={Z\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{f90d933362c9aed0d911f7b84a7ec9b3}
+      \strng{fullhash}{f90d933362c9aed0d911f7b84a7ec9b3}
+      \strng{bibnamehash}{f90d933362c9aed0d911f7b84a7ec9b3}
+      \strng{authorbibnamehash}{f90d933362c9aed0d911f7b84a7ec9b3}
+      \strng{authornamehash}{f90d933362c9aed0d911f7b84a7ec9b3}
+      \strng{authorfullhash}{f90d933362c9aed0d911f7b84a7ec9b3}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Most existing model-based approaches to anomaly detection construct a profile of normal instances, then identify instances that do not conform to the normal profile as anomalies. This paper proposes a fundamentally different model-based method that explicitly isolates anomalies instead of profiles normal points. To our best knowledge, the concept of isolation has not been explored in current literature. The use of isolation enables the proposed method, iForest, to exploit sub-sampling to an extent that is not feasible in existing methods, creating an algorithm which has a linear time complexity with a low constant and a low memory requirement. Our empirical evaluation shows that iFor-est performs favourably to ORCA, a near-linear time complexity distance-based method, LOF and Random Forests in terms of AUC and processing time, and especially in large data sets. iForest also works well in high dimensional problems which have a large number of irrelevant attributes, and in situations where training set does not contain any anomalies.}
+      \field{journaltitle}{Icdm}
+      \field{title}{{Isolation Forest ICDM08}}
+      \field{year}{2008}
+      \verb{file}
+      \verb :home/ulrich/Documents/Masters thesis/Journal articles/FDIR/Unsupervised Learning/Isolation Forests/Isolation forest.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf%0Ahttps://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf?q=isolation-forest
+      \endverb
+      \verb{url}
+      \verb https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf%0Ahttps://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf?q=isolation-forest
+      \endverb
     \endentry
     \entry{wander2013innovative}{book}{}
       \name{author}{2}{}{%

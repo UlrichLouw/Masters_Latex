@@ -230,7 +230,57 @@ Density-based, distance, Clustering
 \subsection{Random Forests}
 
 \subsection{Isolation Forests}
-Isolation Forests: Are based on the pIndependentrinciple of randomly dividing a dataset. The data points that are closer to the root of the division is anomalies. Isolation forest are small in memory and are fast in computing anomalies.
+This unsupervised learning methods is based on the principle of isolating data points by slicing the data with random conditions \cite{TonyLiu2008}. The data is randomly split into specified sample sizes with a randomly selected dimension and a randomly selected cut-off value. For each sample size the data must be split until each data point within the sample is isolated from all other data points. Training of a single tree is completed when all the data points are isolated and this training must be repeated for all the data samples, however many are predefined. 
+
+The distance measured from the first split the \emph{tree top} to the isolated data point is used to determine whether a data point is anomalous or not \cite{Hariri2021}. The logical reasoning for support of this algorithm is that data points which are non-anomalous will be more closely related and hence have more splits to separate the data points until isolation is achieved. Therefore, the distance from the tree top for non-anomalous data points will be longer than anomalous data points which will have a shorter distance from the tree top. Therefore non-anomalous data points are closer to the \emph{root}. 
+
+Figure~\ref{Figure-Isolation_Forest} demonstrates the splitting of the data points until isolated. Each split or \emph{branch} only splits the data into two groups. After training multiple trees, a single data point is "sent through the forest" and the distance from the tree top for each tree is calculated and the average of all the trees are used to calculated the average distance for the data point. Using a threshold for the distance, the data point is classified as anomalous or not.
+
+\begin{figure}[h!tb]
+	\centering
+	
+	\includegraphics[width=10cm]{fig/Isolation_Forests} % not necessary to give extension - now you can shift between compiling to ps or to pdf without any problems
+	
+	\caption[Isolation Forest]{Isolation Forests \cite{Chen2020}}
+	\label{Figure-Isolation_Forest} 
+\end{figure}
+
+The anomaly score is calculated with Eq~\ref{Eq-Isolation_anomaly}
+\begin{equation}
+s(x,n) = 2^{-E(h(x))/c(n)}
+\label{Eq-Isolation_anomaly}
+\end{equation}
+where $E(h(x))$ is the average value of the distance measured from the tree top for a single data point in all the trees \cite{Hariri2021} and $n$ is the size of a data sample used to train a single tree. For the distance to be normalized, $c(n)$ --- the mean distance from the tree top in an unsuccessful search in a \emph{Binary Search Tree} (BST) --- is used and is calculated as 
+\begin{equation}
+c(n) = 2H(n-1) - \frac{2(n-1)}{n}.
+\label{Eq-normalizing_isolation}
+\end{equation}
+$H(i)$ in Eq~\ref{Eq-normalizing_isolation} is the harmonic number and is estimated with Euler's constant as 
+\begin{equation}
+H(i) \approx ln(i) + 0.5772156649.
+\label{Eq-H_i}
+\end{equation}
+Isolation Forests, however have multiple issues, since it splits data in rectangles as seen in Figure~\subref{Figure-ExtendedvsNormal_first}. This is due to the slicing algorithm selecting a feature, $x$ and a cut-off value, $v$. Consequently, the data is either split vertically or horizontally --- if seen as a two dimensional dataset. This split method is unable to categorise complex data structures. These issues however are addressed by \textcite{Hariri2021} and led to the \emph{Extended Isolation Forest} algorithm.
+
+The extended isolation forest algorithm generalises the isolation forest algorithm by applying a slope to each slice. Data points are therefore divided into two groups depending on the "side" of the plane or slice as seen in Figure~\subref{Figure-ExtendedvsNormal_second}.
+
+\begin{figure}[h!tb]
+	\centering
+	
+	\subfloat[][Isolation Forest Slicing example]{
+		\includegraphics[trim = 0 0 725 0, clip = true, width=7cm]{fig/Isolation_forest_slicing}
+		\label{Figure-ExtendedvsNormal_first}
+	}
+	\quad
+	\subfloat[][Extended Isolation Forest Slicing example]{
+		\includegraphics[trim = 0 0 725 0, clip=true,width=7cm]{fig/Extended_Isolation_forest_slicing}
+		\label{Figure-ExtendedvsNormal_second}
+	}
+	\caption[Slicing of Isolation Forest]{The slicing of Isolation Forest vs Extended Isolation Forest}
+	\label{Figure-ExtendedvsNormal}
+\end{figure}
+
+It is evident that applying an angle of $0\degree$ to all the slices the general algorithm of the extended isolation forest produces the standard isolation forest algorithm where planes or slices are perpendicular to the axis of the randomly selected feature, $x$.
 
 \subsection{Local Outlier Factor}
 LOF: Local outlier factor is a method of determining how much an outlier a specific data point is relative to a neighbourhood of other data points.

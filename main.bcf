@@ -91,15 +91,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>99</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>99</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>99</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -2197,26 +2197,32 @@
     <bcf:citekey order="15">chen2020just</bcf:citekey>
     <bcf:citekey order="16">choi2005fault</bcf:citekey>
     <bcf:citekey order="17">ding2010application</bcf:citekey>
-    <bcf:citekey order="18">auret2012design</bcf:citekey>
-    <bcf:citekey order="18">JansevanVuuren2015</bcf:citekey>
-    <bcf:citekey order="18">Jordaan2016</bcf:citekey>
-    <bcf:citekey order="19">tafazoli2009study</bcf:citekey>
-    <bcf:citekey order="20">Guo2014</bcf:citekey>
-    <bcf:citekey order="21">Spilhaus1987</bcf:citekey>
-    <bcf:citekey order="22">allen2012satellite</bcf:citekey>
-    <bcf:citekey order="23">Jacklin2019</bcf:citekey>
-    <bcf:citekey order="24">Wintoft</bcf:citekey>
-    <bcf:citekey order="25">Choi2011</bcf:citekey>
-    <bcf:citekey order="26">Spilhaus1987</bcf:citekey>
-    <bcf:citekey order="27">Crowell2011</bcf:citekey>
-    <bcf:citekey order="28">Spilhaus1987</bcf:citekey>
+    <bcf:citekey order="18">TonyLiu2008</bcf:citekey>
+    <bcf:citekey order="19">Hariri2021</bcf:citekey>
+    <bcf:citekey order="20">Chen2020</bcf:citekey>
+    <bcf:citekey order="21">Chen2020</bcf:citekey>
+    <bcf:citekey order="22">Hariri2021</bcf:citekey>
+    <bcf:citekey order="23">Hariri2021</bcf:citekey>
+    <bcf:citekey order="24">auret2012design</bcf:citekey>
+    <bcf:citekey order="24">JansevanVuuren2015</bcf:citekey>
+    <bcf:citekey order="24">Jordaan2016</bcf:citekey>
+    <bcf:citekey order="25">tafazoli2009study</bcf:citekey>
+    <bcf:citekey order="26">Guo2014</bcf:citekey>
+    <bcf:citekey order="27">Spilhaus1987</bcf:citekey>
+    <bcf:citekey order="28">allen2012satellite</bcf:citekey>
     <bcf:citekey order="29">Jacklin2019</bcf:citekey>
-    <bcf:citekey order="30">Robertson2019</bcf:citekey>
-    <bcf:citekey order="31">Crowell2011</bcf:citekey>
-    <bcf:citekey order="32">Jacklin2019</bcf:citekey>
+    <bcf:citekey order="30">Wintoft</bcf:citekey>
+    <bcf:citekey order="31">Choi2011</bcf:citekey>
+    <bcf:citekey order="32">Spilhaus1987</bcf:citekey>
     <bcf:citekey order="33">Crowell2011</bcf:citekey>
-    <bcf:citekey order="34">Crowell2011</bcf:citekey>
+    <bcf:citekey order="34">Spilhaus1987</bcf:citekey>
     <bcf:citekey order="35">Jacklin2019</bcf:citekey>
+    <bcf:citekey order="36">Robertson2019</bcf:citekey>
+    <bcf:citekey order="37">Crowell2011</bcf:citekey>
+    <bcf:citekey order="38">Jacklin2019</bcf:citekey>
+    <bcf:citekey order="39">Crowell2011</bcf:citekey>
+    <bcf:citekey order="40">Crowell2011</bcf:citekey>
+    <bcf:citekey order="41">Jacklin2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

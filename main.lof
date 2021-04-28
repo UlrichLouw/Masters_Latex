@@ -16,20 +16,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Guassian Distributions\relax }}{9}{figure.caption.13}%
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Isolation Forest}}{11}{figure.caption.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Simulation}{13}{chapter.3}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Conclusion}{15}{chapter.4}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Slicing of Isolation Forest}}{12}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Project Timeline}{19}{appendix.A}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Expected timeline in Gannt-chart form.\relax }}{20}{figure.caption.20}%
+\contentsline {xchapter}{Simulation}{15}{chapter.3}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Data}{21}{appendix.B}%
+\contentsline {xchapter}{Conclusion}{17}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {xchapter}{Project Timeline}{21}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Expected timeline in Gannt-chart form.\relax }}{22}{figure.caption.22}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {xchapter}{Data}{23}{appendix.B}%
