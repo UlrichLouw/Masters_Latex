@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.4.23)  28 APR 2021 11:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.4.23)  29 APR 2021 16:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1403,6 +1403,10 @@ Package minitoc Info: I0033
 (minitoc)             Writing main.mtc16.
 \openout3 = `main.mtc16'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc17.
+\openout3 = `main.mtc17'.
+
  (./preamble.tex [2] [3
 
 ] [4] [5
@@ -1488,29 +1492,32 @@ Underfull \hbox (badness 10000) detected at line 120
  []
 
 [8] [9] [10]
-<fig/Isolation_Forests.jpg, id=671, 347.27974pt x 194.42549pt>
+<fig/Isolation_Forests.jpg, id=689, 347.27974pt x 194.42549pt>
 File: fig/Isolation_Forests.jpg Graphic file (type jpg)
 <use fig/Isolation_Forests.jpg>
-Package pdftex.def Info: fig/Isolation_Forests.jpg  used on input line 242.
+Package pdftex.def Info: fig/Isolation_Forests.jpg  used on input line 243.
 (pdftex.def)             Requested size: 284.52756pt x 159.30531pt.
  [11 <./fig/Isolation_Forests.jpg>]
-<fig/Isolation_forest_slicing.png, id=689, 1102.1175pt x 383.4325pt>
+<fig/Isolation_forest_slicing.png, id=707, 1102.1175pt x 383.4325pt>
 File: fig/Isolation_forest_slicing.png Graphic file (type png)
 <use fig/Isolation_forest_slicing.png>
 Package pdftex.def Info: fig/Isolation_forest_slicing.png  used on input line 2
-73.
+74.
 (pdftex.def)             Requested size: 199.16928pt x 203.97885pt.
-<fig/Extended_Isolation_forest_slicing.png, id=692, 1102.1175pt x 383.4325pt>
+<fig/Extended_Isolation_forest_slicing.png, id=710, 1102.1175pt x 383.4325pt>
 File: fig/Extended_Isolation_forest_slicing.png Graphic file (type png)
 <use fig/Extended_Isolation_forest_slicing.png>
 Package pdftex.def Info: fig/Extended_Isolation_forest_slicing.png  used on inp
-ut line 278.
+ut line 279.
 (pdftex.def)             Requested size: 199.16928pt x 203.97885pt.
  [12 <./fig/Isolation_forest_slicing.png> <./fig/Extended_Isolation_forest_slic
-ing.png>])
-(./chapter/Simulation.tex [13] [14
-
-]
+ing.png>]
+<fig/LOF_measure.png, id=729, 462.528pt x 346.896pt>
+File: fig/LOF_measure.png Graphic file (type png)
+<use fig/LOF_measure.png>
+Package pdftex.def Info: fig/LOF_measure.png  used on input line 292.
+(pdftex.def)             Requested size: 284.52756pt x 213.40593pt.
+ [13 <./fig/LOF_measure.png>]) (./chapter/Simulation.tex [14]
 Chapter 3.
 \openout3 = `main.mtc'.
 
@@ -1525,7 +1532,9 @@ See the caption package documentation for explanation.
 LaTeX Warning: Reference `ADCS fault table' on page 15 undefined on input line 
 16.
 
-[15]
+[15
+
+]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 19.
@@ -1535,26 +1544,34 @@ Overfull \hbox (2.18687pt too wide) in paragraph at lines 21--128
 [][]
  []
 
-) (./chapter/last_chapter.tex [16]
+) (./chapter/Implementation.tex [16]
 Chapter 4.
 \openout3 = `main.mtc'.
 
 \openout3 = `main.mtc'.
 
-(./main.mtc13) [17
+(./main.mtc13)) (./chapter/last_chapter.tex [17
 
-]) [18] [19
+] [18
 
-] (./chapter/appendixA.tex [20]
+]
+Chapter 5.
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+(./main.mtc14) [19]) [20] [21
+
+] (./chapter/appendixA.tex [22]
 Appendix A.
-<fig/Timeline.png, id=783, 944.7797pt x 630.10406pt>
+<fig/Timeline.png, id=817, 944.7797pt x 630.10406pt>
 File: fig/Timeline.png Graphic file (type png)
 <use fig/Timeline.png>
 Package pdftex.def Info: fig/Timeline.png  used on input line 8.
 (pdftex.def)             Requested size: 944.77739pt x 630.10252pt.
-) (./chapter/appendixB.tex [21
+) (./chapter/appendixB.tex [23
 
-] [22 <./fig/Timeline.png>]
+] [24 <./fig/Timeline.png>]
 Appendix B.
 )
 Package minitoc Info: I0009
@@ -1562,16 +1579,16 @@ Package minitoc Info: I0009
 (minitoc)             Creating the main.maf file.
 \openout3 = `main.maf'.
 
- [23
+ [25
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DC1CB39D55064C9C3E3025AA863F8AC0;5179.
+(rerunfilecheck)             Checksum: 7F03F2BF9FA7380A9E22937BB6E6F4A8;5324.
 
 
 LaTeX Warning: There were undefined references.
@@ -1581,10 +1598,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40157 strings out of 483183
- 883973 string characters out of 5966292
- 1640844 words of memory out of 5000000
- 54091 multiletter control sequences out of 15000+600000
+ 40207 strings out of 483183
+ 885066 string characters out of 5966292
+ 1641099 words of memory out of 5000000
+ 54122 multiletter control sequences out of 15000+600000
  543412 words of font info for 65 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  68i,20n,102p,1727b,2028s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1605,10 +1622,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (49 pages, 703573 bytes).
+Output written on main.pdf (51 pages, 746940 bytes).
 PDF statistics:
- 907 PDF objects out of 1000 (max. 8388607)
- 817 compressed objects within 9 object streams
- 200 named destinations out of 1000 (max. 500000)
- 611 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 942 PDF objects out of 1000 (max. 8388607)
+ 848 compressed objects within 9 object streams
+ 210 named destinations out of 1000 (max. 500000)
+ 632 words of extra memory for PDF output out of 10000 (max. 10000000)
 

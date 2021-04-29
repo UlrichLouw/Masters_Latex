@@ -41,30 +41,32 @@
 \BOOKMARK [2][-]{subsection.2.3.8}{Autoencoder}{section.2.3}% 41
 \BOOKMARK [2][-]{subsection.2.3.9}{t-Distributed Stochastic Neighbor Embedding}{section.2.3}% 42
 \BOOKMARK [1][-]{section.2.4}{Supervised Learning}{chapter.2}% 43
-\BOOKMARK [2][-]{subsection.2.4.1}{Long Short Term Memory}{section.2.4}% 44
-\BOOKMARK [2][-]{subsection.2.4.2}{Support Vector Machines}{section.2.4}% 45
-\BOOKMARK [2][-]{subsection.2.4.3}{Naive Bayes}{section.2.4}% 46
-\BOOKMARK [2][-]{subsection.2.4.4}{K-nearest neighbours}{section.2.4}% 47
-\BOOKMARK [2][-]{subsection.2.4.5}{Artificial Neural Networks}{section.2.4}% 48
-\BOOKMARK [1][-]{section.2.5}{Unsupervised Learning}{chapter.2}% 49
-\BOOKMARK [2][-]{subsection.2.5.1}{Random Forests}{section.2.5}% 50
-\BOOKMARK [2][-]{subsection.2.5.2}{Isolation Forests}{section.2.5}% 51
-\BOOKMARK [2][-]{subsection.2.5.3}{Local Outlier Factor}{section.2.5}% 52
-\BOOKMARK [2][-]{subsection.2.5.4}{K-means Clustering}{section.2.5}% 53
-\BOOKMARK [2][-]{subsection.2.5.5}{Kernel Adaptive Density-based}{section.2.5}% 54
-\BOOKMARK [2][-]{subsection.2.5.6}{Loda}{section.2.5}% 55
-\BOOKMARK [2][-]{subsection.2.5.7}{Robust-kernel Density Estimation}{section.2.5}% 56
+\BOOKMARK [2][-]{subsection.2.4.1}{Random Forests}{section.2.4}% 44
+\BOOKMARK [2][-]{subsection.2.4.2}{Long Short Term Memory}{section.2.4}% 45
+\BOOKMARK [2][-]{subsection.2.4.3}{Support Vector Machines}{section.2.4}% 46
+\BOOKMARK [2][-]{subsection.2.4.4}{Naive Bayes}{section.2.4}% 47
+\BOOKMARK [2][-]{subsection.2.4.5}{K-nearest neighbours}{section.2.4}% 48
+\BOOKMARK [2][-]{subsection.2.4.6}{Artificial Neural Networks}{section.2.4}% 49
+\BOOKMARK [1][-]{section.2.5}{Unsupervised Learning}{chapter.2}% 50
+\BOOKMARK [2][-]{subsection.2.5.1}{Isolation Forests}{section.2.5}% 51
+\BOOKMARK [2][-]{subsection.2.5.2}{Local Outlier Factor}{section.2.5}% 52
+\BOOKMARK [2][-]{subsection.2.5.3}{K-means Clustering}{section.2.5}% 53
+\BOOKMARK [2][-]{subsection.2.5.4}{Kernel Adaptive Density-based}{section.2.5}% 54
+\BOOKMARK [2][-]{subsection.2.5.5}{Loda}{section.2.5}% 55
+\BOOKMARK [2][-]{subsection.2.5.6}{Robust-kernel Density Estimation}{section.2.5}% 56
 \BOOKMARK [1][-]{section.2.6}{Reinforcement Learning}{chapter.2}% 57
 \BOOKMARK [1][-]{section.2.7}{Summary}{chapter.2}% 58
 \BOOKMARK [0][-]{chapter.3}{Simulation}{}% 59
 \BOOKMARK [1][-]{section.3.1}{Satellites}{chapter.3}% 60
 \BOOKMARK [1][-]{section.3.2}{ADCS}{chapter.3}% 61
 \BOOKMARK [1][-]{section.3.3}{Typical Faults}{chapter.3}% 62
-\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 63
-\BOOKMARK [1][-]{section.4.1}{Project/thesis/dissertation summary}{chapter.4}% 64
-\BOOKMARK [1][-]{section.4.2}{Appraisal of project/thesis/dissertation contributions}{chapter.4}% 65
-\BOOKMARK [1][-]{section.4.3}{Suggestions for future work}{chapter.4}% 66
-\BOOKMARK [1][-]{section.4.4}{What the student has learnt during this project}{chapter.4}% 67
-\BOOKMARK [0][-]{chapter*.21}{References}{}% 68
-\BOOKMARK [0][-]{appendix.A}{Project Timeline}{}% 69
-\BOOKMARK [0][-]{appendix.B}{Data}{}% 70
+\BOOKMARK [0][-]{chapter.4}{Implementation of Methods on Actual Satellite}{}% 63
+\BOOKMARK [1][-]{section.4.1}{Isolation Forests}{chapter.4}% 64
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 65
+\BOOKMARK [1][-]{section.5.1}{Project/thesis/dissertation summary}{chapter.5}% 66
+\BOOKMARK [1][-]{section.5.2}{Appraisal of project/thesis/dissertation contributions}{chapter.5}% 67
+\BOOKMARK [1][-]{section.5.3}{Suggestions for future work}{chapter.5}% 68
+\BOOKMARK [1][-]{section.5.4}{What the student has learnt during this project}{chapter.5}% 69
+\BOOKMARK [0][-]{chapter*.22}{References}{}% 70
+\BOOKMARK [0][-]{appendix.A}{Project Timeline}{}% 71
+\BOOKMARK [0][-]{appendix.B}{Data}{}% 72

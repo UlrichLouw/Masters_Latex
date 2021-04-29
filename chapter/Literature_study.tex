@@ -209,6 +209,9 @@ https://towardsdatascience.com/feature-extraction-techniques-d619b56e31be
 \section{Supervised Learning}
 Supervised learning consists of models that are trained on labelled data. This is not a problem with simulation, but with the real data, it is a problem and to provide tests on the real data to label it must be proficient. If unsupervised learning and statistical methods are not sufficient in their accuracy, a method for labelling the real data must be provided.
 
+\subsection{Random Forests}
+\cite{Shi2006, Paul2018, Primartha2018}
+
 \subsection{Long Short Term Memory}
 Time-series data: LSTM or DLSTM
 
@@ -226,8 +229,6 @@ Artificial Neural Networks
 
 \section{Unsupervised Learning}
 Density-based, distance, Clustering
-
-\subsection{Random Forests}
 
 \subsection{Isolation Forests}
 This unsupervised learning methods is based on the principle of isolating data points by slicing the data with random conditions \cite{TonyLiu2008}. The data is randomly split into specified sample sizes with a randomly selected dimension and a randomly selected cut-off value. For each sample size the data must be split until each data point within the sample is isolated from all other data points. Training of a single tree is completed when all the data points are isolated and this training must be repeated for all the data samples, however many are predefined. 
@@ -283,7 +284,22 @@ The extended isolation forest algorithm generalises the isolation forest algorit
 It is evident that applying an angle of $0\degree$ to all the slices the general algorithm of the extended isolation forest produces the standard isolation forest algorithm where planes or slices are perpendicular to the axis of the randomly selected feature, $x$.
 
 \subsection{Local Outlier Factor}
-LOF: Local outlier factor is a method of determining how much an outlier a specific data point is relative to a neighbourhood of other data points.
+Most algorithms for anomaly detection are based on a metric which accounts for the entire dataset~\cite{breunig2000lof}. However, many anomalies are identifiable in relation to the local neighbourhood of data points and not the overall dataset. Therefore, \textcite{breunig2000lof} developed the local outlier factor \(LOF\) algorithm that provides a measure of a data point's "outlierness". This implies that a data point is not classified as an anomaly or not, but a local outlier factor is calculated to determine how much a data point is distantiated from it's $k$-nearest neighbours. This is clearly demonstrated in Figure~\ref{Figure-LOF_measure} where the data points which are clustered together have smaller LOF's than data points which are removed from the highly dense areas.
+
+\begin{figure}[h!tb]
+	\centering
+	
+	\includegraphics[width=10cm]{fig/LOF_measure} % not necessary to give extension - now you can shift between compiling to ps or to pdf without any problems
+	
+	\caption[Local outlier measure]{LOF measure}
+	\label{Figure-LOF_measure} 
+\end{figure}
+
+To calculate the LOF the $k$-distance must be calculated and also the local reachability density \(lrd\). A distance between data point $o$ and any data point $p_i$, with $i \in N$, where $N$ is the number of data points within the dataset. The $k$-distance, is the $k^{th}$ ranked $distance(o,p_i)$.
+
+To ensure 
+
+This method produces outliers for a local neighbourhood and not for all the data points. This contributes towards the use in satellite anomaly detection, since satellites have two distinct neighbourhoods, namely within eclipse or not.
 
 \subsection{K-means Clustering}
 K-clustering: Clustering multiple points with similar features.

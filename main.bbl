@@ -32,11 +32,11 @@
            given={William\bibnamedelima F},
            giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
       }
-      \strng{namehash}{8e7bf5c67f43d75dc597fc045640397f}
+      \strng{namehash}{0dc70fe3ca28cd63ef9702d453e1a429}
       \strng{fullhash}{8e7bf5c67f43d75dc597fc045640397f}
-      \strng{bibnamehash}{8e7bf5c67f43d75dc597fc045640397f}
-      \strng{authorbibnamehash}{8e7bf5c67f43d75dc597fc045640397f}
-      \strng{authornamehash}{8e7bf5c67f43d75dc597fc045640397f}
+      \strng{bibnamehash}{0dc70fe3ca28cd63ef9702d453e1a429}
+      \strng{authorbibnamehash}{0dc70fe3ca28cd63ef9702d453e1a429}
+      \strng{authornamehash}{0dc70fe3ca28cd63ef9702d453e1a429}
       \strng{authorfullhash}{8e7bf5c67f43d75dc597fc045640397f}
       \field{sortinit}{A}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
@@ -98,11 +98,11 @@
       \list{publisher}{1}{%
         {Springer}%
       }
-      \strng{namehash}{8dfb102d8f52801e4d53d77553f99e41}
+      \strng{namehash}{bb2ea65cf4f5fd6771934e45257eda1a}
       \strng{fullhash}{8dfb102d8f52801e4d53d77553f99e41}
-      \strng{bibnamehash}{8dfb102d8f52801e4d53d77553f99e41}
-      \strng{authorbibnamehash}{8dfb102d8f52801e4d53d77553f99e41}
-      \strng{authornamehash}{8dfb102d8f52801e4d53d77553f99e41}
+      \strng{bibnamehash}{bb2ea65cf4f5fd6771934e45257eda1a}
+      \strng{authorbibnamehash}{bb2ea65cf4f5fd6771934e45257eda1a}
+      \strng{authornamehash}{bb2ea65cf4f5fd6771934e45257eda1a}
       \strng{authorfullhash}{8dfb102d8f52801e4d53d77553f99e41}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
@@ -113,6 +113,45 @@
       \field{year}{2009}
       \field{pages}{1\bibrangedash 4}
       \range{pages}{4}
+    \endentry
+    \entry{breunig2000lof}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=346772f472393316fd22dd8a300d2e7d}{%
+           family={Breunig},
+           familyi={B\bibinitperiod},
+           given={Markus\bibnamedelima M},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=9559fe65ed2c0877cf14a66fe1f8e9b3}{%
+           family={Kriegel},
+           familyi={K\bibinitperiod},
+           given={Hans-Peter},
+           giveni={H\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=3538ec05ca1325677835daf67c1c45bf}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Raymond\bibnamedelima T},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=802157026f850823b2027c2100cb359a}{%
+           family={Sander},
+           familyi={S\bibinitperiod},
+           given={J{ö}rg},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{56fa51bc92224aa16f16bb78cd5d01f1}
+      \strng{fullhash}{d65966f90d24e1cda0c67af1ce30b712}
+      \strng{bibnamehash}{56fa51bc92224aa16f16bb78cd5d01f1}
+      \strng{authorbibnamehash}{56fa51bc92224aa16f16bb78cd5d01f1}
+      \strng{authornamehash}{56fa51bc92224aa16f16bb78cd5d01f1}
+      \strng{authorfullhash}{d65966f90d24e1cda0c67af1ce30b712}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2000 ACM SIGMOD international conference on Management of data}
+      \field{title}{{LOF: identifying density-based local outliers}}
+      \field{year}{2000}
+      \field{pages}{93\bibrangedash 104}
+      \range{pages}{12}
     \endentry
     \entry{carvajal2017agent}{article}{}
       \name{author}{3}{}{%
@@ -135,11 +174,11 @@
       \list{publisher}{1}{%
         {Elsevier}%
       }
-      \strng{namehash}{6af44c77ee5bf55164768799d79e244e}
+      \strng{namehash}{3f938aa4438db0d37f5787412b574c7d}
       \strng{fullhash}{6af44c77ee5bf55164768799d79e244e}
-      \strng{bibnamehash}{6af44c77ee5bf55164768799d79e244e}
-      \strng{authorbibnamehash}{6af44c77ee5bf55164768799d79e244e}
-      \strng{authornamehash}{6af44c77ee5bf55164768799d79e244e}
+      \strng{bibnamehash}{3f938aa4438db0d37f5787412b574c7d}
+      \strng{authorbibnamehash}{3f938aa4438db0d37f5787412b574c7d}
+      \strng{authornamehash}{3f938aa4438db0d37f5787412b574c7d}
       \strng{authorfullhash}{6af44c77ee5bf55164768799d79e244e}
       \field{sortinit}{C}
       \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
@@ -178,12 +217,13 @@
       \list{publisher}{1}{%
         {Elsevier}%
       }
-      \strng{namehash}{fc9ee5800ad4f3481e22d4bfa80fa804}
+      \strng{namehash}{b82a15f919378db898b3e9499d80cf74}
       \strng{fullhash}{fc9ee5800ad4f3481e22d4bfa80fa804}
-      \strng{bibnamehash}{fc9ee5800ad4f3481e22d4bfa80fa804}
-      \strng{authorbibnamehash}{fc9ee5800ad4f3481e22d4bfa80fa804}
-      \strng{authornamehash}{fc9ee5800ad4f3481e22d4bfa80fa804}
+      \strng{bibnamehash}{b82a15f919378db898b3e9499d80cf74}
+      \strng{authorbibnamehash}{b82a15f919378db898b3e9499d80cf74}
+      \strng{authornamehash}{b82a15f919378db898b3e9499d80cf74}
       \strng{authorfullhash}{fc9ee5800ad4f3481e22d4bfa80fa804}
+      \field{extraname}{1}
       \field{sortinit}{C}
       \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{labelnamesource}{author}
@@ -210,55 +250,6 @@
       \verb https://doi.org/10.1016/j.aei.2020.101139
       \endverb
       \keyw{Condition monitoring data,Critical attributes identification,Isolation forest,Operating condition}
-    \endentry
-    \entry{chen2017fault}{article}{}
-      \name{author}{5}{}{%
-        {{hash=9544f4984c8834ebe650f4b93f09cbcc}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Zhiwen},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=dc077edaf3bedfde2ca9ba091eef6c20}{%
-           family={Ding},
-           familyi={D\bibinitperiod},
-           given={Steven\bibnamedelima X},
-           giveni={S\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
-        {{hash=3c993d2977a4935df3d2628a7944fcba}{%
-           family={Peng},
-           familyi={P\bibinitperiod},
-           given={Tao},
-           giveni={T\bibinitperiod}}}%
-        {{hash=1fc38772df762d4362b619a37b7e19b4}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Chunhua},
-           giveni={C\bibinitperiod}}}%
-        {{hash=3aa2e70618c744a91004ea16446ca442}{%
-           family={Gui},
-           familyi={G\bibinitperiod},
-           given={Weihua},
-           giveni={W\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{8437b46ba6810c711bfa475944bb2642}
-      \strng{fullhash}{8437b46ba6810c711bfa475944bb2642}
-      \strng{bibnamehash}{8437b46ba6810c711bfa475944bb2642}
-      \strng{authorbibnamehash}{8437b46ba6810c711bfa475944bb2642}
-      \strng{authornamehash}{8437b46ba6810c711bfa475944bb2642}
-      \strng{authorfullhash}{8437b46ba6810c711bfa475944bb2642}
-      \field{sortinit}{C}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Industrial Electronics}
-      \field{number}{2}
-      \field{title}{Fault detection for non-Gaussian processes using generalized canonical correlation analysis and randomized algorithms}
-      \field{volume}{65}
-      \field{year}{2017}
-      \field{pages}{1559\bibrangedash 1567}
-      \range{pages}{9}
     \endentry
     \entry{chen2020just}{article}{}
       \name{author}{7}{}{%
@@ -301,12 +292,13 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{5838f4ea06007a263be38c568d5a8ff7}
+      \strng{namehash}{45f091416a3f2a63e1649522207bb0fa}
       \strng{fullhash}{5838f4ea06007a263be38c568d5a8ff7}
-      \strng{bibnamehash}{5838f4ea06007a263be38c568d5a8ff7}
-      \strng{authorbibnamehash}{5838f4ea06007a263be38c568d5a8ff7}
-      \strng{authornamehash}{5838f4ea06007a263be38c568d5a8ff7}
+      \strng{bibnamehash}{45f091416a3f2a63e1649522207bb0fa}
+      \strng{authorbibnamehash}{45f091416a3f2a63e1649522207bb0fa}
+      \strng{authornamehash}{45f091416a3f2a63e1649522207bb0fa}
       \strng{authorfullhash}{5838f4ea06007a263be38c568d5a8ff7}
+      \field{extraname}{2}
       \field{sortinit}{C}
       \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{labelnamesource}{author}
@@ -314,6 +306,56 @@
       \field{journaltitle}{IEEE Transactions on Industrial Electronics}
       \field{title}{A Just-In-Time-Learning Aided Canonical Correlation Analysis Method for Multimode Process Monitoring and Fault Detection}
       \field{year}{2020}
+    \endentry
+    \entry{chen2017fault}{article}{}
+      \name{author}{5}{}{%
+        {{hash=9544f4984c8834ebe650f4b93f09cbcc}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Zhiwen},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=dc077edaf3bedfde2ca9ba091eef6c20}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Steven\bibnamedelima X},
+           giveni={S\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+        {{hash=3c993d2977a4935df3d2628a7944fcba}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1fc38772df762d4362b619a37b7e19b4}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Chunhua},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3aa2e70618c744a91004ea16446ca442}{%
+           family={Gui},
+           familyi={G\bibinitperiod},
+           given={Weihua},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{45f091416a3f2a63e1649522207bb0fa}
+      \strng{fullhash}{8437b46ba6810c711bfa475944bb2642}
+      \strng{bibnamehash}{45f091416a3f2a63e1649522207bb0fa}
+      \strng{authorbibnamehash}{45f091416a3f2a63e1649522207bb0fa}
+      \strng{authornamehash}{45f091416a3f2a63e1649522207bb0fa}
+      \strng{authorfullhash}{8437b46ba6810c711bfa475944bb2642}
+      \field{extraname}{3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Industrial Electronics}
+      \field{number}{2}
+      \field{title}{Fault detection for non-Gaussian processes using generalized canonical correlation analysis and randomized algorithms}
+      \field{volume}{65}
+      \field{year}{2017}
+      \field{pages}{1559\bibrangedash 1567}
+      \range{pages}{9}
     \endentry
     \entry{Choi2011}{article}{}
       \name{author}{10}{}{%
@@ -368,12 +410,13 @@
            given={Dong\bibnamedelima Kyu},
            giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
       }
-      \strng{namehash}{b1105a70085060feda422faa88261618}
+      \strng{namehash}{eef0ec2e226e91f7abeec08a670129e1}
       \strng{fullhash}{b1105a70085060feda422faa88261618}
-      \strng{bibnamehash}{b1105a70085060feda422faa88261618}
-      \strng{authorbibnamehash}{b1105a70085060feda422faa88261618}
-      \strng{authornamehash}{b1105a70085060feda422faa88261618}
+      \strng{bibnamehash}{eef0ec2e226e91f7abeec08a670129e1}
+      \strng{authorbibnamehash}{eef0ec2e226e91f7abeec08a670129e1}
+      \strng{authornamehash}{eef0ec2e226e91f7abeec08a670129e1}
       \strng{authorfullhash}{b1105a70085060feda422faa88261618}
+      \field{extraname}{1}
       \field{sortinit}{C}
       \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{labelnamesource}{author}
@@ -426,12 +469,13 @@
       \list{publisher}{1}{%
         {Elsevier}%
       }
-      \strng{namehash}{b0c6d25c1519beb1361e3af9af99a0f7}
+      \strng{namehash}{169e6dbb2eb7ab3b34943de44dd42d94}
       \strng{fullhash}{b0c6d25c1519beb1361e3af9af99a0f7}
-      \strng{bibnamehash}{b0c6d25c1519beb1361e3af9af99a0f7}
-      \strng{authorbibnamehash}{b0c6d25c1519beb1361e3af9af99a0f7}
-      \strng{authornamehash}{b0c6d25c1519beb1361e3af9af99a0f7}
+      \strng{bibnamehash}{169e6dbb2eb7ab3b34943de44dd42d94}
+      \strng{authorbibnamehash}{169e6dbb2eb7ab3b34943de44dd42d94}
+      \strng{authornamehash}{169e6dbb2eb7ab3b34943de44dd42d94}
       \strng{authorfullhash}{b0c6d25c1519beb1361e3af9af99a0f7}
+      \field{extraname}{2}
       \field{sortinit}{C}
       \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{labelnamesource}{author}
@@ -457,11 +501,11 @@
            given={Prof\bibnamedelimb David\bibnamedelima W},
            giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
       }
-      \strng{namehash}{576bb596158ca3cc8cc480328da453b6}
+      \strng{namehash}{5d04da5a182483e82978b57fc494b3ea}
       \strng{fullhash}{576bb596158ca3cc8cc480328da453b6}
-      \strng{bibnamehash}{576bb596158ca3cc8cc480328da453b6}
-      \strng{authorbibnamehash}{576bb596158ca3cc8cc480328da453b6}
-      \strng{authornamehash}{576bb596158ca3cc8cc480328da453b6}
+      \strng{bibnamehash}{5d04da5a182483e82978b57fc494b3ea}
+      \strng{authorbibnamehash}{5d04da5a182483e82978b57fc494b3ea}
+      \strng{authornamehash}{5d04da5a182483e82978b57fc494b3ea}
       \strng{authorfullhash}{576bb596158ca3cc8cc480328da453b6}
       \field{sortinit}{C}
       \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
@@ -514,11 +558,11 @@
       \list{publisher}{1}{%
         {TUP}%
       }
-      \strng{namehash}{4308fcf8d3ef5da8b3e19923ef2b9635}
+      \strng{namehash}{22b10ac894396ddd8c4569981d185927}
       \strng{fullhash}{4308fcf8d3ef5da8b3e19923ef2b9635}
-      \strng{bibnamehash}{4308fcf8d3ef5da8b3e19923ef2b9635}
-      \strng{authorbibnamehash}{4308fcf8d3ef5da8b3e19923ef2b9635}
-      \strng{authornamehash}{4308fcf8d3ef5da8b3e19923ef2b9635}
+      \strng{bibnamehash}{22b10ac894396ddd8c4569981d185927}
+      \strng{authorbibnamehash}{22b10ac894396ddd8c4569981d185927}
+      \strng{authornamehash}{22b10ac894396ddd8c4569981d185927}
       \strng{authorfullhash}{4308fcf8d3ef5da8b3e19923ef2b9635}
       \field{sortinit}{D}
       \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
@@ -573,11 +617,11 @@
            given={Arthur},
            giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{ca723662bad72e334fd0439c98af369f}
+      \strng{namehash}{7ef30aeedc997d6de42b889df8803914}
       \strng{fullhash}{ca723662bad72e334fd0439c98af369f}
-      \strng{bibnamehash}{ca723662bad72e334fd0439c98af369f}
-      \strng{authorbibnamehash}{ca723662bad72e334fd0439c98af369f}
-      \strng{authornamehash}{ca723662bad72e334fd0439c98af369f}
+      \strng{bibnamehash}{7ef30aeedc997d6de42b889df8803914}
+      \strng{authorbibnamehash}{7ef30aeedc997d6de42b889df8803914}
+      \strng{authornamehash}{7ef30aeedc997d6de42b889df8803914}
       \strng{authorfullhash}{ca723662bad72e334fd0439c98af369f}
       \field{sortinit}{F}
       \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
@@ -610,11 +654,11 @@
       \list{publisher}{1}{%
         {Elsevier}%
       }
-      \strng{namehash}{20a9d7708ef76eb87f104dddeecfa741}
+      \strng{namehash}{c3b0347d3f8d2612fb183652a6afaebf}
       \strng{fullhash}{20a9d7708ef76eb87f104dddeecfa741}
-      \strng{bibnamehash}{20a9d7708ef76eb87f104dddeecfa741}
-      \strng{authorbibnamehash}{20a9d7708ef76eb87f104dddeecfa741}
-      \strng{authornamehash}{20a9d7708ef76eb87f104dddeecfa741}
+      \strng{bibnamehash}{c3b0347d3f8d2612fb183652a6afaebf}
+      \strng{authorbibnamehash}{c3b0347d3f8d2612fb183652a6afaebf}
+      \strng{authornamehash}{c3b0347d3f8d2612fb183652a6afaebf}
       \strng{authorfullhash}{20a9d7708ef76eb87f104dddeecfa741}
       \field{sortinit}{G}
       \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
@@ -661,11 +705,11 @@
            given={Robert\bibnamedelima J.},
            giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
       }
-      \strng{namehash}{ac12b86cd4ce9c154416da4c443c761a}
+      \strng{namehash}{095e6afb28059876649904dd846e166a}
       \strng{fullhash}{ac12b86cd4ce9c154416da4c443c761a}
-      \strng{bibnamehash}{ac12b86cd4ce9c154416da4c443c761a}
-      \strng{authorbibnamehash}{ac12b86cd4ce9c154416da4c443c761a}
-      \strng{authornamehash}{ac12b86cd4ce9c154416da4c443c761a}
+      \strng{bibnamehash}{095e6afb28059876649904dd846e166a}
+      \strng{authorbibnamehash}{095e6afb28059876649904dd846e166a}
+      \strng{authornamehash}{095e6afb28059876649904dd846e166a}
       \strng{authorfullhash}{ac12b86cd4ce9c154416da4c443c761a}
       \field{sortinit}{H}
       \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
@@ -708,11 +752,11 @@
       \list{organization}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{cef4309d16bacb5628ae392286c25c0e}
+      \strng{namehash}{6d42dea78d3ef838ecbed47a6ec4e3aa}
       \strng{fullhash}{cef4309d16bacb5628ae392286c25c0e}
-      \strng{bibnamehash}{cef4309d16bacb5628ae392286c25c0e}
-      \strng{authorbibnamehash}{cef4309d16bacb5628ae392286c25c0e}
-      \strng{authornamehash}{cef4309d16bacb5628ae392286c25c0e}
+      \strng{bibnamehash}{6d42dea78d3ef838ecbed47a6ec4e3aa}
+      \strng{authorbibnamehash}{6d42dea78d3ef838ecbed47a6ec4e3aa}
+      \strng{authornamehash}{6d42dea78d3ef838ecbed47a6ec4e3aa}
       \strng{authorfullhash}{cef4309d16bacb5628ae392286c25c0e}
       \field{sortinit}{H}
       \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
@@ -751,11 +795,11 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{493c75ab98d238e670a27f8cca7097c8}
+      \strng{namehash}{d93ec38f99dfb71a784dc8021bf6dcac}
       \strng{fullhash}{493c75ab98d238e670a27f8cca7097c8}
-      \strng{bibnamehash}{493c75ab98d238e670a27f8cca7097c8}
-      \strng{authorbibnamehash}{493c75ab98d238e670a27f8cca7097c8}
-      \strng{authornamehash}{493c75ab98d238e670a27f8cca7097c8}
+      \strng{bibnamehash}{d93ec38f99dfb71a784dc8021bf6dcac}
+      \strng{authorbibnamehash}{d93ec38f99dfb71a784dc8021bf6dcac}
+      \strng{authornamehash}{d93ec38f99dfb71a784dc8021bf6dcac}
       \strng{authorfullhash}{493c75ab98d238e670a27f8cca7097c8}
       \field{extraname}{1}
       \field{sortinit}{I}
@@ -796,11 +840,11 @@
       \list{publisher}{1}{%
         {Elsevier}%
       }
-      \strng{namehash}{493c75ab98d238e670a27f8cca7097c8}
+      \strng{namehash}{d93ec38f99dfb71a784dc8021bf6dcac}
       \strng{fullhash}{493c75ab98d238e670a27f8cca7097c8}
-      \strng{bibnamehash}{493c75ab98d238e670a27f8cca7097c8}
-      \strng{authorbibnamehash}{493c75ab98d238e670a27f8cca7097c8}
-      \strng{authornamehash}{493c75ab98d238e670a27f8cca7097c8}
+      \strng{bibnamehash}{d93ec38f99dfb71a784dc8021bf6dcac}
+      \strng{authorbibnamehash}{d93ec38f99dfb71a784dc8021bf6dcac}
+      \strng{authornamehash}{d93ec38f99dfb71a784dc8021bf6dcac}
       \strng{authorfullhash}{493c75ab98d238e670a27f8cca7097c8}
       \field{extraname}{2}
       \field{sortinit}{I}
@@ -895,11 +939,11 @@
       \list{publisher}{1}{%
         {Elsevier}%
       }
-      \strng{namehash}{eafccff897888d266e6e63df4ad5cb57}
+      \strng{namehash}{d34837ebc1cd912911edae79b6622884}
       \strng{fullhash}{eafccff897888d266e6e63df4ad5cb57}
-      \strng{bibnamehash}{eafccff897888d266e6e63df4ad5cb57}
-      \strng{authorbibnamehash}{eafccff897888d266e6e63df4ad5cb57}
-      \strng{authornamehash}{eafccff897888d266e6e63df4ad5cb57}
+      \strng{bibnamehash}{d34837ebc1cd912911edae79b6622884}
+      \strng{authorbibnamehash}{d34837ebc1cd912911edae79b6622884}
+      \strng{authornamehash}{d34837ebc1cd912911edae79b6622884}
       \strng{authorfullhash}{eafccff897888d266e6e63df4ad5cb57}
       \field{sortinit}{J}
       \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
@@ -938,6 +982,107 @@
       \verb :home/ulrich/Documents/Masters thesis/Journal articles/Satellites/jordaan{\_}spinning{\_}2016.pdf:pdf
       \endverb
     \endentry
+    \entry{Paul2018}{article}{}
+      \name{author}{6}{}{%
+        {{hash=2ec4262970a5a3a5c890eeaa772a123c}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Angshuman},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dd1b4adbe0a2821d8bfe0a0a20d2b3ea}{%
+           family={Mukherjee},
+           familyi={M\bibinitperiod},
+           given={Dipti\bibnamedelima Prasad},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=f7d2b07ab7dd73fbc97274fead653f73}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Prasun},
+           giveni={P\bibinitperiod}}}%
+        {{hash=be9ca728a17f9bf926b3cb1ff30e0f7e}{%
+           family={Gangopadhyay},
+           familyi={G\bibinitperiod},
+           given={Abhinandan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=67451c7121650b2c381ed915e481d04e}{%
+           family={Chintha},
+           familyi={C\bibinitperiod},
+           given={Appa\bibnamedelima Rao},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=2e9fee32a4d03800622d7e53ec081934}{%
+           family={Kundu},
+           familyi={K\bibinitperiod},
+           given={Saurabh},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{e62fb1b384824961f471fdc87c4eb898}
+      \strng{fullhash}{50e3900a4981c763b6819cd7f4d827a0}
+      \strng{bibnamehash}{e62fb1b384824961f471fdc87c4eb898}
+      \strng{authorbibnamehash}{e62fb1b384824961f471fdc87c4eb898}
+      \strng{authornamehash}{e62fb1b384824961f471fdc87c4eb898}
+      \strng{authorfullhash}{50e3900a4981c763b6819cd7f4d827a0}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose an improved random forest classifier that performs classification with a minimum number of trees. The proposed method iteratively removes some unimportant features. Based on the number of important and unimportant features, we formulate a novel theoretical upper limit on the number of trees to be added to the forest to ensure improvement in classification accuracy. Our algorithm converges with a reduced but important set of features. We prove that further addition of trees or further reduction of features does not improve classification performance. The efficacy of the proposed approach is demonstrated through experiments on benchmark data sets. We further use the proposed classifier to detect mitotic nuclei in the histopathological data sets of breast tissues. We also apply our method on the industrial data set of dual-phase steel microstructures to classify different phases. Results of our method on different data sets show significant reduction in an average classification error compared with a number of competing methods.}
+      \field{issn}{10577149}
+      \field{journaltitle}{IEEE Transactions on Image Processing}
+      \field{number}{8}
+      \field{title}{{Improved Random Forest for Classification}}
+      \field{volume}{27}
+      \field{year}{2018}
+      \field{pages}{4012\bibrangedash 4024}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TIP.2018.2834830
+      \endverb
+      \verb{file}
+      \verb :home/ulrich/Documents/Masters thesis/Journal articles/FDIR/Unsupervised Learning/Random Forests/Improver Random Forest for Classification.pdf:pdf
+      \endverb
+      \keyw{Random forest,classification accuracy,feature reduction,optimal number of trees}
+    \endentry
+    \entry{Primartha2018}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5bae9d0bfa47fc8d02f190e26479bd37}{%
+           family={Primartha},
+           familyi={P\bibinitperiod},
+           given={Rifkie},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a15658189f93e6379dfa94dc0048d0bc}{%
+           family={Tama},
+           familyi={T\bibinitperiod},
+           given={Bayu\bibnamedelima Adhi},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9453ee39d0c25180f64f08c616d00ed8}
+      \strng{fullhash}{febc3717557f0e8763a8dc905d0eecc8}
+      \strng{bibnamehash}{9453ee39d0c25180f64f08c616d00ed8}
+      \strng{authorbibnamehash}{9453ee39d0c25180f64f08c616d00ed8}
+      \strng{authornamehash}{9453ee39d0c25180f64f08c616d00ed8}
+      \strng{authorfullhash}{febc3717557f0e8763a8dc905d0eecc8}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Intruders have become more and more sophisticated thus a deterrence mechanism such as an intrusion detection systems (IDS) is pivotal in information security management. An IDS aims at capturing and repealing any malignant activities in the network before they can cause harmful destruction. An IDS relies on a well-trained classification model so the model is able to identify the presence of attacks effectively. This paper compares the performance of IDS by exerting random forest classifier with respect to two performance measures, i.e. accuracy and false alarm rate. Three public intrusion data sets, i.e NSL-KDD, UNSW-NB15, and GPRS are employed in the experiment. Furthermore, different tree-size ensembles are considered whilst other best learning parameters are obtained using a grid search. Our experimental results prove the superiority of random forest model for IDS as it significantly outperforms the similar ensemble, i.e. ensemble of random tree + naive bayes tree and other single classifier, i.e. naive bayes and neural network in terms of k-cross validation method.}
+      \field{isbn}{9781538614495}
+      \field{journaltitle}{Proceedings of 2017 International Conference on Data and Software Engineering, ICoDSE 2017}
+      \field{title}{{Anomaly detection using random forest: A performance revisited}}
+      \field{volume}{2018-January}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICODSE.2017.8285847
+      \endverb
+      \verb{file}
+      \verb :home/ulrich/Documents/Masters thesis/Journal articles/FDIR/Unsupervised Learning/Random Forests/Anomaly Detection using Random Forest.pdf:pdf
+      \endverb
+    \endentry
     \entry{rahimi2020fault}{article}{}
       \name{author}{2}{}{%
         {{hash=306d193d7f058f7b1ba6057dd87300af}{%
@@ -954,11 +1099,11 @@
       \list{publisher}{1}{%
         {Springer}%
       }
-      \strng{namehash}{94a04a11c851f0b9252ee972755ab18b}
+      \strng{namehash}{f1bf194324b286be53525db59fe548a6}
       \strng{fullhash}{94a04a11c851f0b9252ee972755ab18b}
-      \strng{bibnamehash}{94a04a11c851f0b9252ee972755ab18b}
-      \strng{authorbibnamehash}{94a04a11c851f0b9252ee972755ab18b}
-      \strng{authornamehash}{94a04a11c851f0b9252ee972755ab18b}
+      \strng{bibnamehash}{f1bf194324b286be53525db59fe548a6}
+      \strng{authorbibnamehash}{f1bf194324b286be53525db59fe548a6}
+      \strng{authornamehash}{f1bf194324b286be53525db59fe548a6}
       \strng{authorfullhash}{94a04a11c851f0b9252ee972755ab18b}
       \field{sortinit}{R}
       \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
@@ -993,11 +1138,11 @@
            given={Eric},
            giveni={E\bibinitperiod}}}%
       }
-      \strng{namehash}{a675aadd696655905dc764d531f33c0f}
+      \strng{namehash}{f99ef596a3203adfc800f824e9cf318a}
       \strng{fullhash}{a675aadd696655905dc764d531f33c0f}
-      \strng{bibnamehash}{a675aadd696655905dc764d531f33c0f}
-      \strng{authorbibnamehash}{a675aadd696655905dc764d531f33c0f}
-      \strng{authornamehash}{a675aadd696655905dc764d531f33c0f}
+      \strng{bibnamehash}{f99ef596a3203adfc800f824e9cf318a}
+      \strng{authorbibnamehash}{f99ef596a3203adfc800f824e9cf318a}
+      \strng{authornamehash}{f99ef596a3203adfc800f824e9cf318a}
       \strng{authorfullhash}{a675aadd696655905dc764d531f33c0f}
       \field{sortinit}{R}
       \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
@@ -1011,6 +1156,47 @@
       \verb :home/ulrich/Documents/Masters thesis/Journal articles/Satellites/Failures and anomalies/SATELLITE ADCS ANOMALY TRENDS.pdf:pdf
       \endverb
       \warn{\item Range field 'pages' in entry 'Robertson2019' is malformed, falling back to literal}
+    \endentry
+    \entry{Shi2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9331226ef68bbe6869e9079900c3a307}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f520a749adbb878b4ba30b3f54e0dad8}{%
+           family={Horvath},
+           familyi={H\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{617fc4c4acdf34f6d00bb9fdd7178d7d}
+      \strng{fullhash}{c922c7a49ebe4daefa66fdc1b46981f5}
+      \strng{bibnamehash}{617fc4c4acdf34f6d00bb9fdd7178d7d}
+      \strng{authorbibnamehash}{617fc4c4acdf34f6d00bb9fdd7178d7d}
+      \strng{authornamehash}{617fc4c4acdf34f6d00bb9fdd7178d7d}
+      \strng{authorfullhash}{c922c7a49ebe4daefa66fdc1b46981f5}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A random forest (RF) predictor is an ensemble of individual tree predictors. As part of their construction, RF predictors naturally lead to a dissimilarity measure between the observations. One can also define an RF dissimilarity measure between unlabeled data: the idea is to construct an RF predictor that distinguishes the "observed" data from suitably generated synthetic data. The observed data are the original unlabeled data and the synthetic data are drawn from a reference distribution. Here we describe the properties of the RF dissimilarity and make recommendations on how to use it in practice. An RF dissimilarity can be attractive because it handles mixed variable types well, is invariant to monotonic transformations of the input variables, and is robust to outlying observations. The RF dissimilarity easily deals with a large number of variables due to its intrinsic variable selection; for example, the Addcl1 RF dissimilarity weighs the contribution of each variable according to how dependent it is on other variables. We find that the RF dissimilarity is useful for detecting tumor sample clusters on the basis of tumor marker expressions. In this application, biologically meaningful clusters can often be described with simple thresholding rules. © 2006 American Statistical Association.}
+      \field{isbn}{106186006X}
+      \field{issn}{10618600}
+      \field{journaltitle}{Journal of Computational and Graphical Statistics}
+      \field{number}{1}
+      \field{title}{{Unsupervised learning with random forest predictors}}
+      \field{volume}{15}
+      \field{year}{2006}
+      \field{pages}{118\bibrangedash 138}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1198/106186006X94072
+      \endverb
+      \verb{file}
+      \verb :home/ulrich/Documents/Masters thesis/Journal articles/FDIR/Unsupervised Learning/Random Forests/Unsupervised Learning With Random Forest Predictors.pdf:pdf
+      \endverb
+      \keyw{Biomarkers,Cluster analysis,Dissimilarity,Ensemble predictors,Tumor markers}
     \endentry
     \entry{Spilhaus1987}{article}{}
       \name{author}{1}{}{%
@@ -1094,11 +1280,11 @@
            given={Zhi-Hua},
            giveni={Z\bibinithyphendelim H\bibinitperiod}}}%
       }
-      \strng{namehash}{f90d933362c9aed0d911f7b84a7ec9b3}
+      \strng{namehash}{78b363d41c52c096b65ea8b110096a10}
       \strng{fullhash}{f90d933362c9aed0d911f7b84a7ec9b3}
-      \strng{bibnamehash}{f90d933362c9aed0d911f7b84a7ec9b3}
-      \strng{authorbibnamehash}{f90d933362c9aed0d911f7b84a7ec9b3}
-      \strng{authornamehash}{f90d933362c9aed0d911f7b84a7ec9b3}
+      \strng{bibnamehash}{78b363d41c52c096b65ea8b110096a10}
+      \strng{authorbibnamehash}{78b363d41c52c096b65ea8b110096a10}
+      \strng{authornamehash}{78b363d41c52c096b65ea8b110096a10}
       \strng{authorfullhash}{f90d933362c9aed0d911f7b84a7ec9b3}
       \field{sortinit}{T}
       \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
@@ -1134,11 +1320,11 @@
       \list{publisher}{1}{%
         {Deutsche Gesellschaft f{ü}r Luft-und Raumfahrt-Lilienthal-Oberth eV}%
       }
-      \strng{namehash}{689e9b113d8354db37d924f7fd1834f4}
+      \strng{namehash}{20dcce46511bc0f2a716c65e2a1012b8}
       \strng{fullhash}{689e9b113d8354db37d924f7fd1834f4}
-      \strng{bibnamehash}{689e9b113d8354db37d924f7fd1834f4}
-      \strng{authorbibnamehash}{689e9b113d8354db37d924f7fd1834f4}
-      \strng{authornamehash}{689e9b113d8354db37d924f7fd1834f4}
+      \strng{bibnamehash}{20dcce46511bc0f2a716c65e2a1012b8}
+      \strng{authorbibnamehash}{20dcce46511bc0f2a716c65e2a1012b8}
+      \strng{authornamehash}{20dcce46511bc0f2a716c65e2a1012b8}
       \strng{authorfullhash}{689e9b113d8354db37d924f7fd1834f4}
       \field{sortinit}{W}
       \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
@@ -1170,11 +1356,11 @@
            given={Leif},
            giveni={L\bibinitperiod}}}%
       }
-      \strng{namehash}{acefec94d7ee2d4bc753c023c1c0b94e}
+      \strng{namehash}{d19a8ec8b30fba6ffead17c47faac98c}
       \strng{fullhash}{acefec94d7ee2d4bc753c023c1c0b94e}
-      \strng{bibnamehash}{acefec94d7ee2d4bc753c023c1c0b94e}
-      \strng{authorbibnamehash}{acefec94d7ee2d4bc753c023c1c0b94e}
-      \strng{authornamehash}{acefec94d7ee2d4bc753c023c1c0b94e}
+      \strng{bibnamehash}{d19a8ec8b30fba6ffead17c47faac98c}
+      \strng{authorbibnamehash}{d19a8ec8b30fba6ffead17c47faac98c}
+      \strng{authornamehash}{d19a8ec8b30fba6ffead17c47faac98c}
       \strng{authorfullhash}{acefec94d7ee2d4bc753c023c1c0b94e}
       \field{sortinit}{W}
       \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
@@ -1210,11 +1396,11 @@
       \list{organization}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{38d8962977946ace5a03db846d3ee645}
+      \strng{namehash}{c56e9b11ecaaac38251029614cb83263}
       \strng{fullhash}{38d8962977946ace5a03db846d3ee645}
-      \strng{bibnamehash}{38d8962977946ace5a03db846d3ee645}
-      \strng{authorbibnamehash}{38d8962977946ace5a03db846d3ee645}
-      \strng{authornamehash}{38d8962977946ace5a03db846d3ee645}
+      \strng{bibnamehash}{c56e9b11ecaaac38251029614cb83263}
+      \strng{authorbibnamehash}{c56e9b11ecaaac38251029614cb83263}
+      \strng{authornamehash}{c56e9b11ecaaac38251029614cb83263}
       \strng{authorfullhash}{38d8962977946ace5a03db846d3ee645}
       \field{sortinit}{Z}
       \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}

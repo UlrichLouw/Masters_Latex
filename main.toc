@@ -92,35 +92,35 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Supervised Learning}{10}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Long Short Term Memory}{10}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.1}Random Forests}{10}{subsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Support Vector Machines}{10}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.2}Long Short Term Memory}{10}{subsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.3}Naive Bayes}{10}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.3}Support Vector Machines}{10}{subsection.2.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.4}K-nearest neighbours}{10}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.4}Naive Bayes}{10}{subsection.2.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.5}Artificial Neural Networks}{11}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.5}K-nearest neighbours}{11}{subsection.2.4.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.6}Artificial Neural Networks}{11}{subsection.2.4.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.5}Unsupervised Learning}{11}{section.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}Random Forests}{11}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.1}Isolation Forests}{11}{subsection.2.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.2}Isolation Forests}{11}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.2}Local Outlier Factor}{12}{subsection.2.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.3}Local Outlier Factor}{12}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.3}K-means Clustering}{13}{subsection.2.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.4}K-means Clustering}{13}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.4}Kernel Adaptive Density-based}{13}{subsection.2.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.5}Kernel Adaptive Density-based}{13}{subsection.2.5.5}%
+\contentsline {subsection}{\numberline {2.5.5}Loda}{13}{subsection.2.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.6}Loda}{13}{subsection.2.5.6}%
+\contentsline {subsection}{\numberline {2.5.6}Robust-kernel Density Estimation}{14}{subsection.2.5.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.7}Robust-kernel Density Estimation}{13}{subsection.2.5.7}%
+\contentsline {section}{\numberline {2.6}Reinforcement Learning}{14}{section.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Reinforcement Learning}{13}{section.2.6}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Summary}{13}{section.2.7}%
+\contentsline {section}{\numberline {2.7}Summary}{14}{section.2.7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Simulation}{15}{chapter.3}%
 \defcounter {refsection}{0}\relax 
@@ -130,20 +130,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Typical Faults}{15}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Faults}{15}{subsubsection*.19}%
+\contentsline {subsubsection}{Faults}{15}{subsubsection*.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusion}{17}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Implementation of Methods on Actual Satellite}{17}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Project/thesis/dissertation summary}{17}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Isolation Forests}{17}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Appraisal of project/thesis/dissertation contributions}{18}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Conclusion}{19}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Suggestions for future work}{18}{section.4.3}%
+\contentsline {section}{\numberline {5.1}Project/thesis/dissertation summary}{19}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}What the student has learnt during this project}{18}{section.4.4}%
+\contentsline {section}{\numberline {5.2}Appraisal of project/thesis/dissertation contributions}{20}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{19}{chapter*.21}%
+\contentsline {section}{\numberline {5.3}Suggestions for future work}{20}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Project Timeline}{21}{appendix.A}%
+\contentsline {section}{\numberline {5.4}What the student has learnt during this project}{20}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Data}{23}{appendix.B}%
+\contentsline {chapter}{References}{21}{chapter*.22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Project Timeline}{23}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Data}{25}{appendix.B}%

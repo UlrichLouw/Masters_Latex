@@ -20,20 +20,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Slicing of Isolation Forest}}{12}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Local outlier measure}}{13}{figure.caption.19}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \contentsline {xchapter}{Simulation}{15}{chapter.3}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Conclusion}{17}{chapter.4}%
+\contentsline {xchapter}{Implementation of Methods on Actual Satellite}{17}{chapter.4}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Project Timeline}{21}{appendix.A}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Expected timeline in Gannt-chart form.\relax }}{22}{figure.caption.22}%
+\contentsline {xchapter}{Conclusion}{19}{chapter.5}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Data}{23}{appendix.B}%
+\contentsline {xchapter}{Project Timeline}{23}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Expected timeline in Gannt-chart form.\relax }}{24}{figure.caption.23}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {xchapter}{Data}{25}{appendix.B}%
