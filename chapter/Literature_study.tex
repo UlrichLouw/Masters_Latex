@@ -295,10 +295,22 @@ Most algorithms for anomaly detection are based on a metric which accounts for t
 	\label{Figure-LOF_measure} 
 \end{figure}
 
-To calculate the LOF the $k$-distance must be calculated and also the local reachability density \(lrd\). A distance between data point $o$ and any data point $p_i$, with $i \in N$, where $N$ is the number of data points within the dataset. The $k$-distance, is the $k^{th}$ ranked $distance(o,p_i)$.
+To calculate the LOF, the $k$-distance must be calculated and also the local reachability density \(lrd\). The $k$-distance, is the $k^{th}$ ranked $distance(o,p_i)$. Where $distance(o,p_i)$ is the distance between data point $o$ and any data point $p_i$, with $i \in N$, where $N$ is the number of data points within the dataset with a minimum value of $MinPts$. To reduce fluctuations in the $distance(o,p_i)$ the distance between $o$ and $p_i$ is replaced with 
+\begin{equation}
+max \{distance(o,p_i), k\text{-distance}\} 
+\end{equation}
+and will henceforth be referred to as the reachability distance~\cite{breunig2000lof}. The $lrd$ of a data point, $p$, is calculated as 
+\begin{equation}
+lrd_{MinPts}(p) = 1/\left(\frac{\sum\limits_{o \in N_{MinPts}(p)}^{} reach\-dist_{MinPts}(p,o)}{|N_{MinPts}(p)|}\right)
+\label{Eq-lrd}
+\end{equation}
+and denotes "the inverse of the average reachability distance based on the $MinPts$-nearest neighbours of the $p$" --- \textcite{breunig2000lof}. Eq~\ref{Eq-lrd} enables the calculation for the $LOF$ of point $p$ as shown in Eq~\ref{Eq-LOF}
+\begin{equation}
+LOF_{MinPts}(p) = \frac{\sum\limits_{o \in N_{MinPts}(p)}^{}\frac{lrd_{MinPts}(o)}{lrd_{MinPts}(p)}}{|N_{MinPts}(p)|}
+\label{Eq-LOF}
+\end{equation}
 
-To ensure 
-
+  
 This method produces outliers for a local neighbourhood and not for all the data points. This contributes towards the use in satellite anomaly detection, since satellites have two distinct neighbourhoods, namely within eclipse or not.
 
 \subsection{K-means Clustering}
