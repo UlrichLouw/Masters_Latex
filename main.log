@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.5)  30 APR 2021 12:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.5)  30 APR 2021 14:02
 entering extended mode
 **./main.tex
 (main.tex
@@ -1510,7 +1510,12 @@ File: fig/LOF_measure.png Graphic file (type png)
 <use fig/LOF_measure.png>
 Package pdftex.def Info: fig/LOF_measure.png  used on input line 292.
 (pdftex.def)             Requested size: 284.52756pt x 213.40593pt.
- [13 <./fig/LOF_measure.png>]) (chapter/Simulation.tex [14]
+
+
+LaTeX Warning: Reference `Figure-Satellite_orbit' on page 13 undefined on input
+ line 314.
+
+[13 <./fig/LOF_measure.png>]) (chapter/Simulation.tex [14]
 Chapter 3.
 \openout3 = `main.mtc'.
 
@@ -1591,10 +1596,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40213 strings out of 481556
- 886716 string characters out of 2923635
+ 40214 strings out of 481556
+ 886740 string characters out of 2923635
  1645779 words of memory out of 3000000
- 54355 multiletter control sequences out of 15000+200000
+ 54356 multiletter control sequences out of 15000+200000
  543412 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,20n,102p,1729b,2028s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1615,7 +1620,7 @@ eX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (51 pages, 847343 bytes).
+Output written on main.pdf (51 pages, 847923 bytes).
 PDF statistics:
  939 PDF objects out of 1000 (max. 8388607)
  212 named destinations out of 1000 (max. 500000)
