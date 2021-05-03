@@ -76,19 +76,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.2}Convolutional Networks}{10}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Principal Component Analysis}{10}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.3}K-means Clustering}{10}{subsection.2.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.4}Partial Least Square}{10}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.4}Principal Component Analysis}{10}{subsection.2.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.5}Independent Component Analysis}{10}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.5}Partial Least Square}{10}{subsection.2.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.6}Locally Linear Embedding}{10}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.6}Independent Component Analysis}{10}{subsection.2.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.7}Linear Discriminant Analysis}{10}{subsection.2.3.7}%
+\contentsline {subsection}{\numberline {2.3.7}Locally Linear Embedding}{10}{subsection.2.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.8}Autoencoder}{10}{subsection.2.3.8}%
+\contentsline {subsection}{\numberline {2.3.8}Linear Discriminant Analysis}{10}{subsection.2.3.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.9}t-Distributed Stochastic Neighbor Embedding}{10}{subsection.2.3.9}%
+\contentsline {subsection}{\numberline {2.3.9}Autoencoder}{10}{subsection.2.3.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.10}t-Distributed Stochastic Neighbor Embedding}{10}{subsection.2.3.10}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Supervised Learning}{10}{section.2.4}%
 \defcounter {refsection}{0}\relax 
@@ -98,7 +100,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.3}Support Vector Machines}{10}{subsection.2.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.4}Naive Bayes}{10}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.4}Naive Bayes}{11}{subsection.2.4.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.5}K-nearest neighbours}{11}{subsection.2.4.5}%
 \defcounter {refsection}{0}\relax 
@@ -108,15 +110,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.1}Isolation Forests}{11}{subsection.2.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.2}Local Outlier Factor}{12}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.2}Local Outlier Factor}{13}{subsection.2.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.3}K-means Clustering}{14}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.3}Kernel Adaptive Density-based}{14}{subsection.2.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.4}Kernel Adaptive Density-based}{14}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.4}Loda}{14}{subsection.2.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.5}Loda}{14}{subsection.2.5.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.6}Robust-kernel Density Estimation}{14}{subsection.2.5.6}%
+\contentsline {subsection}{\numberline {2.5.5}Robust-kernel Density Estimation}{14}{subsection.2.5.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.6}Reinforcement Learning}{14}{section.2.6}%
 \defcounter {refsection}{0}\relax 

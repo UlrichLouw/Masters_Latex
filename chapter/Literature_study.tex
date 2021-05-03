@@ -196,6 +196,8 @@ To
 https://towardsdatascience.com/feature-extraction-techniques-d619b56e31be
 \subsection{Prony's Method}
 \subsection{Convolutional Networks}
+\subsection{K-means Clustering}
+K-clustering: Clustering multiple points with similar features.
 \subsection{Principal Component Analysis}
 \cite{choi2005fault}
 \cite{ding2010application}
@@ -312,9 +314,6 @@ LOF_{MinPts}(p) = \frac{\sum\limits_{o \in N_{MinPts}(p)}^{}\frac{lrd_{MinPts}(o
 The rule of thumb for detecting an outlier is that when the LOF is larger than 1, then the point is considered an outlier with respect to its neighbourhood. This however is not fixed and the threshold can be changed depending on the application.
  
 This method is aimed at producing a measure of the "outlierness" of a data point within a local neighbourhood and not for all the data points. This method will thus be implemented for the satellite anomaly detection, since it will detect anomalies within the two neighbourhoods produced by the eclipse during orbit. This method will also be able to detect measurements of earth sensors, sun sensors and magnetometers that drastically change from the previous orbital data. For example in Fig~\ref{Figure-Satellite_orbit} it is evident that the LOF will be comparatively larger than the rest of the data points. 
-
-\subsection{K-means Clustering}
-K-clustering: Clustering multiple points with similar features.
 
 \subsection{Kernel Adaptive Density-based}
 Kernel adaptive density-based: Is an algorithm that uses the density factor of a data point relative to other data points to determine whether the data point is an outlier or not.

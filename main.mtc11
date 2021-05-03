@@ -19,26 +19,26 @@
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Feature Extraction}{\reset@font\mtcSfont 10}{section.2.3}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.1}Prony's Method}{\reset@font\mtcSSfont 10}{subsection.2.3.1}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.2}Convolutional Networks}{\reset@font\mtcSSfont 10}{subsection.2.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.3}Principal Component Analysis}{\reset@font\mtcSSfont 10}{subsection.2.3.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.4}Partial Least Square}{\reset@font\mtcSSfont 10}{subsection.2.3.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.5}Independent Component Analysis}{\reset@font\mtcSSfont 10}{subsection.2.3.5}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.6}Locally Linear Embedding}{\reset@font\mtcSSfont 10}{subsection.2.3.6}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.7}Linear Discriminant Analysis}{\reset@font\mtcSSfont 10}{subsection.2.3.7}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.8}Autoencoder}{\reset@font\mtcSSfont 10}{subsection.2.3.8}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.9}t-Distributed Stochastic Neighbor Embedding}{\reset@font\mtcSSfont 10}{subsection.2.3.9}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.3}K-means Clustering}{\reset@font\mtcSSfont 10}{subsection.2.3.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.4}Principal Component Analysis}{\reset@font\mtcSSfont 10}{subsection.2.3.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.5}Partial Least Square}{\reset@font\mtcSSfont 10}{subsection.2.3.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.6}Independent Component Analysis}{\reset@font\mtcSSfont 10}{subsection.2.3.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.7}Locally Linear Embedding}{\reset@font\mtcSSfont 10}{subsection.2.3.7}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.8}Linear Discriminant Analysis}{\reset@font\mtcSSfont 10}{subsection.2.3.8}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.9}Autoencoder}{\reset@font\mtcSSfont 10}{subsection.2.3.9}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.10}t-Distributed Stochastic Neighbor Embedding}{\reset@font\mtcSSfont 10}{subsection.2.3.10}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Supervised Learning}{\reset@font\mtcSfont 10}{section.2.4}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.1}Random Forests}{\reset@font\mtcSSfont 10}{subsection.2.4.1}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.2}Long Short Term Memory}{\reset@font\mtcSSfont 10}{subsection.2.4.2}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.3}Support Vector Machines}{\reset@font\mtcSSfont 10}{subsection.2.4.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.4}Naive Bayes}{\reset@font\mtcSSfont 10}{subsection.2.4.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.4}Naive Bayes}{\reset@font\mtcSSfont 11}{subsection.2.4.4}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.5}K-nearest neighbours}{\reset@font\mtcSSfont 11}{subsection.2.4.5}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.6}Artificial Neural Networks}{\reset@font\mtcSSfont 11}{subsection.2.4.6}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}Unsupervised Learning}{\reset@font\mtcSfont 11}{section.2.5}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.1}Isolation Forests}{\reset@font\mtcSSfont 11}{subsection.2.5.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.2}Local Outlier Factor}{\reset@font\mtcSSfont 12}{subsection.2.5.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.3}K-means Clustering}{\reset@font\mtcSSfont 14}{subsection.2.5.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.4}Kernel Adaptive Density-based}{\reset@font\mtcSSfont 14}{subsection.2.5.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.5}Loda}{\reset@font\mtcSSfont 14}{subsection.2.5.5}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.6}Robust-kernel Density Estimation}{\reset@font\mtcSSfont 14}{subsection.2.5.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.2}Local Outlier Factor}{\reset@font\mtcSSfont 13}{subsection.2.5.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.3}Kernel Adaptive Density-based}{\reset@font\mtcSSfont 14}{subsection.2.5.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.4}Loda}{\reset@font\mtcSSfont 14}{subsection.2.5.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.5}Robust-kernel Density Estimation}{\reset@font\mtcSSfont 14}{subsection.2.5.5}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.6}Reinforcement Learning}{\reset@font\mtcSfont 14}{section.2.6}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.7}Summary}{\reset@font\mtcSfont 14}{section.2.7}}
