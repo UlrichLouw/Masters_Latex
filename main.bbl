@@ -1045,6 +1045,64 @@
       \endverb
       \keyw{Random forest,classification accuracy,feature reduction,optimal number of trees}
     \endentry
+    \entry{Pilastre2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b3c80829c44ff9901bc5443740d92ab4}{%
+           family={Pilastre},
+           familyi={P\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod}}}%
+        {{hash=97b160de287ff32ba0229f52a58a99d3}{%
+           family={Boussouf},
+           familyi={B\bibinitperiod},
+           given={Lo{ï}c},
+           giveni={L\bibinitperiod}}}%
+        {{hash=fbea7ebb8b752ddb9e7af1ced008ed24}{%
+           family={D'Escrivan},
+           familyi={D\bibinitperiod},
+           given={St{é}phane},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a8f5d6cc0b11456d27b361c3304cf311}{%
+           family={Tourneret},
+           familyi={T\bibinitperiod},
+           given={Jean\bibnamedelima Yves},
+           giveni={J\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier B.V.}%
+      }
+      \strng{namehash}{ce4183f97f2e34a3c9c3a97d87df54ed}
+      \strng{fullhash}{6bef8ef93071578ccba4e2aead58e8e0}
+      \strng{bibnamehash}{ce4183f97f2e34a3c9c3a97d87df54ed}
+      \strng{authorbibnamehash}{ce4183f97f2e34a3c9c3a97d87df54ed}
+      \strng{authornamehash}{ce4183f97f2e34a3c9c3a97d87df54ed}
+      \strng{authorfullhash}{6bef8ef93071578ccba4e2aead58e8e0}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Spacecraft health monitoring and failure prevention are major issues in space operations. In recent years, machine learning techniques have received an increasing interest in many fields and have been applied to housekeeping telemetry data via semi-supervised learning. The idea is to use past telemetry describing normal spacecraft behaviour in order to learn a reference model to which can be compared most recent data in order to detect potential anomalies. This paper introduces a new machine learning method for anomaly detection in telemetry time series based on a sparse representation and dictionary learning. The main advantage of the proposed method is the possibility to handle multivariate telemetry time series described by mixed continuous and discrete parameters, taking into account the potential correlations between these parameters. The proposed method is evaluated on a representative anomaly dataset obtained from real satellite telemetry with an available ground-truth and compared to state-of-the-art algorithms.}
+      \field{issn}{01651684}
+      \field{journaltitle}{Signal Processing}
+      \field{title}{{Anomaly detection in mixed telemetry data using a sparse representation and dictionary learning}}
+      \field{volume}{168}
+      \field{year}{2020}
+      \field{pages}{107320}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.sigpro.2019.107320
+      \endverb
+      \verb{file}
+      \verb :home/ulrich/Documents/Masters thesis/Journal articles/FDIR/Satellite/Anomaly Detection in descitiona nd continuous telemetry signals using a sparse decomposition in a dictionary.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.sigpro.2019.107320
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.sigpro.2019.107320
+      \endverb
+      \keyw{Anomaly detection,Dictionary learning,Shift-Invariance,Spacecraft health monitoring,Sparse representation}
+    \endentry
     \entry{Primartha2018}{article}{}
       \name{author}{2}{}{%
         {{hash=5bae9d0bfa47fc8d02f190e26479bd37}{%

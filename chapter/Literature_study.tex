@@ -14,6 +14,9 @@ Various methodologies have been tested on different component of satellites. The
 \subsection{Agent-based algorithm for fault detection and recovery of gyroscope's drift in small satellite missions}
 To ensure that the ADCS of satellites are autonomous every aspect of the control must be able to recover from faults. \textcite{carvajal2017agent} developed an algorithm to evaluate the control of a gyroscope and detect whether drifting exists. If drifting is detected the another algorithm is deployed to ensure the recovery of the gyroscope drift by updating the error state vector.
 
+\subsection{Multivariate Anomaly Detection in Discrete and Continuous Telemetry Signals Using a Sparse Decomposition in a Dictionary}
+\cite{Pilastre2020}
+
 \subsection{Fault isolation of reaction wheels onboard three-axis controlled in-orbit satellite using ensemble machine learning}
 \cite{rahimi2020fault}
 
@@ -313,7 +316,13 @@ LOF_{MinPts}(p) = \frac{\sum\limits_{o \in N_{MinPts}(p)}^{}\frac{lrd_{MinPts}(o
 \end{equation}
 The rule of thumb for detecting an outlier is that when the LOF is larger than 1, then the point is considered an outlier with respect to its neighbourhood. This however is not fixed and the threshold can be changed depending on the application.
  
-This method is aimed at producing a measure of the "outlierness" of a data point within a local neighbourhood and not for all the data points. This method will thus be implemented for the satellite anomaly detection, since it will detect anomalies within the two neighbourhoods produced by the eclipse during orbit. This method will also be able to detect measurements of earth sensors, sun sensors and magnetometers that drastically change from the previous orbital data. For example in Fig~\ref{Figure-Satellite_orbit} it is evident that the LOF will be comparatively larger than the rest of the data points. 
+This method is aimed at producing a measure of the "outlierness" of a data point within a local neighbourhood and not for all the data points. This method will thus be implemented for the satellite anomaly detection, since it will detect anomalies within the two neighbourhoods produced by the eclipse during orbit. This method will also be able to detect measurements of earth sensors, sun sensors and magnetometers that drastically change from the previous orbital data. For example in Fig~\ref{Figure-Satellite_orbit} it is evident that the LOF will be comparatively larger for the red data points, which are anomalies, to the blue data points that are the normal orbit of the satellite.
+
+\begin{tikzpicture}
+\begin{axis}
+\addplot3 table [x =Earth x, y = Earth y, z=Earth z, col sep=comma]{Data/3D_orbit.csv};
+\end{axis}
+\end{tikzpicture}
 
 \subsection{Kernel Adaptive Density-based}
 Kernel adaptive density-based: Is an algorithm that uses the density factor of a data point relative to other data points to determine whether the data point is an outlier or not.
