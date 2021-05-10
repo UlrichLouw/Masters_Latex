@@ -2,12 +2,49 @@
 % put these two lines after every \chapter{} command
 \vspace{-2em}
 \minitoc
-\section{Satellites}
-The focus of this thesis is on small satellites and more specifically cubesats. For the simulation of the ADCS of the satellite \cite{auret2012design, JansevanVuuren2015, Jordaan2016} were referenced during the development of the satellite. The simulation was developed in Python to simulate the dynamics and kinematics during a satellite orbit.
-
-The faults for the subsystems are also developed within the simulation and will be discussed within this chapter.
+To implement and research various FDIR systems on satellites an simulation of satellite dynamics and kinematics is developed. The focus of this thesis is on small satellites and more specifically cubesats. For the simulation of the ADCS of the satellite \cite{auret2012design, JansevanVuuren2015, Jordaan2016} were referenced during the development of the satellite simulation. The simulation was developed in Python to simulate the dynamics and kinematics during a satellite orbit. The faults for the subsystems are also developed within the simulation and will be discussed within this chapter.
 
 \section{ADCS}
+The main operational goal of the ADCS on this specific satellite mission is to control the payload to point towards the centre of the earth.
+
+\subsection{Coordinate Frames}
+
+\subsection{Euler Angles and Quaternions}
+
+\subsection{Satellite Kinematics and Dynamics}
+
+\subsection{Rungka-kutta}
+
+\section{Environment}
+\subsection{Earth Orbit}
+Earth orbit according to sgp4 and also the placement of the earth sensor.
+
+Show plot of 3D earth orbit...
+
+\subsection{Sun}
+The calculations for the sun position and also the placement of the coarse and fine sun sensor.
+
+\subsection{Geomagnetic field}
+
+\begin{equation}
+V(r_s,\theta, \lambda) = R_E \sum_{n=1}^{k}\left(\frac{R_E}{r_s}^{n+1}\right)\sum_{m=0}^{n}\left(g_n^mcos(m\lambda) + h_n^msin(m\lambda)\right)P_n^m(\theta)
+\end{equation}
+
+Show graph of geomagnetic plot...
+
+\subsection{Disturbance models}
+\subsubsection{Gravity Gradient}
+
+\subsubsection{Aerodynamic Disturbance}
+
+\subsubsection{Wheel Imbalance}
+
+\section{Attitude Determination}
+IN this chapter discuss the Kalman filter.
+
+\section{Attitude Control}
+Magnetic control during detumbling
+Reaction wheel control during normal operation
 
 \section{Typical Faults}
 For the simulation of the satellite and the induced faults to train and test various anomaly detection methodologies a database of typical faults is required. \textcite{tafazoli2009study} made a study of the percentage of failure per subsystem. 

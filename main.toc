@@ -124,30 +124,56 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Simulation}{15}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Satellites}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.1}ADCS}{15}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}ADCS}{15}{section.3.2}%
+\contentsline {subsection}{\numberline {3.1.1}Coordinate Frames}{16}{subsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Typical Faults}{15}{section.3.3}%
+\contentsline {subsection}{\numberline {3.1.2}Euler Angles and Quaternions}{16}{subsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Faults}{15}{subsubsection*.20}%
+\contentsline {subsection}{\numberline {3.1.3}Satellite Kinematics and Dynamics}{16}{subsection.3.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Implementation of Methods on Actual Satellite}{17}{chapter.4}%
+\contentsline {subsection}{\numberline {3.1.4}Rungka-kutta}{16}{subsection.3.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Isolation Forests}{17}{section.4.1}%
+\contentsline {section}{\numberline {3.2}Environment}{16}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusion}{19}{chapter.5}%
+\contentsline {subsection}{\numberline {3.2.1}Earth Orbit}{16}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Project/thesis/dissertation summary}{19}{section.5.1}%
+\contentsline {subsection}{\numberline {3.2.2}Sun}{16}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Appraisal of project/thesis/dissertation contributions}{20}{section.5.2}%
+\contentsline {subsection}{\numberline {3.2.3}Geomagnetic field}{16}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Suggestions for future work}{20}{section.5.3}%
+\contentsline {subsection}{\numberline {3.2.4}Disturbance models}{16}{subsection.3.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}What the student has learnt during this project}{20}{section.5.4}%
+\contentsline {subsubsection}{Gravity Gradient}{16}{subsubsection*.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{21}{chapter*.22}%
+\contentsline {subsubsection}{Aerodynamic Disturbance}{16}{subsubsection*.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Project Timeline}{23}{appendix.A}%
+\contentsline {subsubsection}{Wheel Imbalance}{16}{subsubsection*.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Data}{25}{appendix.B}%
+\contentsline {section}{\numberline {3.3}Attitude Determination}{16}{section.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Attitude Control}{16}{section.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Typical Faults}{17}{section.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Faults}{17}{subsubsection*.23}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Implementation of Methods on Actual Satellite}{19}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Isolation Forests}{19}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Conclusion}{21}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Project/thesis/dissertation summary}{21}{section.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Appraisal of project/thesis/dissertation contributions}{22}{section.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Suggestions for future work}{22}{section.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}What the student has learnt during this project}{22}{section.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{23}{chapter*.25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Project Timeline}{25}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Data}{27}{appendix.B}%
