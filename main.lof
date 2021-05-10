@@ -18,13 +18,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Isolation Forest}}{12}{figure.caption.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Slicing of Isolation Forest}}{12}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Slicing of Isolation Forest}}{13}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Local outlier measure}}{13}{figure.caption.19}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Simulation}{15}{chapter.3}%
+\contentsline {xchapter}{Simulation}{17}{chapter.3}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -38,7 +38,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {xchapter}{Project Timeline}{25}{appendix.A}%
 \defcounter {refsection}{0}\relax 
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {A.1}{\ignorespaces Expected timeline in Gannt-chart form.\relax }}{26}{figure.caption.26}%
+=======
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Expected timeline in Gannt-chart form.\relax }}{26}{figure.caption.23}%
+>>>>>>> master
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.1}ADCS}{\reset@font\mtcSfont 15}{section.3.1}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1.1}Coordinate Frames}{\reset@font\mtcSSfont 16}{subsection.3.1.1}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1.2}Euler Angles and Quaternions}{\reset@font\mtcSSfont 16}{subsection.3.1.2}}
@@ -15,3 +16,9 @@
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.4}Attitude Control}{\reset@font\mtcSfont 16}{section.3.4}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.5}Typical Faults}{\reset@font\mtcSfont 17}{section.3.5}}
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Faults}{\reset@font\mtcSSSfont 17}{subsubsection*.23}}
+=======
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.1}Satellites}{\reset@font\mtcSfont 17}{section.3.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.2}ADCS}{\reset@font\mtcSfont 17}{section.3.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.3}Typical Faults}{\reset@font\mtcSfont 17}{section.3.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Faults}{\reset@font\mtcSSSfont 17}{subsubsection*.20}}
+>>>>>>> master

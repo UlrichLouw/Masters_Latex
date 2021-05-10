@@ -16,7 +16,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Simulation}{15}{chapter.3}%
+\contentsline {xchapter}{Simulation}{17}{chapter.3}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -34,4 +34,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {xchapter}{Data}{27}{appendix.B}%
 \defcounter {refsection}{0}\relax 
+<<<<<<< HEAD
 \contentsline {table}{\numberline {B.1}{\ignorespaces Do not end short caption with full-stop}}{27}{table.caption.27}%
+=======
+\contentsline {table}{\numberline {B.1}{\ignorespaces Do not end short caption with full-stop}}{27}{table.caption.24}%
+>>>>>>> master
