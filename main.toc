@@ -148,21 +148,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.1}Position of Sensors and Field of View}{18}{subsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Disturbance models}{18}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Disturbance models}{18}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Gravity Gradient}{18}{subsubsection*.23}%
+\contentsline {subsection}{\numberline {3.4.1}Gravity Gradient}{18}{subsection.3.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Aerodynamic Disturbance}{18}{subsubsection*.24}%
+\contentsline {subsection}{\numberline {3.4.2}Aerodynamic Disturbance}{18}{subsection.3.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Wheel Imbalance}{18}{subsubsection*.25}%
+\contentsline {subsection}{\numberline {3.4.3}Wheel Imbalance}{18}{subsection.3.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Attitude Determination}{18}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Attitude Determination}{18}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Attitude Control}{18}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Attitude Control}{18}{section.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Typical Faults}{20}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Typical Faults}{20}{section.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Faults}{20}{subsubsection*.26}%
+\contentsline {subsubsection}{Faults}{20}{subsubsection*.23}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Implementation of Methods on Actual Satellite}{23}{chapter.4}%
 \defcounter {refsection}{0}\relax 
@@ -178,7 +178,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.4}What the student has learnt during this project}{26}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{27}{chapter*.28}%
+\contentsline {chapter}{References}{27}{chapter*.25}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Project Timeline}{29}{appendix.A}%
 \defcounter {refsection}{0}\relax 

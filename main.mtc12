@@ -9,11 +9,11 @@
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2.3}Geomagnetic field}{\reset@font\mtcSSfont 18}{subsection.3.2.3}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.3}Sensor models}{\reset@font\mtcSfont 18}{section.3.3}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.1}Position of Sensors and Field of View}{\reset@font\mtcSSfont 18}{subsection.3.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.2}Disturbance models}{\reset@font\mtcSSfont 18}{subsection.3.3.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Gravity Gradient}{\reset@font\mtcSSSfont 18}{subsubsection*.23}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Aerodynamic Disturbance}{\reset@font\mtcSSSfont 18}{subsubsection*.24}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Wheel Imbalance}{\reset@font\mtcSSSfont 18}{subsubsection*.25}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.4}Attitude Determination}{\reset@font\mtcSfont 18}{section.3.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.5}Attitude Control}{\reset@font\mtcSfont 18}{section.3.5}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.6}Typical Faults}{\reset@font\mtcSfont 20}{section.3.6}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Faults}{\reset@font\mtcSSSfont 20}{subsubsection*.26}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.4}Disturbance models}{\reset@font\mtcSfont 18}{section.3.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.4.1}Gravity Gradient}{\reset@font\mtcSSfont 18}{subsection.3.4.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.4.2}Aerodynamic Disturbance}{\reset@font\mtcSSfont 18}{subsection.3.4.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.4.3}Wheel Imbalance}{\reset@font\mtcSSfont 18}{subsection.3.4.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.5}Attitude Determination}{\reset@font\mtcSfont 18}{section.3.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.6}Attitude Control}{\reset@font\mtcSfont 18}{section.3.6}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.7}Typical Faults}{\reset@font\mtcSfont 20}{section.3.7}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Faults}{\reset@font\mtcSSSfont 20}{subsubsection*.23}}

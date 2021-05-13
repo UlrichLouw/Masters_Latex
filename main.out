@@ -69,17 +69,20 @@
 \BOOKMARK [2][-]{subsection.3.2.3}{Geomagnetic field}{section.3.2}% 69
 \BOOKMARK [1][-]{section.3.3}{Sensor models}{chapter.3}% 70
 \BOOKMARK [2][-]{subsection.3.3.1}{Position of Sensors and Field of View}{section.3.3}% 71
-\BOOKMARK [2][-]{subsection.3.3.2}{Disturbance models}{section.3.3}% 72
-\BOOKMARK [1][-]{section.3.4}{Attitude Determination}{chapter.3}% 73
-\BOOKMARK [1][-]{section.3.5}{Attitude Control}{chapter.3}% 74
-\BOOKMARK [1][-]{section.3.6}{Typical Faults}{chapter.3}% 75
-\BOOKMARK [0][-]{chapter.4}{Implementation of Methods on Actual Satellite}{}% 76
-\BOOKMARK [1][-]{section.4.1}{Isolation Forests}{chapter.4}% 77
-\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 78
-\BOOKMARK [1][-]{section.5.1}{Project/thesis/dissertation summary}{chapter.5}% 79
-\BOOKMARK [1][-]{section.5.2}{Appraisal of project/thesis/dissertation contributions}{chapter.5}% 80
-\BOOKMARK [1][-]{section.5.3}{Suggestions for future work}{chapter.5}% 81
-\BOOKMARK [1][-]{section.5.4}{What the student has learnt during this project}{chapter.5}% 82
-\BOOKMARK [0][-]{chapter*.28}{References}{}% 83
-\BOOKMARK [0][-]{appendix.A}{Project Timeline}{}% 84
-\BOOKMARK [0][-]{appendix.B}{Data}{}% 85
+\BOOKMARK [1][-]{section.3.4}{Disturbance models}{chapter.3}% 72
+\BOOKMARK [2][-]{subsection.3.4.1}{Gravity Gradient}{section.3.4}% 73
+\BOOKMARK [2][-]{subsection.3.4.2}{Aerodynamic Disturbance}{section.3.4}% 74
+\BOOKMARK [2][-]{subsection.3.4.3}{Wheel Imbalance}{section.3.4}% 75
+\BOOKMARK [1][-]{section.3.5}{Attitude Determination}{chapter.3}% 76
+\BOOKMARK [1][-]{section.3.6}{Attitude Control}{chapter.3}% 77
+\BOOKMARK [1][-]{section.3.7}{Typical Faults}{chapter.3}% 78
+\BOOKMARK [0][-]{chapter.4}{Implementation of Methods on Actual Satellite}{}% 79
+\BOOKMARK [1][-]{section.4.1}{Isolation Forests}{chapter.4}% 80
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 81
+\BOOKMARK [1][-]{section.5.1}{Project/thesis/dissertation summary}{chapter.5}% 82
+\BOOKMARK [1][-]{section.5.2}{Appraisal of project/thesis/dissertation contributions}{chapter.5}% 83
+\BOOKMARK [1][-]{section.5.3}{Suggestions for future work}{chapter.5}% 84
+\BOOKMARK [1][-]{section.5.4}{What the student has learnt during this project}{chapter.5}% 85
+\BOOKMARK [0][-]{chapter*.25}{References}{}% 86
+\BOOKMARK [0][-]{appendix.A}{Project Timeline}{}% 87
+\BOOKMARK [0][-]{appendix.B}{Data}{}% 88
