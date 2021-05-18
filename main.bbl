@@ -957,6 +957,35 @@
       \field{pages}{1250\bibrangedash 1258}
       \range{pages}{9}
     \endentry
+    \entry{Jones2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=46016589f5a1a0477a6f42822578458a}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+        {{hash=73e3f743142f33d0a3cc9cf687685494}{%
+           family={Jaquet},
+           familyi={J\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{af0ccde7c23c5c4c95d165d31f9633dd}
+      \strng{fullhash}{7e8b0091e4480640781267e5b896c8e7}
+      \strng{bibnamehash}{af0ccde7c23c5c4c95d165d31f9633dd}
+      \strng{authorbibnamehash}{af0ccde7c23c5c4c95d165d31f9633dd}
+      \strng{authornamehash}{af0ccde7c23c5c4c95d165d31f9633dd}
+      \strng{authorfullhash}{7e8b0091e4480640781267e5b896c8e7}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Advanced Estimation 813 :}}
+      \field{year}{2017}
+      \verb{file}
+      \verb :home/ulrich/Documents/Masters thesis/Literature textbooks/Notes.pdf:pdf
+      \endverb
+    \endentry
     \entry{Jordaan2016}{article}{}
       \name{author}{1}{}{%
         {{hash=8ac2acd1b15c191ffbc7284954497244}{%

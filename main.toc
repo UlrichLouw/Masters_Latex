@@ -126,9 +126,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Simulation}{17}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}ADCS}{17}{section.3.1}%
+\contentsline {section}{\numberline {3.1}ADCS}{18}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Coordinate Frames}{17}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.1}Coordinate Frames}{18}{subsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.2}Euler Angles and Quaternions}{18}{subsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
@@ -144,42 +144,48 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.3}Geomagnetic field}{18}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Sensor models}{18}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Sensor models}{19}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Position of Sensors and Field of View}{18}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.1}Position of Sensors and Field of View}{19}{subsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Disturbance models}{18}{section.3.4}%
+\contentsline {subsection}{\numberline {3.3.2}Noise}{19}{subsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Gravity Gradient}{18}{subsection.3.4.1}%
+\contentsline {section}{\numberline {3.4}Disturbance models}{19}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Aerodynamic Disturbance}{18}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.1}Gravity Gradient}{19}{subsection.3.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.3}Wheel Imbalance}{18}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.2}Aerodynamic Disturbance}{19}{subsection.3.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Attitude Determination}{18}{section.3.5}%
+\contentsline {subsection}{\numberline {3.4.3}Wheel Imbalance}{19}{subsection.3.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Attitude Control}{18}{section.3.6}%
+\contentsline {section}{\numberline {3.5}Attitude Determination}{19}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Typical Faults}{20}{section.3.7}%
+\contentsline {subsection}{\numberline {3.5.1}Kalman Filter}{19}{subsection.3.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Faults}{20}{subsubsection*.23}%
+\contentsline {section}{\numberline {3.6}Attitude Control}{19}{section.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Implementation of Methods on Actual Satellite}{23}{chapter.4}%
+\contentsline {section}{\numberline {3.7}Typical Faults}{19}{section.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Isolation Forests}{23}{section.4.1}%
+\contentsline {subsection}{\numberline {3.7.1}Probability of Fault Occurence}{19}{subsection.3.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusion}{25}{chapter.5}%
+\contentsline {subsection}{\numberline {3.7.2}Set of faults}{19}{subsection.3.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Project/thesis/dissertation summary}{25}{section.5.1}%
+\contentsline {chapter}{\numberline {4}Implementation of Methods on Actual Satellite}{21}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Appraisal of project/thesis/dissertation contributions}{26}{section.5.2}%
+\contentsline {section}{\numberline {4.1}Isolation Forests}{21}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Suggestions for future work}{26}{section.5.3}%
+\contentsline {chapter}{\numberline {5}Conclusion}{23}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}What the student has learnt during this project}{26}{section.5.4}%
+\contentsline {section}{\numberline {5.1}Project/thesis/dissertation summary}{23}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{27}{chapter*.25}%
+\contentsline {section}{\numberline {5.2}Appraisal of project/thesis/dissertation contributions}{24}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Project Timeline}{29}{appendix.A}%
+\contentsline {section}{\numberline {5.3}Suggestions for future work}{24}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Data}{31}{appendix.B}%
+\contentsline {section}{\numberline {5.4}What the student has learnt during this project}{24}{section.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{25}{chapter*.22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Project Timeline}{27}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Data}{29}{appendix.B}%
