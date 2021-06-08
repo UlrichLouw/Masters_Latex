@@ -20,7 +20,9 @@ where the magnitude of $\overrightarrow{r}$ is denoted as $|\overrightarrow{r}|$
 |\overrightarrow{r}| = \sqrt{x^2 + y^2 + z^2}.
 \end{equation}
 
-The coordinate frames of the earth is dived into two, namely EIC and earth fixed coordinate (EFC) frames. EFC is fixed to the earth and rotates with it. This frame is important with respect to where the satellite position is with regards to position's on earth, such as the ground station. It is also import for the modelling of the geomagnetic fields. 
+The Earth-centered coordinate frames are dived into two, namely the EIC and earth fixed coordinate (EFC) frame. EFC is fixed to the earth and rotates with it. This frame is important with respect to where the satellite position is with regards to position's on earth, such as the ground station. It is also import for the modelling of the geomagnetic fields. 
+
+% Insert a figure of the earth coordinate frames here
 
 The EIC is defined as the Z-axis pointing towards the north pole, the X-axis pointing towards the Vernal Equinox, $\Upsilon$, and the Y-axis completing the orthogonal set. The EFC is a copy of the EIC, with the Z-axis being identical, however the EFC rotates with the earth. The EFC in relation to the EIC can be expressed by a single angle of rotation, which is the Greenwich Hour Angle (GHA), $\alpha_G$. With the knowledge of $t$ --- the elapsed time since $t_0$, $w_E$ --- the angular rate of the earth, and $\alpha_{G,0}$ --- the GHA at $t = t_0$, $\alpha_G$ can be calculated as 
 \begin{equation}
@@ -41,8 +43,34 @@ with $\boldsymbol{A}^{EIC}_{EFC}$ being the EFC-to-EIC transformation matrix. Du
 \end{bmatrix}
 \end{equation}
 
+To determine the satellite position, satellite coordinate frames must be used. Three satellite-centred coordinate frames are used, namely the inertial-reference coordinate frame (the satellite does not rotate), the orbit-referenced coordinate (ORC) frame and the satellite body coordinate (SBC) frame. The IRC frame is only acknowledged, since it is the frame that is fixed (as it does not rotate around the center of the satellite), however it changes position with the orbit of the satellite. This frame is not used to determine the position of the satellite and will not be referenced for the remainder of this document.
 
-\subsection{Euler Angles and Quaternions}
+The ORC frame changes location as the satellite moves, however the Z-axis is always pointing towards the center of the earth, with the Y-axis being the anti-normal and the X-axis completing the orthogonal set. To transform a vector from the EIC frame to the ORC frame the unit position vector, $\overrightarrow{r}_{sat}$ and the unit velocity vector, $\overrightarrow{v}_{sat}$ in EIC.
+
+\begin{equation}
+	\boldsymbol{A}^{ORC}_{EIC} = 
+	\begin{bmatrix}
+		\hat{u} & \hat{v} & \hat{w}\\
+	\end{bmatrix}^T
+\end{equation}
+where
+\begin{equation}
+\hat{w} = -\frac{r_{sat}}{||r_{sat}||}
+\end{equation}
+\begin{equation}
+\hat{v} = -\frac{r_{sat} \times v_{sat}}{||r_{sat} \times v_{sat}||}
+\end{equation}
+\begin{equation}
+\hat{u} = \hat{v} \times \hat{w}
+\end{equation}
+
+The SBC frame is the frame fixed to the satellite and it is the relative rotation of the satellite in relation to the ORC. Thus for the mission of this satellite it is required that the SBC and ORC frames coincide. For the transformation of a vector from the ORC to SBC frame, the direct cosine matrix (DCM) also referred to as $\boldsymbol{A}$ or $\boldsymbol{A}^{SBC}_{ORC}$ is used. For the remainder of the document the DCM will be referred to as $\boldsymbol{A}^{SBC}_{ORC}$ to avoid any confusion. The calculation of this transformation matrix will be discussed in $\S$\ref{subsection_quaternions}.
+
+% Insert a figure of the satellite coordinate frames here
+
+\subsection{Quaternions}
+\label{subsection_quaternions}
+Euler angles and DCM will be acknowledged and explained why they are not applicable.
 In some literature the first and last quaternion are swopped.
 
 \subsection{Satellite Kinematics and Dynamics}

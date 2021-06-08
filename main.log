@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.13)  8 JUN 2021 14:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.13)  8 JUN 2021 14:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1581,34 +1581,34 @@ Chapter 3.
 
 \openout3 = `main.mtc'.
 
-(./main.mtc12) [17] [18] [19]
+(./main.mtc12) [17] [18] [19] [20]
 
-Package caption Warning: \label without proper reference on input line 108.
+Package caption Warning: \label without proper reference on input line 136.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `ADCS fault table' on page 20 undefined on input line 
-104.
+LaTeX Warning: Reference `ADCS fault table' on page 21 undefined on input line 
+132.
 
-[20]
+[21]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 107.
+               Default added (so using `tbp') on input line 135.
 
 
-Overfull \hbox (78.5941pt too wide) in paragraph at lines 109--215
+Overfull \hbox (78.5941pt too wide) in paragraph at lines 137--243
 [][] 
  []
 
-) (./chapter/Implementation.tex [21] [22
-
-]
+) (./chapter/Implementation.tex [22]
 Chapter 4.
 \openout3 = `main.mtc'.
 
 \openout3 = `main.mtc'.
 
-(./main.mtc13)) (./chapter/last_chapter.tex [23] [24
+(./main.mtc13)) (./chapter/last_chapter.tex [23
+
+] [24
 
 ]
 Chapter 5.
@@ -1628,7 +1628,7 @@ Overfull \hbox (0.82881pt too wide) in paragraph at lines 120--120
 
 ]
 Appendix A.
-<fig/Timeline.png, id=995, 944.7797pt x 630.10406pt>
+<fig/Timeline.png, id=1000, 944.7797pt x 630.10406pt>
 File: fig/Timeline.png Graphic file (type png)
 <use fig/Timeline.png>
 Package pdftex.def Info: fig/Timeline.png  used on input line 8.
@@ -1650,7 +1650,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9C85741B4A3192F97A25D38FF45C478C;6877.
+(rerunfilecheck)             Checksum: 95D5ABE32E4608FC365F99B3591C4A26;6860.
 
 
 LaTeX Warning: There were undefined references.
@@ -1660,10 +1660,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41866 strings out of 483183
- 931236 string characters out of 5966292
- 2017419 words of memory out of 5000000
- 55698 multiletter control sequences out of 15000+600000
+ 41871 strings out of 483183
+ 931317 string characters out of 5966292
+ 2017467 words of memory out of 5000000
+ 55699 multiletter control sequences out of 15000+600000
  545565 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  76i,20n,105p,1727b,2028s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1685,10 +1685,10 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (59 pages, 839976 bytes).
+Output written on main.pdf (59 pages, 843717 bytes).
 PDF statistics:
- 1134 PDF objects out of 1200 (max. 8388607)
- 1028 compressed objects within 11 object streams
- 249 named destinations out of 1000 (max. 500000)
+ 1141 PDF objects out of 1200 (max. 8388607)
+ 1035 compressed objects within 11 object streams
+ 253 named destinations out of 1000 (max. 500000)
  792 words of extra memory for PDF output out of 10000 (max. 10000000)
 
