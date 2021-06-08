@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.13)  18 MAY 2021 10:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.13)  8 JUN 2021 14:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1487,22 +1487,29 @@ Chapter 1.
 
 \openout3 = `main.mtc'.
 
-(./main.mtc10)pdfTeX warning (ext4): destination with the same identifier (name
-{page.1}) has been already used, duplicate ignored
+(./main.mtc10)
+Overfull \hbox (35.22523pt too wide) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 https://www.theverge.com/2020/1/14/21043229/spacex-starlink-
+satellite-mega-constellation-concerns-
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.23 
-      [1
+l.27 T
+      he most detrimental effect could be on satellite constellations. Satel...
+[1
 
-] [2] [3]) (./chapter/Literature_study.tex [4]
+] [2]) (./chapter/Literature_study.tex [3] [4
+
+]
 Chapter 2.
 \openout3 = `main.mtc'.
 
 \openout3 = `main.mtc'.
 
-(./main.mtc11 [5
-
-]) [6]
+(./main.mtc11 [5]) [6]
 Overfull \hbox (2.56012pt too wide) in paragraph at lines 27--27
 |[]\OT1/cmr/bx/n/12 Innovative Fault De-tec-tion, Iso-la-tion and Re-cov-ery St
 rate-gies On-Board
@@ -1527,36 +1534,35 @@ Underfull \hbox (badness 10000) detected at line 124
 [][]
  []
 
-[8]
-Underfull \vbox (badness 3049) has occurred while \output is active []
-
- [9]
-[10]
-<fig/Isolation_Forests.jpg, id=790, 347.27974pt x 194.42549pt>
+[8] [9] [10] [11]
+<fig/Isolation_Forests.jpg, id=802, 347.27974pt x 194.42549pt>
 File: fig/Isolation_Forests.jpg Graphic file (type jpg)
 <use fig/Isolation_Forests.jpg>
 Package pdftex.def Info: fig/Isolation_Forests.jpg  used on input line 249.
 (pdftex.def)             Requested size: 284.52756pt x 159.30531pt.
- [11]
-<fig/Isolation_forest_slicing.png, id=806, 1102.1175pt x 383.4325pt>
+<fig/Isolation_forest_slicing.png, id=811, 1102.1175pt x 383.4325pt>
 File: fig/Isolation_forest_slicing.png Graphic file (type png)
 <use fig/Isolation_forest_slicing.png>
 Package pdftex.def Info: fig/Isolation_forest_slicing.png  used on input line 2
 80.
 (pdftex.def)             Requested size: 199.16928pt x 203.97885pt.
-<fig/Extended_Isolation_forest_slicing.png, id=809, 1102.1175pt x 383.4325pt>
+<fig/Extended_Isolation_forest_slicing.png, id=814, 1102.1175pt x 383.4325pt>
 File: fig/Extended_Isolation_forest_slicing.png Graphic file (type png)
 <use fig/Extended_Isolation_forest_slicing.png>
 Package pdftex.def Info: fig/Extended_Isolation_forest_slicing.png  used on inp
 ut line 285.
 (pdftex.def)             Requested size: 199.16928pt x 203.97885pt.
-<fig/LOF_measure.png, id=814, 462.528pt x 346.896pt>
+ [12 <./fig/Isolation_Forests.jpg>]
+<fig/LOF_measure.png, id=830, 462.528pt x 346.896pt>
 File: fig/LOF_measure.png Graphic file (type png)
 <use fig/LOF_measure.png>
 Package pdftex.def Info: fig/LOF_measure.png  used on input line 298.
 (pdftex.def)             Requested size: 284.52756pt x 213.40593pt.
- [12 <./fig/Isolation_Forests.jpg>] [13 <./fig/Isolation_forest_slicing.png> <.
-/fig/Extended_Isolation_forest_slicing.png> <./fig/LOF_measure.png>]
+
+Underfull \vbox (badness 1371) has occurred while \output is active []
+
+ [13 <./fig/Isolation_forest_slicing.png> <./fig/Extended_Isolation_forest_slic
+ing.png> <./fig/LOF_measure.png>]
 
 Package caption Warning: \label without proper reference on input line 328.
 See the caption package documentation for explanation.
@@ -1575,37 +1581,34 @@ Chapter 3.
 
 \openout3 = `main.mtc'.
 
-(./main.mtc12) [17]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+(./main.mtc12) [17] [18] [19]
 
- [18]
-
-Package caption Warning: \label without proper reference on input line 74.
+Package caption Warning: \label without proper reference on input line 108.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `ADCS fault table' on page 19 undefined on input line 
-70.
+LaTeX Warning: Reference `ADCS fault table' on page 20 undefined on input line 
+104.
 
-[19]
+[20]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 73.
+               Default added (so using `tbp') on input line 107.
 
 
-Overfull \hbox (78.5941pt too wide) in paragraph at lines 75--181
+Overfull \hbox (78.5941pt too wide) in paragraph at lines 109--215
 [][] 
  []
 
-) (./chapter/Implementation.tex [20]
+) (./chapter/Implementation.tex [21] [22
+
+]
 Chapter 4.
 \openout3 = `main.mtc'.
 
 \openout3 = `main.mtc'.
 
-(./main.mtc13)) (./chapter/last_chapter.tex [21
-
-] [22
+(./main.mtc13)) (./chapter/last_chapter.tex [23] [24
 
 ]
 Chapter 5.
@@ -1613,18 +1616,24 @@ Chapter 5.
 
 \openout3 = `main.mtc'.
 
-(./main.mtc14) [23]) [24] [25
+(./main.mtc14) [25]) [26]
+Overfull \hbox (0.82881pt too wide) in paragraph at lines 120--120
+\OT1/cmr/m/it/10.95 pro-cesses us-ing gen-er-al-ized canon-i-cal cor-re-la-tion
+ anal-y-sis and ran-dom-ized al-go-rithms\OT1/cmr/m/n/10.95 , IEEE
+ []
 
-] (./chapter/appendixA.tex [26]
+[27
+
+] [28] (./chapter/appendixA.tex [29] [30
+
+]
 Appendix A.
-<fig/Timeline.png, id=964, 944.7797pt x 630.10406pt>
+<fig/Timeline.png, id=995, 944.7797pt x 630.10406pt>
 File: fig/Timeline.png Graphic file (type png)
 <use fig/Timeline.png>
 Package pdftex.def Info: fig/Timeline.png  used on input line 8.
 (pdftex.def)             Requested size: 944.77739pt x 630.10252pt.
-) (./chapter/appendixB.tex [27
-
-] [28 <./fig/Timeline.png>]
+) (./chapter/appendixB.tex [31] [32 <./fig/Timeline.png>]
 Appendix B.
 )
 Package minitoc Info: I0009
@@ -1632,7 +1641,7 @@ Package minitoc Info: I0009
 (minitoc)             Creating the main.maf file.
 \openout3 = `main.maf'.
 
- [29
+ [33
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
@@ -1640,15 +1649,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 9C85741B4A3192F97A25D38FF45C478C;6877.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 057F85727BAD68F4EA1FA109FD7CA2D7;6781
-(rerunfilecheck)             After:  09E798245A3B5A04E7D6170978A37ABF;6840.
 
 LaTeX Warning: There were undefined references.
 
@@ -1657,11 +1660,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41838 strings out of 483183
- 930862 string characters out of 5966292
- 2015009 words of memory out of 5000000
- 55687 multiletter control sequences out of 15000+600000
- 543412 words of font info for 65 fonts, out of 8000000 for 9000
+ 41866 strings out of 483183
+ 931236 string characters out of 5966292
+ 2017419 words of memory out of 5000000
+ 55698 multiletter control sequences out of 15000+600000
+ 545565 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  76i,20n,105p,1727b,2028s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/ulrich/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.60
@@ -1673,18 +1676,19 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (55 pages, 818887 bytes).
+lic/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (59 pages, 839976 bytes).
 PDF statistics:
- 1097 PDF objects out of 1200 (max. 8388607)
- 998 compressed objects within 10 object streams
- 239 named destinations out of 1000 (max. 500000)
- 784 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1134 PDF objects out of 1200 (max. 8388607)
+ 1028 compressed objects within 11 object streams
+ 249 named destinations out of 1000 (max. 500000)
+ 792 words of extra memory for PDF output out of 10000 (max. 10000000)
 

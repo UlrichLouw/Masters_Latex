@@ -91,15 +91,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>100</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>100</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>100</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -2214,24 +2214,26 @@
     <bcf:citekey order="30">auret2012design</bcf:citekey>
     <bcf:citekey order="30">JansevanVuuren2015</bcf:citekey>
     <bcf:citekey order="30">Jordaan2016</bcf:citekey>
-    <bcf:citekey order="31">tafazoli2009study</bcf:citekey>
-    <bcf:citekey order="32">Guo2014</bcf:citekey>
-    <bcf:citekey order="33">Jones2017</bcf:citekey>
-    <bcf:citekey order="34">Spilhaus1987</bcf:citekey>
-    <bcf:citekey order="35">allen2012satellite</bcf:citekey>
-    <bcf:citekey order="36">Jacklin2019</bcf:citekey>
-    <bcf:citekey order="37">Wintoft</bcf:citekey>
-    <bcf:citekey order="38">Choi2011</bcf:citekey>
-    <bcf:citekey order="39">Spilhaus1987</bcf:citekey>
-    <bcf:citekey order="40">Crowell2011</bcf:citekey>
+    <bcf:citekey order="31">Steyn2014</bcf:citekey>
+    <bcf:citekey order="32">Jones2017</bcf:citekey>
+    <bcf:citekey order="33">tafazoli2009study</bcf:citekey>
+    <bcf:citekey order="34">Guo2014</bcf:citekey>
+    <bcf:citekey order="35">Jones2017</bcf:citekey>
+    <bcf:citekey order="36">Spilhaus1987</bcf:citekey>
+    <bcf:citekey order="37">allen2012satellite</bcf:citekey>
+    <bcf:citekey order="38">Jacklin2019</bcf:citekey>
+    <bcf:citekey order="39">Wintoft</bcf:citekey>
+    <bcf:citekey order="40">Choi2011</bcf:citekey>
     <bcf:citekey order="41">Spilhaus1987</bcf:citekey>
-    <bcf:citekey order="42">Jacklin2019</bcf:citekey>
-    <bcf:citekey order="43">Robertson2019</bcf:citekey>
-    <bcf:citekey order="44">Crowell2011</bcf:citekey>
-    <bcf:citekey order="45">Jacklin2019</bcf:citekey>
+    <bcf:citekey order="42">Crowell2011</bcf:citekey>
+    <bcf:citekey order="43">Spilhaus1987</bcf:citekey>
+    <bcf:citekey order="44">Jacklin2019</bcf:citekey>
+    <bcf:citekey order="45">Robertson2019</bcf:citekey>
     <bcf:citekey order="46">Crowell2011</bcf:citekey>
-    <bcf:citekey order="47">Crowell2011</bcf:citekey>
-    <bcf:citekey order="48">Jacklin2019</bcf:citekey>
+    <bcf:citekey order="47">Jacklin2019</bcf:citekey>
+    <bcf:citekey order="48">Crowell2011</bcf:citekey>
+    <bcf:citekey order="49">Crowell2011</bcf:citekey>
+    <bcf:citekey order="50">Jacklin2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

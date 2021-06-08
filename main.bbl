@@ -957,35 +957,6 @@
       \field{pages}{1250\bibrangedash 1258}
       \range{pages}{9}
     \endentry
-    \entry{Jones2017}{article}{}
-      \name{author}{2}{}{%
-        {{hash=46016589f5a1a0477a6f42822578458a}{%
-           family={Jones},
-           familyi={J\bibinitperiod},
-           given={T},
-           giveni={T\bibinitperiod}}}%
-        {{hash=73e3f743142f33d0a3cc9cf687685494}{%
-           family={Jaquet},
-           familyi={J\bibinitperiod},
-           given={D},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{af0ccde7c23c5c4c95d165d31f9633dd}
-      \strng{fullhash}{7e8b0091e4480640781267e5b896c8e7}
-      \strng{bibnamehash}{af0ccde7c23c5c4c95d165d31f9633dd}
-      \strng{authorbibnamehash}{af0ccde7c23c5c4c95d165d31f9633dd}
-      \strng{authornamehash}{af0ccde7c23c5c4c95d165d31f9633dd}
-      \strng{authorfullhash}{7e8b0091e4480640781267e5b896c8e7}
-      \field{sortinit}{J}
-      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Advanced Estimation 813 :}}
-      \field{year}{2017}
-      \verb{file}
-      \verb :home/ulrich/Documents/Masters thesis/Literature textbooks/Notes.pdf:pdf
-      \endverb
-    \endentry
     \entry{Jordaan2016}{article}{}
       \name{author}{1}{}{%
         {{hash=8ac2acd1b15c191ffbc7284954497244}{%
@@ -1320,6 +1291,55 @@
       \endverb
       \keyw{communication satellites,conclusions,cost models,failure rate,fuel,hubble space telescope has,replacement,satellite reliabilie,satellite repair,satellites,shuttle,space station repair,summary,the repair of the,validated}
     \endentry
+    \entry{Steyn2014}{book}{}
+      \name{author}{2}{}{%
+        {{hash=aa22c65143c80f016056886c022d4e8a}{%
+           family={Steyn},
+           familyi={S\bibinitperiod},
+           given={Willem\bibnamedelima H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=7aa1380fd312c5e0bc1aeae3ee33f68f}{%
+           family={Kearney},
+           familyi={K\bibinitperiod},
+           given={Mike\bibnamedelima Alec},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IFAC}%
+      }
+      \strng{namehash}{81dde14d4be8141a7235e99dca85cc11}
+      \strng{fullhash}{917c35a0f94eed10293c785eeb0f4424}
+      \strng{bibnamehash}{81dde14d4be8141a7235e99dca85cc11}
+      \strng{authorbibnamehash}{81dde14d4be8141a7235e99dca85cc11}
+      \strng{authornamehash}{81dde14d4be8141a7235e99dca85cc11}
+      \strng{authorfullhash}{917c35a0f94eed10293c785eeb0f4424}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents the attitude control system design of ZA-AeroSat a 2U CubeSat with four feather communication antennas also used for passive aerodynamic stabilisation. An active momentum wheel and magnetic stabilisation control system will be used to damp the aerodynamic oscillations and reduce the attitude disturbances. The satellite will form part of the QB50 constellation to gather science data in the upper layers of the troposphere in the altitude range from 350 km down to 200 km. All the satellites in the QB50 constellation will carry science payloads to be pointed to within ±10° from the velocity vector direction. At these altitudes the atmospheric density becomes significant and increases exponentially as the orbit decays rapidly over only a few months' period from launch to re-entrance in the much denser lower layers of the earth's atmosphere.}
+      \field{booktitle}{IFAC Proceedings Volumes (IFAC-PapersOnline)}
+      \field{isbn}{9783902823625}
+      \field{issn}{14746670}
+      \field{number}{3}
+      \field{title}{{An attitude control system for ZA-aerosat subject to significant aerodynamic disturbances}}
+      \field{volume}{19}
+      \field{year}{2014}
+      \field{pages}{7929\bibrangedash 7934}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.3182/20140824-6-za-1003.00128
+      \endverb
+      \verb{file}
+      \verb :home/ulrich/Documents/Masters thesis/Journal articles/Satellites/Aerodynamic{\_}disturbances.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.3182/20140824-6-ZA-1003.00128
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.3182/20140824-6-ZA-1003.00128
+      \endverb
+    \endentry
     \entry{tafazoli2009study}{article}{}
       \name{author}{1}{}{%
         {{hash=cf1a6ac26b4c2194dfdeb380842a6611}{%
@@ -1389,6 +1409,42 @@
       \endverb
       \verb{url}
       \verb https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf%0Ahttps://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf?q=isolation-forest
+      \endverb
+    \endentry
+    \entry{Jones2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=32bec1da5236b658426080ad4bd7ec37}{%
+           family={Daalen},
+           familyi={D\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=46016589f5a1a0477a6f42822578458a}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+        {{hash=73e3f743142f33d0a3cc9cf687685494}{%
+           family={Jaquet},
+           familyi={J\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{3479661610ad6f66f3da85a08c655d1a}
+      \strng{fullhash}{a6d9c3974cd8117780adea131011b65c}
+      \strng{bibnamehash}{3479661610ad6f66f3da85a08c655d1a}
+      \strng{authorbibnamehash}{3479661610ad6f66f3da85a08c655d1a}
+      \strng{authornamehash}{3479661610ad6f66f3da85a08c655d1a}
+      \strng{authorfullhash}{a6d9c3974cd8117780adea131011b65c}
+      \field{sortinit}{v}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Advanced Estimation 813 :}}
+      \field{year}{2017}
+      \verb{file}
+      \verb :home/ulrich/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Jones, Jaquet - 2017 - Advanced Estimation 813.pdf:pdf
       \endverb
     \endentry
     \entry{wander2013innovative}{book}{}

@@ -13,23 +13,25 @@
 \startarabicpagenumbering % must be just after the first \chapter{} command
 
 
-\blindtext
+The current trend in industry is to create systems that operate autonomously. There is also a trend seen where multi-agent systems with hundred and thousands of sub-systems work within a larger system. Even though each sub-system can operate independently, the health of the network/system is dependent on each agent within the system operating as desired. Consequently, autonomous systems must be able to detect faults within the system. To attain this, a fault detection, isolation and recovery system is required for each individual agent and the system as a whole.
 
 \section{Background}
+All systems have the inevitable problem that they will fail. Determining this failure is of a variety of importance for multiple systems. The current tendency is that many systems are more and more integrated. A web of self-driving cars, UAV's for delivery, satellite constellations and more. The problem with any of these systems is if any part of the system is faulty it can have detrimental consequences for a part of the system or the entire system.
 
-\blindtext
-
-\blindtext
+Software developers make mistakes, as all humans do. The current industry standard for number of bugs per thousand lines of code is $5$ bugs/KLOC at \$$5$ per line of code. NASA works on 0.004 bugs/KLOC at \$$805$ per line of code. Imagine having hundreds of thousands of lines of code and having that same code on thousands of satellites. Each fault detection must usually be checked with if statements and logic. This leads to more lines of code and mistakes on trying to capture mistakes. I propose a solution to this problem by using statistical models and machine learning to use satellites in close proximity to determine the health of the other nearby components within the system.
 
 \section{Informal problem description}
 
-\blindtext
+https://www.theverge.com/2020/1/14/21043229/spacex-starlink-satellite-mega-constellation-concerns-astronomy-space-traffic
 
-\blindtext
+The most detrimental effect could be on satellite constellations. Satellites are expensive, \$$500 000$ each for Starlink satellite. And this is also based on the mass production of satellites. Satellites cannot merely be accessed and fixed as other systems. Therefore satellites are used as the specific system for FDIR of systems.
+
+The current situation with cubesats is that ground stations will not be able to keep up with the fault detection and diagnosis of cubesats within constellations where thousands of cubesats are within the same height above the earth. As is the current situation with Starlink.
+
+Kessler syndrome is the effect of one satellite, that is unable to control its orientation and position, causing a collision in orbit. This leads to more debris in the orbit and more collisions and this is detrimental if considered in view of Starlink's mega-constellation.
 
 \section{Research hypothesis}
-
-\Blindtext
+I propose a fault detection system for each individual satellite and the constellation as a whole. The satellite will have an on-board FDIR system that also uses the information of the satellites closest to its position to provide feedback of its own "health" and the health of the other satellites in its orbit. If a satellite is determined "unhealthy" by all the nearby satellites then the satellite with go into safe mode until the ground station can determine the problem with current satellite.
 
 \section{Scope and objectives}
 

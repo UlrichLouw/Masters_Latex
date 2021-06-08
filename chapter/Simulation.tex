@@ -4,14 +4,46 @@
 \minitoc
 To implement and research various FDIR systems on satellites an simulation of satellite dynamics and kinematics is developed. The focus of this thesis is on small satellites and more specifically cubesats. For the simulation of the ADCS of the satellite \cite{auret2012design, JansevanVuuren2015, Jordaan2016} were referenced during the development of the satellite simulation. The simulation was developed in Python to simulate the dynamics and kinematics during a satellite orbit. The faults for the subsystems are also developed within the simulation and will be discussed within this chapter.
 
-\section{ADCS}
+\section{Attitude Determination and Control System}
+
+For the mission of the specific satellite in this document the main operational goal of the Attitude Determination and Control System (ADCS) on this specific satellite mission is to control the payload to point towards the centre of the earth. 
 
 \subsection{Coordinate Frames}
+The coordinate frames in aerospace is a fundamental part of the ADCS. To determine the orientation and position of an object, it should be relative to a fixed frame. Consequently, the Earth inertial coordinate (EIC) frame is the fixed frame from which every other frame is relative to.
 
+A coordinate frame consists of three orthogonal vectors which is commonly referred to as x, y, and z. The axis of the coordinate frame is appropriately named as X-axis, Y-axis and Z-axis as seen in Figure... A vector (r) within the current coordinate frame can thus be expressed as 
+\begin{equation}
+\overrightarrow{r} = x\overrightarrow{i} + y\overrightarrow{j} + z\overrightarrow{k}
+\end{equation}
+where the magnitude of $\overrightarrow{r}$ is denoted as $|\overrightarrow{r}|$ and is equal to 
+\begin{equation}
+|\overrightarrow{r}| = \sqrt{x^2 + y^2 + z^2}.
+\end{equation}
 
-The main operational goal of the ADCS on this specific satellite mission is to control the payload to point towards the centre of the earth. 
+The coordinate frames of the earth is dived into two, namely EIC and earth fixed coordinate (EFC) frames. EFC is fixed to the earth and rotates with it. This frame is important with respect to where the satellite position is with regards to position's on earth, such as the ground station. It is also import for the modelling of the geomagnetic fields. 
+
+The EIC is defined as the Z-axis pointing towards the north pole, the X-axis pointing towards the Vernal Equinox, $\Upsilon$, and the Y-axis completing the orthogonal set. The EFC is a copy of the EIC, with the Z-axis being identical, however the EFC rotates with the earth. The EFC in relation to the EIC can be expressed by a single angle of rotation, which is the Greenwich Hour Angle (GHA), $\alpha_G$. With the knowledge of $t$ --- the elapsed time since $t_0$, $w_E$ --- the angular rate of the earth, and $\alpha_{G,0}$ --- the GHA at $t = t_0$, $\alpha_G$ can be calculated as 
+\begin{equation}
+\alpha_G = w_Et + \alpha_{G,0}
+\end{equation}
+To transform a vector from one coordinate frame to another, a transformation matrix, $\boldsymbol{A}$, is required. For example vector $\overrightarrow{r}_{EFC}$ can be transformed to $\overrightarrow{r}_{EIC}$ with 
+\begin{equation}
+\overrightarrow{r}_{EIC} = \boldsymbol{A}^{EIC}_{EFC}\overrightarrow{r}_{EFC}
+\end{equation}
+with $\boldsymbol{A}^{EIC}_{EFC}$ being the EFC-to-EIC transformation matrix. Due to the definition of both coordinate frames, $\boldsymbol{A}^{EIC}_{EFC}$ can be defined .
+
+\begin{equation}
+\boldsymbol{A}^{EIC}_{EFC} = 
+\begin{bmatrix}
+	cos(\alpha_G) & -sin(\alpha_G) & 0\\
+	sin(\alpha_G) & cos(\alpha_G) & 0 \\
+	0 & 0 & 1
+\end{bmatrix}
+\end{equation}
+
 
 \subsection{Euler Angles and Quaternions}
+In some literature the first and last quaternion are swopped.
 
 \subsection{Satellite Kinematics and Dynamics}
 
@@ -46,13 +78,15 @@ Show graph of geomagnetic plot...
 \subsection{Gravity Gradient}
 
 \subsection{Aerodynamic Disturbance}
+\cite{Steyn2014}
 
 \subsection{Wheel Imbalance}
 
 \section{Attitude Determination}
-In this chapter discuss the Kalman filter.
+In this section discuss the Kalman filter.
 
 \subsection{Kalman Filter}
+\cite{Jones2017}
 
 \section{Attitude Control}
 Magnetic control during detumbling
@@ -64,7 +98,7 @@ For the simulation of the satellite and the induced faults to train and test var
 \subsection{Probability of Fault Occurence}
 The occurrence of a fault depends on the reliability of that equipment. \textcite{Guo2014} studied the reliability of small satellites and calculated the parameters for the Weibull distribution based on real data. To model the probability of a fault to occur the probability density function is used \cite{Jones2017}.
 
-This probability however is small and for the training of the system the data is too sparse for the computational abilities of any regular PC. Thus the probability of a failure during training is fixed to 1/1000000 to produce the data required for the anomaly detection with a million test samples.
+This probability however is small and for the training of the system the data is too sparse for the computational abilities of any regular PC. Thus the probability of a failure during training is fixed to $1/1000000$ to produce the data required for the anomaly detection with a million test samples.
 
 \subsection{Set of faults}
 A set of typical faults for the ADCS is shown in Table~\ref{ADCS fault table}. 
