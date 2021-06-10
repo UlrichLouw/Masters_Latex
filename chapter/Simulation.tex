@@ -43,9 +43,9 @@ with $\boldsymbol{A}^{EIC}_{EFC}$ being the EFC-to-EIC transformation matrix. Du
 \end{bmatrix}
 \end{equation}
 
-To determine the satellite position, satellite coordinate frames must be used. Three satellite-centred coordinate frames are used, namely the inertial-reference coordinate frame (the satellite does not rotate), the orbit-referenced coordinate (ORC) frame and the satellite body coordinate (SBC) frame. The IRC frame is only acknowledged, since it is the frame that is fixed (as it does not rotate around the center of the satellite), however it changes position with the orbit of the satellite. This frame is not used to determine the position of the satellite and will not be referenced for the remainder of this document.
+To determine the satellite position, satellite coordinate frames must be used. Three satellite-centred coordinate frames are used, namely the inertial-reference coordinate frame (the satellite does not rotate), the orbit-referenced coordinate (ORC) frame and the satellite body coordinate (SBC) frame. The IRC frame is only acknowledged, since it is the frame that is fixed (as it does not rotate around the centre of the satellite), however it changes position with the orbit of the satellite. This frame is not used to determine the position of the satellite and will not be referenced for the remainder of this document.
 
-The ORC frame changes location as the satellite moves, however the Z-axis is always pointing towards the center of the earth, with the Y-axis being the anti-normal and the X-axis completing the orthogonal set. To transform a vector from the EIC frame to the ORC frame the unit position vector, $\overrightarrow{r}_{sat}$ and the unit velocity vector, $\overrightarrow{v}_{sat}$ in EIC.
+The ORC frame changes location as the satellite moves, however the Z-axis is always pointing towards the centre of the earth, with the Y-axis being the anti-normal and the X-axis completing the orthogonal set. To transform a vector from the EIC frame to the ORC frame the unit position vector, $\overrightarrow{r}_{sat}$ and the unit velocity vector, $\overrightarrow{v}_{sat}$ in EIC \cite{Chen_ground-target}.
 
 \begin{equation}
 	\boldsymbol{A}^{ORC}_{EIC} = 
@@ -68,10 +68,69 @@ The SBC frame is the frame fixed to the satellite and it is the relative rotatio
 
 % Insert a figure of the satellite coordinate frames here
 
-\subsection{Quaternions}
+\subsection{Attitude}
 \label{subsection_quaternions}
+To determine the attitude of an object, a model must be used to determine the rotation of an object in three dimensions. For this the visual and intuitive example of the Euler angles exist. Euler angles are the rotation of an object around three orthogonal axis, that change orientation with the rotation of the object. The three axes, denoted by X, Y and Z rotate with the object as depicted in Figure~\ref{Figure-Euler_angles}.
+
+\begin{figure}[h!tb]
+\label{Figure-Euler_angles}
+\begin{tikzpicture}[scale=2.5,tdplot_main_coords]
+	%\tdplotsetmaincoords{70}{110}
+	% Set origin of main (body) coordinate system
+	\coordinate (O) at (0,0,0);
+	
+	% Draw main coordinate system
+	\draw[red, ,->] (0,0,0) -- (1,0,0) node[anchor=north east]{$x_{\mathcal{I}}$};
+	\draw[red, ,->] (0,0,0) -- (0,1,0) node[anchor=north west]{$y_{\mathcal{I}}$};
+	\draw[red, ,->] (0,0,0) -- (0,0,1) node[anchor=south]{$z_{\mathcal{I}}$};
+	
+	
+	
+	% Intermediate frame 1
+	\tdplotsetrotatedcoords{-60}{0}{0}
+	\draw[tdplot_rotated_coords,->, blue] (0,0,0) -- (1,0,0) node[anchor=north east]{$x'$};
+	\draw[tdplot_rotated_coords,->, blue] (0,0,0) -- (0,1,0) node[anchor=west]{$y'$};
+	\draw[tdplot_rotated_coords,->, blue] (0,0,0) -- (0,0,1) node[anchor=west]{$z'$};
+	
+	\tdplotsetrotatedthetaplanecoords{90}
+	%draw theta arc and label
+	%\tdplotdrawarc[tdplot_rotated_coords,->,color=blue]{(0,0,0)}{0.5}{0}{350}{anchor=south west,color=gray}{$\alpha$}
+	\tdplotdrawarc[tdplot_rotated_coords,->,color=gray]{(0,0,0)}{0.5}{80}{90}{anchor=south west,color=gray}{$\alpha$}
+	\tdplotdrawarc[tdplot_rotated_coords,->,color=gray]{(0,0,0)}{0.5}{170}{180}{anchor=south west,color=gray,  yshift = -15 pt}{$\alpha$}
+	
+	%% Intermediate frame 2
+	\tdplotsetrotatedcoords{-60}{15}{0}
+	\draw[,tdplot_rotated_coords,->, green] (0,0,0) -- (1,0,0) node[anchor=
+	north]{};
+	\draw[,tdplot_rotated_coords,->, green] (0,0,0) -- (0,1,0)
+	node[anchor=west]{$y''$};
+	\draw[,tdplot_rotated_coords,->, green] (0,0,0) -- (0,0,1)
+	node[anchor=south]{$z''$};
+	\tdplotsetrotatedthetaplanecoords{60}
+	%draw theta arc and label
+	%\tdplotdrawarc[tdplot_rotated_coords,->,color=green]{(0,0,0)}{0.5}{0}{350}{anchor=north,color=gray}{$\beta$}
+	\tdplotdrawarc[tdplot_rotated_coords,->,color=gray]{(0,0,0)}{0.5}{80}{90}{anchor=north,color=gray}{$\beta$}
+	\tdplotdrawarc[tdplot_rotated_coords,->,color=gray]{(0,0,0)}{0.5}{310}{320}{anchor=south west,color=gray}{$\beta$}
+	% 
+	% Rotate to final frame
+	\tdplotsetrotatedcoords{-60}{15}{45}
+	\draw[thick,tdplot_rotated_coords,->, cyan] (0,0,0) -- (1,0,0)
+	node[anchor=west]{$x_{\mathcal{B}}$, \textcolor{green}{$x''$}};
+	\draw[thick,tdplot_rotated_coords,->, cyan] (0,0,0) -- (0,1,0) node[anchor=west]{$y_{\mathcal{B}}$};
+	\draw[thick,tdplot_rotated_coords,->, cyan] (0,0,0) -- (0,0,1) node[anchor=south]{$z_{\mathcal{B}}$};
+	
+	\tdplotsetrotatedthetaplanecoords{30}
+	%draw theta arc and label
+	%\tdplotdrawarc[tdplot_rotated_coords,->,color=cyan]{(0,0,0)}{0.5}{0}{350}{anchor=north,color=gray}{$\gamma$}
+	\tdplotdrawarc[tdplot_rotated_coords,->,color=gray]{(0,0,0)}{0.5}{215}{225}{anchor=north,color=gray, yshift = 15pt}{$\gamma$}
+	\tdplotdrawarc[tdplot_rotated_coords,->,color=gray]{(0,0,0)}{0.5}{328}{338}{anchor=south west,color=gray}{$\gamma$}
+	
+\end{tikzpicture}
+\end{figure}
+
+
 Euler angles and DCM will be acknowledged and explained why they are not applicable.
-In some literature the first and last quaternion are swopped.
+In some literature the first and last quaternion are swapped.
 
 \subsection{Satellite Kinematics and Dynamics}
 
