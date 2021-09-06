@@ -14,32 +14,36 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {xchapter}{Literature Study}{5}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Guassian Distributions\relax }}{9}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Guassian Distributions\relax }}{10}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Isolation Forest}}{12}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Isolation Forest}}{13}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Slicing of Isolation Forest}}{13}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Slicing of Isolation Forest}}{14}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Local outlier measure}}{13}{figure.caption.19}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Simulation}{17}{chapter.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Local outlier measure}}{15}{figure.caption.24}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Implementation of Methods on Actual Satellite}{23}{chapter.4}%
+\contentsline {xchapter}{Anomalies}{17}{chapter.3}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Conclusion}{25}{chapter.5}%
+\contentsline {xchapter}{Simulation}{19}{chapter.4}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Project Timeline}{31}{appendix.A}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Expected timeline in Gannt-chart form.\relax }}{32}{figure.caption.24}%
+\contentsline {xchapter}{Implementation of Methods on Actual Satellite}{27}{chapter.5}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Data}{33}{appendix.B}%
+\contentsline {xchapter}{Conclusion}{29}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {xchapter}{Project Timeline}{35}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Expected timeline in Gannt-chart form.\relax }}{36}{figure.caption.32}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {xchapter}{Data}{37}{appendix.B}%

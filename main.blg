@@ -1,23 +1,23 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'main.blg'
-[45] biber:322> INFO - === Wed Jun  9, 2021, 10:24:23
+[46] biber:322> INFO - === Wed Aug  4, 2021, 08:32:31
 [54] Biber.pm:415> INFO - Reading 'main.bcf'
-[96] Biber.pm:943> INFO - Found 38 citekeys in bib section 0
-[104] Biber.pm:4256> INFO - Processing section 0
-[104] Utils.pm:75> INFO - Globbing data source 'bibliography.bib'
-[104] Utils.pm:91> INFO - Globbed data source 'bibliography.bib' to bibliography.bib
-[110] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[113] bibtex.pm:1653> INFO - LaTeX decoding ...
-[178] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliography.bib'
-[178] Utils.pm:293> WARN - Duplicate entry key: 'Hariri2021' in file 'bibliography.bib', skipping ...
-[180] Utils.pm:293> WARN - Duplicate entry key: 'emmott2013systematic' in file 'bibliography.bib', skipping ...
-[180] Utils.pm:293> WARN - Duplicate entry key: 'breunig2000lof' in file 'bibliography.bib', skipping ...
-[180] Utils.pm:293> WARN - Duplicate entry key: 'do2008multivariate' in file 'bibliography.bib', skipping ...
-[343] Utils.pm:293> WARN - Range field 'pages' in entry 'Robertson2019' is malformed, falling back to literal
-[378] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[378] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[378] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[378] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[406] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[422] bbl.pm:755> INFO - Output to main.bbl
-[422] Biber.pm:128> INFO - WARNINGS: 5
+[97] Biber.pm:943> INFO - Found 40 citekeys in bib section 0
+[105] Biber.pm:4256> INFO - Processing section 0
+[105] Utils.pm:75> INFO - Globbing data source 'bibliography.bib'
+[105] Utils.pm:91> INFO - Globbed data source 'bibliography.bib' to bibliography.bib
+[111] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[114] bibtex.pm:1653> INFO - LaTeX decoding ...
+[184] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliography.bib'
+[185] Utils.pm:293> WARN - Duplicate entry key: 'Hariri2021' in file 'bibliography.bib', skipping ...
+[186] Utils.pm:293> WARN - Duplicate entry key: 'emmott2013systematic' in file 'bibliography.bib', skipping ...
+[186] Utils.pm:293> WARN - Duplicate entry key: 'breunig2000lof' in file 'bibliography.bib', skipping ...
+[187] Utils.pm:293> WARN - Duplicate entry key: 'do2008multivariate' in file 'bibliography.bib', skipping ...
+[361] Utils.pm:293> WARN - Range field 'pages' in entry 'Robertson2019' is malformed, falling back to literal
+[398] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[398] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[398] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[398] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[427] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[445] bbl.pm:755> INFO - Output to main.bbl
+[445] Biber.pm:128> INFO - WARNINGS: 5

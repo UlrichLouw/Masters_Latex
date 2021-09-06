@@ -191,6 +191,56 @@
       \field{pages}{181\bibrangedash 188}
       \range{pages}{8}
     \endentry
+    \entry{Castel2006}{article}{}
+      \name{author}{5}{}{%
+        {{hash=866b64482225ff02e423995580f0ba6e}{%
+           family={Castel},
+           familyi={C\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c2ab0db96308716371cb16f860e2aa86}{%
+           family={Gabard},
+           familyi={G\bibinitperiod},
+           given={Jean\bibnamedelima Fran{ç}ois},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=64f8f0dcffbc0b891d343a035a9c8866}{%
+           family={Tessier},
+           familyi={T\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+        {{hash=24f2433813ab72224410905295fa8358}{%
+           family={Laborde},
+           familyi={L\bibinitperiod},
+           given={Bertrand},
+           giveni={B\bibinitperiod}}}%
+        {{hash=f269c3d83c9d138564dc0f73c533eadd}{%
+           family={Soumagne},
+           familyi={S\bibinitperiod},
+           given={Raymond},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{7595c2d878335e5ebbc9cca73079747f}
+      \strng{fullhash}{7595c2d878335e5ebbc9cca73079747f}
+      \strng{bibnamehash}{7595c2d878335e5ebbc9cca73079747f}
+      \strng{authorbibnamehash}{7595c2d878335e5ebbc9cca73079747f}
+      \strng{authornamehash}{7595c2d878335e5ebbc9cca73079747f}
+      \strng{authorfullhash}{7595c2d878335e5ebbc9cca73079747f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper focuses on FDIR (Fault Detection, Isolation and Recovery) strategies for autonomous satellite formations. Anomalies that impact the formation geometry, the scientific mission and communications are considered. Three centralised, one mixed and two distributed strategies are characterised in terms of knowledge, algorithm and communication requirements. Preliminary Petri net - based simulations allow the dynamics of the spacecraft states and the FDIR task progress to be shown and the spacecraft communication links to be displayed. First results on the robustness of the strategies wrt an anomaly that would affect the FDIR itself or the communication links are presented. Copyright © 2006, American Association for Artificial Intelligence (www.aaai.org). All rights reserved.}
+      \field{isbn}{1577353056}
+      \field{journaltitle}{AAAI Fall Symposium - Technical Report}
+      \field{title}{{FDIR strategies for autonomous satellite formations - A preliminary report}}
+      \field{volume}{FS-06-07}
+      \field{year}{2006}
+      \field{pages}{35\bibrangedash 42}
+      \range{pages}{8}
+      \verb{file}
+      \verb :home/ulrich/Documents/Masters thesis/Journal articles/FDIR/Multi-agent/FDIR Strategies for Autonomous Satellite Formations.pdf:pdf
+      \endverb
+    \endentry
     \entry{Chen2020}{article}{}
       \name{author}{4}{}{%
         {{hash=b3ee3233c17cf9034df5ed479de07344}{%
@@ -1246,6 +1296,34 @@
       \verb :home/ulrich/Documents/Masters thesis/Journal articles/Satellites/Failures and anomalies/SATELLITE ADCS ANOMALY TRENDS.pdf:pdf
       \endverb
       \warn{\item Range field 'pages' in entry 'Robertson2019' is malformed, falling back to literal}
+    \endentry
+    \entry{schmid2010dynamic}{article}{}
+      \name{author}{1}{}{%
+        {{hash=04dc1a6588142d0cee4237fe24ed942f}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Peter\bibnamedelima J},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{04dc1a6588142d0cee4237fe24ed942f}
+      \strng{fullhash}{04dc1a6588142d0cee4237fe24ed942f}
+      \strng{bibnamehash}{04dc1a6588142d0cee4237fe24ed942f}
+      \strng{authorbibnamehash}{04dc1a6588142d0cee4237fe24ed942f}
+      \strng{authornamehash}{04dc1a6588142d0cee4237fe24ed942f}
+      \strng{authorfullhash}{04dc1a6588142d0cee4237fe24ed942f}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of fluid mechanics}
+      \field{title}{Dynamic mode decomposition of numerical and experimental data}
+      \field{volume}{656}
+      \field{year}{2010}
+      \field{pages}{5\bibrangedash 28}
+      \range{pages}{24}
     \endentry
     \entry{Shi2006}{article}{}
       \name{author}{2}{}{%

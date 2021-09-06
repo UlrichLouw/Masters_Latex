@@ -179,6 +179,45 @@ In this section discuss the Kalman filter.
 Magnetic control during detumbling
 Reaction wheel control during normal operation
 
+\section{Constellations}
+Explain the design of the satellite constellations and the algorithms to run communicate between satellites.
+
+\begin{algorithm}
+	
+	\SetKwInOut{Input}{Input}
+	\SetKwInOut{Output}{Output}
+	
+	\SetKwData{Left}{left}
+	\SetKwData{This}{this}
+	\SetKwData{Up}{up}
+	\SetKwFunction{Union}{Union}
+	\SetKwFunction{FindCompress}{FindCompress}
+	
+	\Indm
+	\Input{Description of the input to the algorithm.}
+	\Output{Description of the output from the algorithm.}
+	\Indp
+	
+	\BlankLine
+	
+	\emph{Initialize hyperparameters}\;
+	Get initial data from satellite\\
+	Update positions of each satellite\\
+	\For{$i\leftarrow 1$ \KwTo $N$}{
+		Determine $k$-nearest satellites to $satellite_i$ from the positions\\
+		Select data from nearest satellites\\
+		Send nearest satellites predictions and data to $satellite_i$\\
+		Retrieve data from $satellite_i$ and fault predictions of $k$-nearest satellites\\
+	}
+	Update position of $satellite_i$\\
+	Update data of $satellite_i$
+	
+	\caption[Do not end short caption with full-stop]{Algorithm example}
+	\label{alg}
+	
+\end{algorithm}
+
+
 \section{Typical Faults}
 For the simulation of the satellite and the induced faults to train and test various anomaly detection methodologies a database of typical faults is required. \textcite{tafazoli2009study} made a study of the percentage of failure per subsystem. 
 

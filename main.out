@@ -15,78 +15,91 @@
 \BOOKMARK [1][-]{section.1.5}{Research methodology}{chapter.1}% 15
 \BOOKMARK [1][-]{section.1.6}{Project/thesis/dissertation organisation}{chapter.1}% 16
 \BOOKMARK [0][-]{chapter.2}{Literature Study}{}% 17
-\BOOKMARK [1][-]{section.2.1}{Anomaly Detection on Satellites}{chapter.2}% 18
-\BOOKMARK [2][-]{subsection.2.1.1}{Analysis and Prediction of Satellite Anomalies}{section.2.1}% 19
-\BOOKMARK [2][-]{subsection.2.1.2}{Agent-based algorithm for fault detection and recovery of gyroscope's drift in small satellite missions}{section.2.1}% 20
-\BOOKMARK [2][-]{subsection.2.1.3}{Multivariate Anomaly Detection in Discrete and Continuous Telemetry Signals Using a Sparse Decomposition in a Dictionary}{section.2.1}% 21
-\BOOKMARK [2][-]{subsection.2.1.4}{Fault isolation of reaction wheels onboard three-axis controlled in-orbit satellite using ensemble machine learning}{section.2.1}% 22
-\BOOKMARK [2][-]{subsection.2.1.5}{Fault tolerant control for satellites with four reaction wheels}{section.2.1}% 23
-\BOOKMARK [2][-]{subsection.2.1.6}{Innovative Fault Detection, Isolation and Recovery Strategies On-Board Spacecraft: State of the Art and Research Challenges}{section.2.1}% 24
-\BOOKMARK [2][-]{subsection.2.1.7}{Machine learning methods for spacecraft telemetry mining}{section.2.1}% 25
-\BOOKMARK [2][-]{subsection.2.1.8}{Machine learning techniques for satellite fault diagnosis}{section.2.1}% 26
-\BOOKMARK [1][-]{section.2.2}{Statistical Methods}{chapter.2}% 27
-\BOOKMARK [2][-]{subsection.2.2.1}{Pearson Correlation}{section.2.2}% 28
-\BOOKMARK [2][-]{subsection.2.2.2}{Variance}{section.2.2}% 29
-\BOOKMARK [2][-]{subsection.2.2.3}{Kalman-Filter}{section.2.2}% 30
-\BOOKMARK [2][-]{subsection.2.2.4}{Multivariate Guassian Distribution}{section.2.2}% 31
-\BOOKMARK [2][-]{subsection.2.2.5}{Kullback-Leibler Divergence}{section.2.2}% 32
-\BOOKMARK [2][-]{subsection.2.2.6}{Canonical Correlation Analysis}{section.2.2}% 33
-\BOOKMARK [1][-]{section.2.3}{Feature Extraction}{chapter.2}% 34
-\BOOKMARK [2][-]{subsection.2.3.1}{Prony's Method}{section.2.3}% 35
-\BOOKMARK [2][-]{subsection.2.3.2}{Convolutional Networks}{section.2.3}% 36
-\BOOKMARK [2][-]{subsection.2.3.3}{K-means Clustering}{section.2.3}% 37
-\BOOKMARK [2][-]{subsection.2.3.4}{Principal Component Analysis}{section.2.3}% 38
-\BOOKMARK [2][-]{subsection.2.3.5}{Partial Least Square}{section.2.3}% 39
-\BOOKMARK [2][-]{subsection.2.3.6}{Independent Component Analysis}{section.2.3}% 40
-\BOOKMARK [2][-]{subsection.2.3.7}{Locally Linear Embedding}{section.2.3}% 41
-\BOOKMARK [2][-]{subsection.2.3.8}{Linear Discriminant Analysis}{section.2.3}% 42
-\BOOKMARK [2][-]{subsection.2.3.9}{Autoencoder}{section.2.3}% 43
-\BOOKMARK [2][-]{subsection.2.3.10}{t-Distributed Stochastic Neighbor Embedding}{section.2.3}% 44
-\BOOKMARK [1][-]{section.2.4}{Supervised Learning}{chapter.2}% 45
-\BOOKMARK [2][-]{subsection.2.4.1}{Random Forests}{section.2.4}% 46
-\BOOKMARK [2][-]{subsection.2.4.2}{Long Short Term Memory}{section.2.4}% 47
-\BOOKMARK [2][-]{subsection.2.4.3}{Support Vector Machines}{section.2.4}% 48
-\BOOKMARK [2][-]{subsection.2.4.4}{Naive Bayes}{section.2.4}% 49
-\BOOKMARK [2][-]{subsection.2.4.5}{K-nearest neighbours}{section.2.4}% 50
-\BOOKMARK [2][-]{subsection.2.4.6}{Artificial Neural Networks}{section.2.4}% 51
-\BOOKMARK [1][-]{section.2.5}{Unsupervised Learning}{chapter.2}% 52
-\BOOKMARK [2][-]{subsection.2.5.1}{Isolation Forests}{section.2.5}% 53
-\BOOKMARK [2][-]{subsection.2.5.2}{Local Outlier Factor}{section.2.5}% 54
-\BOOKMARK [2][-]{subsection.2.5.3}{Kernel Adaptive Density-based}{section.2.5}% 55
-\BOOKMARK [2][-]{subsection.2.5.4}{Loda}{section.2.5}% 56
-\BOOKMARK [2][-]{subsection.2.5.5}{Robust-kernel Density Estimation}{section.2.5}% 57
-\BOOKMARK [1][-]{section.2.6}{Reinforcement Learning}{chapter.2}% 58
-\BOOKMARK [1][-]{section.2.7}{Summary}{chapter.2}% 59
-\BOOKMARK [0][-]{chapter.3}{Simulation}{}% 60
-\BOOKMARK [1][-]{section.3.1}{Attitude Determination and Control System}{chapter.3}% 61
-\BOOKMARK [2][-]{subsection.3.1.1}{Coordinate Frames}{section.3.1}% 62
-\BOOKMARK [2][-]{subsection.3.1.2}{Attitude}{section.3.1}% 63
-\BOOKMARK [2][-]{subsection.3.1.3}{Satellite Kinematics and Dynamics}{section.3.1}% 64
-\BOOKMARK [2][-]{subsection.3.1.4}{Rungka-kutta}{section.3.1}% 65
-\BOOKMARK [1][-]{section.3.2}{Environment}{chapter.3}% 66
-\BOOKMARK [2][-]{subsection.3.2.1}{Earth Orbit}{section.3.2}% 67
-\BOOKMARK [2][-]{subsection.3.2.2}{Sun}{section.3.2}% 68
-\BOOKMARK [2][-]{subsection.3.2.3}{Geomagnetic field}{section.3.2}% 69
-\BOOKMARK [1][-]{section.3.3}{Sensor models}{chapter.3}% 70
-\BOOKMARK [2][-]{subsection.3.3.1}{Position of Sensors and Field of View}{section.3.3}% 71
-\BOOKMARK [2][-]{subsection.3.3.2}{Noise}{section.3.3}% 72
-\BOOKMARK [1][-]{section.3.4}{Disturbance models}{chapter.3}% 73
-\BOOKMARK [2][-]{subsection.3.4.1}{Gravity Gradient}{section.3.4}% 74
-\BOOKMARK [2][-]{subsection.3.4.2}{Aerodynamic Disturbance}{section.3.4}% 75
-\BOOKMARK [2][-]{subsection.3.4.3}{Wheel Imbalance}{section.3.4}% 76
-\BOOKMARK [1][-]{section.3.5}{Attitude Determination}{chapter.3}% 77
-\BOOKMARK [2][-]{subsection.3.5.1}{Kalman Filter}{section.3.5}% 78
-\BOOKMARK [1][-]{section.3.6}{Attitude Control}{chapter.3}% 79
-\BOOKMARK [1][-]{section.3.7}{Typical Faults}{chapter.3}% 80
-\BOOKMARK [2][-]{subsection.3.7.1}{Probability of Fault Occurence}{section.3.7}% 81
-\BOOKMARK [2][-]{subsection.3.7.2}{Set of faults}{section.3.7}% 82
-\BOOKMARK [0][-]{chapter.4}{Implementation of Methods on Actual Satellite}{}% 83
-\BOOKMARK [1][-]{section.4.1}{Isolation Forests}{chapter.4}% 84
-\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 85
-\BOOKMARK [1][-]{section.5.1}{Project/thesis/dissertation summary}{chapter.5}% 86
-\BOOKMARK [1][-]{section.5.2}{Appraisal of project/thesis/dissertation contributions}{chapter.5}% 87
-\BOOKMARK [1][-]{section.5.3}{Suggestions for future work}{chapter.5}% 88
-\BOOKMARK [1][-]{section.5.4}{What the student has learnt during this project}{chapter.5}% 89
-\BOOKMARK [0][-]{chapter*.23}{References}{}% 90
-\BOOKMARK [0][-]{appendix.A}{Project Timeline}{}% 91
-\BOOKMARK [0][-]{appendix.B}{Data}{}% 92
+\BOOKMARK [1][-]{section.2.1}{Strategies for Satellite Constellations}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.1.1}{Individual Strategy}{section.2.1}% 19
+\BOOKMARK [2][-]{subsection.2.1.2}{Centralised Strategies}{section.2.1}% 20
+\BOOKMARK [2][-]{subsection.2.1.3}{Mixed Strategy}{section.2.1}% 21
+\BOOKMARK [2][-]{subsection.2.1.4}{Distributed Strategies}{section.2.1}% 22
+\BOOKMARK [1][-]{section.2.2}{Anomaly Detection on Satellites}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.2.1}{Analysis and Prediction of Satellite Anomalies}{section.2.2}% 24
+\BOOKMARK [2][-]{subsection.2.2.2}{Agent-based algorithm for fault detection and recovery of gyroscope's drift in small satellite missions}{section.2.2}% 25
+\BOOKMARK [2][-]{subsection.2.2.3}{Multivariate Anomaly Detection in Discrete and Continuous Telemetry Signals Using a Sparse Decomposition in a Dictionary}{section.2.2}% 26
+\BOOKMARK [2][-]{subsection.2.2.4}{Fault isolation of reaction wheels onboard three-axis controlled in-orbit satellite using ensemble machine learning}{section.2.2}% 27
+\BOOKMARK [2][-]{subsection.2.2.5}{Fault tolerant control for satellites with four reaction wheels}{section.2.2}% 28
+\BOOKMARK [2][-]{subsection.2.2.6}{Innovative Fault Detection, Isolation and Recovery Strategies On-Board Spacecraft: State of the Art and Research Challenges}{section.2.2}% 29
+\BOOKMARK [2][-]{subsection.2.2.7}{Machine learning methods for spacecraft telemetry mining}{section.2.2}% 30
+\BOOKMARK [2][-]{subsection.2.2.8}{Machine learning techniques for satellite fault diagnosis}{section.2.2}% 31
+\BOOKMARK [1][-]{section.2.3}{Statistical Methods}{chapter.2}% 32
+\BOOKMARK [2][-]{subsection.2.3.1}{Pearson Correlation}{section.2.3}% 33
+\BOOKMARK [2][-]{subsection.2.3.2}{Variance}{section.2.3}% 34
+\BOOKMARK [2][-]{subsection.2.3.3}{Kalman-Filter}{section.2.3}% 35
+\BOOKMARK [2][-]{subsection.2.3.4}{Multivariate Guassian Distribution}{section.2.3}% 36
+\BOOKMARK [2][-]{subsection.2.3.5}{Kullback-Leibler Divergence}{section.2.3}% 37
+\BOOKMARK [2][-]{subsection.2.3.6}{Canonical Correlation Analysis}{section.2.3}% 38
+\BOOKMARK [1][-]{section.2.4}{Feature Extraction}{chapter.2}% 39
+\BOOKMARK [2][-]{subsection.2.4.1}{Prony's Method}{section.2.4}% 40
+\BOOKMARK [2][-]{subsection.2.4.2}{Convolutional Networks}{section.2.4}% 41
+\BOOKMARK [2][-]{subsection.2.4.3}{K-means Clustering}{section.2.4}% 42
+\BOOKMARK [2][-]{subsection.2.4.4}{Principal Component Analysis}{section.2.4}% 43
+\BOOKMARK [2][-]{subsection.2.4.5}{Partial Least Square}{section.2.4}% 44
+\BOOKMARK [2][-]{subsection.2.4.6}{Independent Component Analysis}{section.2.4}% 45
+\BOOKMARK [2][-]{subsection.2.4.7}{Locally Linear Embedding}{section.2.4}% 46
+\BOOKMARK [2][-]{subsection.2.4.8}{Linear Discriminant Analysis}{section.2.4}% 47
+\BOOKMARK [2][-]{subsection.2.4.9}{Autoencoder}{section.2.4}% 48
+\BOOKMARK [2][-]{subsection.2.4.10}{t-Distributed Stochastic Neighbor Embedding}{section.2.4}% 49
+\BOOKMARK [2][-]{subsection.2.4.11}{Dynamic Mode Decomposition}{section.2.4}% 50
+\BOOKMARK [2][-]{subsection.2.4.12}{Koopman Operator}{section.2.4}% 51
+\BOOKMARK [1][-]{section.2.5}{Supervised Learning}{chapter.2}% 52
+\BOOKMARK [1][-]{section.2.6}{Physics-informed machine learning for sensor fault detection with flight test data}{chapter.2}% 53
+\BOOKMARK [2][-]{subsection.2.6.1}{Random Forests}{section.2.6}% 54
+\BOOKMARK [2][-]{subsection.2.6.2}{Long Short Term Memory}{section.2.6}% 55
+\BOOKMARK [2][-]{subsection.2.6.3}{Support Vector Machines}{section.2.6}% 56
+\BOOKMARK [2][-]{subsection.2.6.4}{Naive Bayes}{section.2.6}% 57
+\BOOKMARK [2][-]{subsection.2.6.5}{K-nearest neighbours}{section.2.6}% 58
+\BOOKMARK [2][-]{subsection.2.6.6}{Artificial Neural Networks}{section.2.6}% 59
+\BOOKMARK [1][-]{section.2.7}{Unsupervised Learning}{chapter.2}% 60
+\BOOKMARK [2][-]{subsection.2.7.1}{Isolation Forests}{section.2.7}% 61
+\BOOKMARK [2][-]{subsection.2.7.2}{Local Outlier Factor}{section.2.7}% 62
+\BOOKMARK [2][-]{subsection.2.7.3}{Kernel Adaptive Density-based}{section.2.7}% 63
+\BOOKMARK [2][-]{subsection.2.7.4}{Loda}{section.2.7}% 64
+\BOOKMARK [2][-]{subsection.2.7.5}{Robust-kernel Density Estimation}{section.2.7}% 65
+\BOOKMARK [1][-]{section.2.8}{Reinforcement Learning}{chapter.2}% 66
+\BOOKMARK [1][-]{section.2.9}{Summary}{chapter.2}% 67
+\BOOKMARK [0][-]{chapter.3}{Anomalies}{}% 68
+\BOOKMARK [1][-]{section.3.1}{Sensors}{chapter.3}% 69
+\BOOKMARK [2][-]{subsection.3.1.1}{General}{section.3.1}% 70
+\BOOKMARK [2][-]{subsection.3.1.2}{Sun Sensor}{section.3.1}% 71
+\BOOKMARK [0][-]{chapter.4}{Simulation}{}% 72
+\BOOKMARK [1][-]{section.4.1}{Attitude Determination and Control System}{chapter.4}% 73
+\BOOKMARK [2][-]{subsection.4.1.1}{Coordinate Frames}{section.4.1}% 74
+\BOOKMARK [2][-]{subsection.4.1.2}{Attitude}{section.4.1}% 75
+\BOOKMARK [2][-]{subsection.4.1.3}{Satellite Kinematics and Dynamics}{section.4.1}% 76
+\BOOKMARK [2][-]{subsection.4.1.4}{Rungka-kutta}{section.4.1}% 77
+\BOOKMARK [1][-]{section.4.2}{Environment}{chapter.4}% 78
+\BOOKMARK [2][-]{subsection.4.2.1}{Earth Orbit}{section.4.2}% 79
+\BOOKMARK [2][-]{subsection.4.2.2}{Sun}{section.4.2}% 80
+\BOOKMARK [2][-]{subsection.4.2.3}{Geomagnetic field}{section.4.2}% 81
+\BOOKMARK [1][-]{section.4.3}{Sensor models}{chapter.4}% 82
+\BOOKMARK [2][-]{subsection.4.3.1}{Position of Sensors and Field of View}{section.4.3}% 83
+\BOOKMARK [2][-]{subsection.4.3.2}{Noise}{section.4.3}% 84
+\BOOKMARK [1][-]{section.4.4}{Disturbance models}{chapter.4}% 85
+\BOOKMARK [2][-]{subsection.4.4.1}{Gravity Gradient}{section.4.4}% 86
+\BOOKMARK [2][-]{subsection.4.4.2}{Aerodynamic Disturbance}{section.4.4}% 87
+\BOOKMARK [2][-]{subsection.4.4.3}{Wheel Imbalance}{section.4.4}% 88
+\BOOKMARK [1][-]{section.4.5}{Attitude Determination}{chapter.4}% 89
+\BOOKMARK [2][-]{subsection.4.5.1}{Kalman Filter}{section.4.5}% 90
+\BOOKMARK [1][-]{section.4.6}{Attitude Control}{chapter.4}% 91
+\BOOKMARK [1][-]{section.4.7}{Constellations}{chapter.4}% 92
+\BOOKMARK [1][-]{section.4.8}{Typical Faults}{chapter.4}% 93
+\BOOKMARK [2][-]{subsection.4.8.1}{Probability of Fault Occurence}{section.4.8}% 94
+\BOOKMARK [2][-]{subsection.4.8.2}{Set of faults}{section.4.8}% 95
+\BOOKMARK [0][-]{chapter.5}{Implementation of Methods on Actual Satellite}{}% 96
+\BOOKMARK [1][-]{section.5.1}{Isolation Forests}{chapter.5}% 97
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 98
+\BOOKMARK [1][-]{section.6.1}{Project/thesis/dissertation summary}{chapter.6}% 99
+\BOOKMARK [1][-]{section.6.2}{Appraisal of project/thesis/dissertation contributions}{chapter.6}% 100
+\BOOKMARK [1][-]{section.6.3}{Suggestions for future work}{chapter.6}% 101
+\BOOKMARK [1][-]{section.6.4}{What the student has learnt during this project}{chapter.6}% 102
+\BOOKMARK [0][-]{chapter*.31}{References}{}% 103
+\BOOKMARK [0][-]{appendix.A}{Project Timeline}{}% 104
+\BOOKMARK [0][-]{appendix.B}{Data}{}% 105

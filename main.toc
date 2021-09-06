@@ -34,158 +34,198 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Literature Study}{5}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Anomaly Detection on Satellites}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Strategies for Satellite Constellations}{6}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Analysis and Prediction of Satellite Anomalies}{6}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.1}Individual Strategy}{6}{subsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Agent-based algorithm for fault detection and recovery of gyroscope's drift in small satellite missions}{6}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.2}Centralised Strategies}{6}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Multivariate Anomaly Detection in Discrete and Continuous Telemetry Signals Using a Sparse Decomposition in a Dictionary}{6}{subsection.2.1.3}%
+\contentsline {subsubsection}{Master Centralised Strategy}{7}{subsubsection*.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.4}Fault isolation of reaction wheels onboard three-axis controlled in-orbit satellite using ensemble machine learning}{7}{subsection.2.1.4}%
+\contentsline {subsubsection}{Opportunistic Centralised Strategy}{7}{subsubsection*.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.5}Fault tolerant control for satellites with four reaction wheels}{7}{subsection.2.1.5}%
+\contentsline {subsubsection}{Global Centralised Strategy}{7}{subsubsection*.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.6}Innovative Fault Detection, Isolation and Recovery Strategies On-Board Spacecraft: State of the Art and Research Challenges}{7}{subsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.1.3}Mixed Strategy}{7}{subsection.2.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.7}Machine learning methods for spacecraft telemetry mining}{7}{subsection.2.1.7}%
+\contentsline {subsection}{\numberline {2.1.4}Distributed Strategies}{7}{subsection.2.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.8}Machine learning techniques for satellite fault diagnosis}{7}{subsection.2.1.8}%
+\contentsline {subsubsection}{Common Distributed Strategy}{7}{subsubsection*.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Statistical Methods}{7}{section.2.2}%
+\contentsline {subsubsection}{Individual Distributed Strategy}{7}{subsubsection*.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Pearson Correlation}{7}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.2}Anomaly Detection on Satellites}{7}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Variance}{8}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Analysis and Prediction of Satellite Anomalies}{7}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Kalman-Filter}{8}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.2}Agent-based algorithm for fault detection and recovery of gyroscope's drift in small satellite missions}{7}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.4}Multivariate Guassian Distribution}{8}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.3}Multivariate Anomaly Detection in Discrete and Continuous Telemetry Signals Using a Sparse Decomposition in a Dictionary}{7}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.5}Kullback-Leibler Divergence}{8}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.4}Fault isolation of reaction wheels onboard three-axis controlled in-orbit satellite using ensemble machine learning}{7}{subsection.2.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.6}Canonical Correlation Analysis}{9}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.5}Fault tolerant control for satellites with four reaction wheels}{7}{subsection.2.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{K-means-based}{10}{subsubsection*.14}%
+\contentsline {subsection}{\numberline {2.2.6}Innovative Fault Detection, Isolation and Recovery Strategies On-Board Spacecraft: State of the Art and Research Challenges}{8}{subsection.2.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Guassian Mixture Model}{10}{subsubsection*.15}%
+\contentsline {subsection}{\numberline {2.2.7}Machine learning methods for spacecraft telemetry mining}{8}{subsection.2.2.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Just-In-Time-Learning}{10}{subsubsection*.16}%
+\contentsline {subsection}{\numberline {2.2.8}Machine learning techniques for satellite fault diagnosis}{8}{subsection.2.2.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Feature Extraction}{10}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Statistical Methods}{8}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Prony's Method}{10}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}Pearson Correlation}{8}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Convolutional Networks}{10}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}Variance}{8}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}K-means Clustering}{10}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.3}Kalman-Filter}{8}{subsection.2.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.4}Principal Component Analysis}{10}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.4}Multivariate Guassian Distribution}{9}{subsection.2.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.5}Partial Least Square}{10}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.5}Kullback-Leibler Divergence}{9}{subsection.2.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.6}Independent Component Analysis}{10}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.6}Canonical Correlation Analysis}{10}{subsection.2.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.7}Locally Linear Embedding}{10}{subsection.2.3.7}%
+\contentsline {subsubsection}{K-means-based}{10}{subsubsection*.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.8}Linear Discriminant Analysis}{10}{subsection.2.3.8}%
+\contentsline {subsubsection}{Guassian Mixture Model}{10}{subsubsection*.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.9}Autoencoder}{10}{subsection.2.3.9}%
+\contentsline {subsubsection}{Just-In-Time-Learning}{10}{subsubsection*.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.10}t-Distributed Stochastic Neighbor Embedding}{10}{subsection.2.3.10}%
+\contentsline {section}{\numberline {2.4}Feature Extraction}{11}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Supervised Learning}{10}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Prony's Method}{11}{subsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Random Forests}{11}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Convolutional Networks}{11}{subsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Long Short Term Memory}{11}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}K-means Clustering}{11}{subsection.2.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.3}Support Vector Machines}{11}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Principal Component Analysis}{11}{subsection.2.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.4}Naive Bayes}{11}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Partial Least Square}{11}{subsection.2.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.5}K-nearest neighbours}{11}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}Independent Component Analysis}{11}{subsection.2.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.6}Artificial Neural Networks}{11}{subsection.2.4.6}%
+\contentsline {subsection}{\numberline {2.4.7}Locally Linear Embedding}{11}{subsection.2.4.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Unsupervised Learning}{11}{section.2.5}%
+\contentsline {subsection}{\numberline {2.4.8}Linear Discriminant Analysis}{11}{subsection.2.4.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}Isolation Forests}{11}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.4.9}Autoencoder}{11}{subsection.2.4.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.2}Local Outlier Factor}{12}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.4.10}t-Distributed Stochastic Neighbor Embedding}{11}{subsection.2.4.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.3}Kernel Adaptive Density-based}{14}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.4.11}Dynamic Mode Decomposition}{11}{subsection.2.4.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.4}Loda}{15}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.4.12}Koopman Operator}{11}{subsection.2.4.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.5}Robust-kernel Density Estimation}{15}{subsection.2.5.5}%
+\contentsline {section}{\numberline {2.5}Supervised Learning}{11}{section.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Reinforcement Learning}{15}{section.2.6}%
+\contentsline {section}{\numberline {2.6}Physics-informed machine learning for sensor fault detection with flight test data}{12}{section.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Summary}{15}{section.2.7}%
+\contentsline {subsection}{\numberline {2.6.1}Random Forests}{12}{subsection.2.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Simulation}{17}{chapter.3}%
+\contentsline {subsection}{\numberline {2.6.2}Long Short Term Memory}{12}{subsection.2.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Attitude Determination and Control System}{18}{section.3.1}%
+\contentsline {subsection}{\numberline {2.6.3}Support Vector Machines}{12}{subsection.2.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Coordinate Frames}{18}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {2.6.4}Naive Bayes}{12}{subsection.2.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Attitude}{19}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {2.6.5}K-nearest neighbours}{12}{subsection.2.6.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.3}Satellite Kinematics and Dynamics}{20}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {2.6.6}Artificial Neural Networks}{12}{subsection.2.6.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.4}Rungka-kutta}{20}{subsection.3.1.4}%
+\contentsline {section}{\numberline {2.7}Unsupervised Learning}{12}{section.2.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Environment}{20}{section.3.2}%
+\contentsline {subsection}{\numberline {2.7.1}Isolation Forests}{13}{subsection.2.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Earth Orbit}{20}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {2.7.2}Local Outlier Factor}{14}{subsection.2.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Sun}{20}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {2.7.3}Kernel Adaptive Density-based}{15}{subsection.2.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Geomagnetic field}{20}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {2.7.4}Loda}{16}{subsection.2.7.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Sensor models}{20}{section.3.3}%
+\contentsline {subsection}{\numberline {2.7.5}Robust-kernel Density Estimation}{16}{subsection.2.7.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Position of Sensors and Field of View}{20}{subsection.3.3.1}%
+\contentsline {section}{\numberline {2.8}Reinforcement Learning}{16}{section.2.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Noise}{20}{subsection.3.3.2}%
+\contentsline {section}{\numberline {2.9}Summary}{16}{section.2.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Disturbance models}{20}{section.3.4}%
+\contentsline {chapter}{\numberline {3}Anomalies}{17}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Gravity Gradient}{20}{subsection.3.4.1}%
+\contentsline {section}{\numberline {3.1}Sensors}{17}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Aerodynamic Disturbance}{20}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.1.1}General}{17}{subsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.3}Wheel Imbalance}{20}{subsection.3.4.3}%
+\contentsline {subsubsection}{High Noise}{17}{subsubsection*.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Attitude Determination}{20}{section.3.5}%
+\contentsline {subsection}{\numberline {3.1.2}Sun Sensor}{17}{subsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.1}Kalman Filter}{21}{subsection.3.5.1}%
+\contentsline {subsubsection}{Reflection}{17}{subsubsection*.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Attitude Control}{21}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Simulation}{19}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Typical Faults}{21}{section.3.7}%
+\contentsline {section}{\numberline {4.1}Attitude Determination and Control System}{20}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.1}Probability of Fault Occurence}{21}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {4.1.1}Coordinate Frames}{20}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.2}Set of faults}{21}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {4.1.2}Attitude}{21}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Implementation of Methods on Actual Satellite}{23}{chapter.4}%
+\contentsline {subsection}{\numberline {4.1.3}Satellite Kinematics and Dynamics}{22}{subsection.4.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Isolation Forests}{23}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.4}Rungka-kutta}{22}{subsection.4.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusion}{25}{chapter.5}%
+\contentsline {section}{\numberline {4.2}Environment}{22}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Project/thesis/dissertation summary}{25}{section.5.1}%
+\contentsline {subsection}{\numberline {4.2.1}Earth Orbit}{22}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Appraisal of project/thesis/dissertation contributions}{26}{section.5.2}%
+\contentsline {subsection}{\numberline {4.2.2}Sun}{22}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Suggestions for future work}{26}{section.5.3}%
+\contentsline {subsection}{\numberline {4.2.3}Geomagnetic field}{22}{subsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}What the student has learnt during this project}{26}{section.5.4}%
+\contentsline {section}{\numberline {4.3}Sensor models}{22}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{27}{chapter*.23}%
+\contentsline {subsection}{\numberline {4.3.1}Position of Sensors and Field of View}{22}{subsection.4.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Project Timeline}{31}{appendix.A}%
+\contentsline {subsection}{\numberline {4.3.2}Noise}{22}{subsection.4.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Data}{33}{appendix.B}%
+\contentsline {section}{\numberline {4.4}Disturbance models}{22}{section.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.1}Gravity Gradient}{22}{subsection.4.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.2}Aerodynamic Disturbance}{22}{subsection.4.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.3}Wheel Imbalance}{22}{subsection.4.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Attitude Determination}{22}{section.4.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.1}Kalman Filter}{23}{subsection.4.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}Attitude Control}{23}{section.4.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.7}Constellations}{23}{section.4.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.8}Typical Faults}{23}{section.4.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.8.1}Probability of Fault Occurence}{23}{subsection.4.8.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.8.2}Set of faults}{24}{subsection.4.8.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Implementation of Methods on Actual Satellite}{27}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Isolation Forests}{27}{section.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Conclusion}{29}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Project/thesis/dissertation summary}{29}{section.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Appraisal of project/thesis/dissertation contributions}{30}{section.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Suggestions for future work}{30}{section.6.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}What the student has learnt during this project}{30}{section.6.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{31}{chapter*.31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Project Timeline}{35}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Data}{37}{appendix.B}%
